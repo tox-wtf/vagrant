@@ -1,2 +1,2 @@
 release	6.5
-unstable	6.5.20251129
+unstable	6.5.20251206
