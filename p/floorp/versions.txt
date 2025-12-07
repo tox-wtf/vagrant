@@ -1,2 +1,2 @@
-release	12.8.1
-commit	5cae8becc7ed22abb9bfdd7c1f760015d94fada8
+release	12.8.2
+commit	2a936e5b0c190ebe39f1839543b59e38f09cea06
