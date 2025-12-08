@@ -1,3 +1,3 @@
-release	1.8.0.3
+release	1.8.1.0
 unstable	2.0.0-b9
-commit	78cc5ae1a57470b1978c14ff8b65729f1bb6a719
+commit	8834d6cc7e0d7b04cd31f9f7d0cb3e06913b0323
