@@ -1,2 +1,2 @@
-release	6.17
-commit	18cd6e0a760cee7ee26383aac34fe044c40425d3
+release	6.18
+commit	4ed1454cf539ee529ca5db8b1e7a779eb15efc88
