@@ -1,2 +1,2 @@
-release	1.2.14
-commit	1bb0739acfc9bbfe61ffaf4707ea9a9d98cdb82b
+release	1.2.15
+commit	28776e1e22a952e4ab01037033380aa111985101
