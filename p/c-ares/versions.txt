@@ -1,3 +1,3 @@
-release	1.34.5
-unstable	1.34.5
-commit	1d1b3d4a808dff9359cacb4539ac1b775876dcb6
+release	1.34.6
+unstable	1.34.6
+commit	16c873c2e58325a1872ff85881284357c15c9084
