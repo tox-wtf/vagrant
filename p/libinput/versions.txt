@@ -1,2 +1,2 @@
-release	1.30.0
+release	1.30.1
 commit	38b5c2e0cc4aa0a705b45d1f7337231798479bd7
