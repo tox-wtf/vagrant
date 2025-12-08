@@ -52,7 +52,7 @@ out acl's release and inih's commit:
 curl -fsSL https://raw.githubusercontent.com/tox-wtf/vagrant/refs/heads/master/p/ALL.txt > _
 
 # display versions prettily
-tabs 32,+12 && cat _ && tabs -8
+expand -t 32,44 _ | cat
 
 acl_release=$(grep acl _ | grep release | cut -f3)
 inih_commit=$(grep 'inih\scommit' _ | cut -f3)
