@@ -1,2 +1,2 @@
 release	0.40.0
-commit	dbd7a905b6ed47dd8f0acd09a1f4cc9a08e854a6
+commit	95c7599c41a4c7e332848fdb7e594650c1564e45
