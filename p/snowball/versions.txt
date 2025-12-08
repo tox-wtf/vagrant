@@ -1,2 +1,2 @@
 release	3.0.1
-commit	94d5e77b3ccee55681ed740dad0c3377dbd72e3a
+commit	67e24d522e692ca44c4e4c7fcad4fc3e2be2de09
