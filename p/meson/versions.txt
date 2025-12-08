@@ -1,2 +1,2 @@
-release	1.9.2
-commit	65e924bba6d02335404c409d327d93bbbc82176b
+release	1.10.0
+commit	25cd7ff6fcd2128e156a87cbf8e57ba0f9dd13b7
