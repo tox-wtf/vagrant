@@ -5,10 +5,10 @@
   },
   {
     "channel": "nightly",
-    "version": "2025-12-08"
+    "version": "2025-12-09"
   },
   {
     "channel": "commit",
-    "version": "5bc345055b06dc096b01bc6d1e0cbe92d3cc630e"
+    "version": "a371038013f4f3e3f1d4fdcacfaa02c3252a518b"
   }
 ]
