@@ -1,2 +1,2 @@
-release	1.27.2
-commit	7f2be14602ca29af537b5a3b35290cc27dd91f2f
+release	1.27.50
+commit	8bc7fdbc60947f64b827049cef3e03d43c32d17f
