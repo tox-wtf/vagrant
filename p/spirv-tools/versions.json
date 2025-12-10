@@ -5,10 +5,10 @@
   },
   {
     "channel": "sdk",
-    "version": "1.4.328.1"
+    "version": "1.4.335.0"
   },
   {
     "channel": "commit",
-    "version": "940d4850f12cef87336b94fee4b7eaf9ca394222"
+    "version": "49a8b7cd70fb8b62f920bb72091b73123d6cd28f"
   }
 ]
