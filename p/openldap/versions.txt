@@ -1,2 +1,2 @@
 release	2.6.10
-commit	09d24f1484d8dad2f636536b9a542675c23e1698
+commit	b7d3e353ec1ae95ae06c4adc95f397b51f2b29af
