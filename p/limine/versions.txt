@@ -1,2 +1,2 @@
-release	10.4.0
-commit	4d549791e40bc5e77f478e53364a2bd57a746e5a
+release	10.5.0
+commit	efb03ff089e55f2d76f273d454bc0c65cc00a8e0
