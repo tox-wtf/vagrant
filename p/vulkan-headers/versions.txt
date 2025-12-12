@@ -1,3 +1,3 @@
-release	1.4.335.0
+release	1.4.336
 sdk	1.4.335.0
-commit	2fa203425eb4af9dfc6b03f97ef72b0b5bcb8350
+commit	8a1e5840e7833a90b79c3fddb639f57c3772a641
