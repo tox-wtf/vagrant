@@ -1,4 +1,4 @@
 release	6.18
 mainline	6.18
-next	next-20251211
+next	next-20251212
 commit	d358e5254674b70f34c847715ca509e46eb81e6f
