@@ -1,3 +1,3 @@
 release	1.25.5
 unstable	1.25.5
-commit	927c89bbc5cc7366e86ecbb0f77267435b1d6d2c
+commit	d30884ba1f798b9604fa6586c6d50ca5de8655d5
