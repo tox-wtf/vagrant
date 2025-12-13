@@ -1,2 +1,2 @@
 release	1.6.0
-commit	d67d73bf5a6421734cc08da0f568d37a1fe0d103
+commit	a9f3b447ae0c435aebb8abc8bced72823fe852a7
