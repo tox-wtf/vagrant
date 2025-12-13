@@ -1,2 +1,2 @@
 release	2.6.1
-commit	bebc5a72c3d6ae6991abecede6cb9668267d9f86
+commit	695eff019af17f5a3652470cd497fe57ac82c186
