@@ -1,2 +1,2 @@
-release	0.10.18
-commit	282f3947092b09a2ec0b41264ab0dfa33ebd3569
+release	0.10.19
+commit	d662d0268449f61cde3930fca83eb6f1363633fd
