@@ -1,2 +1,2 @@
 release	6.0.2
-commit	eda069ea67aa8eeff11e7b7c423223b8ceebbdc5
+commit	a742c74bb384ce1135147a441a213fb6434f0540
