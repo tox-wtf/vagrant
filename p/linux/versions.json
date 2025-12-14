@@ -1,11 +1,11 @@
 [
   {
     "channel": "release",
-    "version": "6.18"
+    "version": "6.18.1"
   },
   {
     "channel": "mainline",
-    "version": "6.18"
+    "version": "6.19-rc1"
   },
   {
     "channel": "next",
@@ -13,6 +13,6 @@
   },
   {
     "channel": "commit",
-    "version": "d358e5254674b70f34c847715ca509e46eb81e6f"
+    "version": "8f0b4cce4481fb22653697cced8d0d04027cb1e8"
   }
 ]

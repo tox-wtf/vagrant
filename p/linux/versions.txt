@@ -1,4 +1,4 @@
-release	6.18
-mainline	6.18
+release	6.18.1
+mainline	6.19-rc1
 next	next-20251212
-commit	d358e5254674b70f34c847715ca509e46eb81e6f
+commit	8f0b4cce4481fb22653697cced8d0d04027cb1e8
