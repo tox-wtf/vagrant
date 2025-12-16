@@ -1,2 +1,2 @@
-release	0.2.4
+release	0.2.5
 commit	73fc377e13834010178919b182e738ea53f15c10
