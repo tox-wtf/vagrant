@@ -1,2 +1,2 @@
 release	2025.7
-commit	c6f0b5b2bc26b22fbceee0dc28a0f31349c28d41
+commit	31a7dea68359cfac3c7522661c4b1b5e890500ed
