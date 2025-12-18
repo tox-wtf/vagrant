@@ -16,7 +16,6 @@ use std::path::{Path, PathBuf};
 use std::str::FromStr;
 use tracing::{debug, error, info};
 
-use crate::utils::str::basename;
 use crate::NO_CACHE;
 use crate::SHLIB_PATH;
 use crate::VAGRANT_CACHE;
@@ -25,6 +24,7 @@ use crate::args::ARGS;
 use crate::utils::cmd::cmd;
 use crate::utils::float::defloat;
 use crate::utils::shortform::{get_longform, get_shortform};
+use crate::utils::str::basename;
 use crate::utils::ver::Version;
 
 #[derive(Debug, Clone, Hash, Eq, PartialEq)]
@@ -259,18 +259,26 @@ impl Package {
                     (UpstreamType::Git, "unstable") => "defgitunstable".into(),
                     (UpstreamType::Git, "commit") => "defgitcommit".into(),
 
-                    _ => panic!("Invalid config in {}: Missing fetch for {}", self.name, channel.name)
+                    _ => panic!(
+                        "Invalid config in {}: Missing fetch for {}",
+                        self.name, channel.name
+                    ),
                 }
             }
 
             if channel.expected.is_none() {
                 channel.expected = match channel.name.as_str() {
                     "release" => Some(r"^[0-9]+(\.[0-9]+)*$".into()),
-                    "unstable" => Some(r"^[0-9]+(\.[0-9]+)*-?(rc|alpha|beta|a|b|pre|dev)?[0-9]*$".into()),
+                    "unstable" => {
+                        Some(r"^[0-9]+(\.[0-9]+)*-?(rc|alpha|beta|a|b|pre|dev)?[0-9]*$".into())
+                    }
                     "commit" => Some(r"^[0-9a-f]{40}$".into()),
                     n if n.parse::<u64>().is_ok() => Some(format!(r"^{n}(\.[0-9]+)*$")),
 
-                    _ => panic!("Invalid config in {}: Missing expected for {}", self.name, channel.name)
+                    _ => panic!(
+                        "Invalid config in {}: Missing expected for {}",
+                        self.name, channel.name
+                    ),
                 }
             }
         }
