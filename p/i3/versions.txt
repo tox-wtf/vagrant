@@ -1,2 +1,2 @@
-release	4.24
-commit	b9339988786346f44983e846770021844e244a1c
+release	4.25
+commit	cbe78b4e55eba5bc4904caeaffe419a0aacbdd0b
