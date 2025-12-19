@@ -1,3 +1,3 @@
-release	3.17.4
+release	3.18.0
 2	2.9.9
-commit	a6fdf8c4f795f671f818ac8f88d3fb89f18ab86c
+commit	dae44ec38ab24ca6ff0d8eb57147d012ca037559
