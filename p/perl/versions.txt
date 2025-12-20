@@ -1,3 +1,3 @@
 release	5.42.0
-unstable	5.43.5
-commit	d3c72e2bf329edd64ef1988f8149d0404472802d
+unstable	5.43.6
+commit	185d33206685b945c5cd16b7e87e7f7b2acb621c
