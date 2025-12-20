@@ -1,2 +1,2 @@
-release	2.3.5
-commit	ccaf198024f42148d334ea1c28e736a9fd3bee81
+release	2.4.0
+commit	f6440be7b8eec4a6481832f15f6730d984d78ef0
