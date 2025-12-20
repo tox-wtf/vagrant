@@ -1,2 +1,2 @@
 release	25.2.1
-commit	4e1f39b678b37017ac9baa0971e3aeecd3b67b51
+commit	ed6ec9626eddee3ad00edfea4b0535bb9ee2638d
