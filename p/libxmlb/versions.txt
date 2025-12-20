@@ -1,2 +1,2 @@
 release	0.3.24
-commit	e92e0caf5072b3fe5db1eeb9454f145b1ab095c6
+commit	0bc4264fe40a487fee0e32369f0f1914613e8473
