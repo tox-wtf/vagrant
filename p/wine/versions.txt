@@ -1,3 +1,3 @@
 release	10.20
-unstable	11.0-rc2
-commit	2dad2e74764b61ed0c569b477d425dd49262888c
+unstable	11.0-rc3
+commit	72b941ef7393c0052b0288e0dbb7185201296a09
