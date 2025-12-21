@@ -1,2 +1,2 @@
-release	5.9.1
-commit	0b20775dfd77af478df6561befc8e162480b40d6
+release	5.9.2
+commit	79cb31906c96a3c9a128627ae46da5eeea4db38d
