@@ -1,2 +1,2 @@
 release	1.9.17p2
-commit	6579134ec376cdcb885e5cab9aea90a25f565f2b
+commit	2faf4c878d623e1b9ef642e116751c9543d848f7
