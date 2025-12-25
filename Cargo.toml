@@ -28,3 +28,13 @@ complexity = { level = "deny", priority = 7 }
 perf = { level = "deny", priority = 6 }
 nursery = { level = "deny", priority = 2 }
 unwrap_used = { level = "deny" }
+
+[profile.release]
+opt-level = 3
+debug = false
+strip = "symbols"
+debug-assertions = false
+overflow-checks = false
+lto = false
+panic = "abort"
+incremental = false
