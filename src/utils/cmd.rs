@@ -45,7 +45,7 @@ pub fn cmd(cmd: &[&str], env: HashMap<&str, &str>, cwd: &str) -> Result<String> 
         .spawn()
         .wrap_err("Failed to spawn command")?;
 
-    let Some(status) = child.wait_timeout(Duration::from_secs(128)).expect("Failed to wait on child") else {
+    let Some(status) = child.wait_timeout(Duration::from_secs(32)).expect("Failed to wait on child") else {
         child.kill().expect("Could not kill child");
         child.wait().expect("Failed to wait on child");
         return Err(CmdError::Timeout).wrap_err("Timed out");
