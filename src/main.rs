@@ -9,9 +9,8 @@ use tracing::{debug, info};
 
 use self::args::ARGS;
 use self::package::{Package, bulk};
+use self::utils::log::log;
 use color_eyre::Result;
-use tracing_subscriber::EnvFilter;
-use tracing_subscriber::fmt::time;
 
 mod args;
 mod package;
@@ -66,21 +65,6 @@ fn main() -> color_eyre::Result<()> {
 
     info!("Finished in {elapsed}");
     Ok(())
-}
-
-fn log() {
-    let level = env::var("LOG_LEVEL").unwrap_or_else(|_| String::from("info"));
-    let filter = EnvFilter::new(level);
-
-    tracing_subscriber::fmt()
-        .with_env_filter(filter)
-        .with_level(true)
-        .with_target(true)
-        .with_line_number(true)
-        .with_timer(time::uptime())
-        .with_writer(std::io::stdout)
-        .compact()
-        .init();
 }
 
 fn increment_runcount() -> Result<()> {
