@@ -23,7 +23,7 @@
 
 # Inria aliases
 [url "https://gitlab.inria.fr/"]
-    inseadOf = "inria:"
+    insteadOf = "inria:"
 
 # Kernel aliases
 [url "https://git.kernel.org/pub/scm/"]
