@@ -5,7 +5,7 @@ build: target/release/vat
 Cargo.lock: Cargo.toml
 	cargo generate-lockfile
 
-target/release/vat: Cargo.lock
+target/release/vat: Cargo.lock src/*.rs src/*/*.rs
 	cargo build --release
 
 git-config: .git .gitconfig
