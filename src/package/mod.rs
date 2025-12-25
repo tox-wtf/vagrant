@@ -123,7 +123,7 @@ impl PackageChannel {
         let command = ["bash", "-c", &fetch];
 
         let ver = match self.cmd(package, &command) {
-            Err(e) => bail!("Failed to fetch version: {e}"),
+            Err(e) => bail!("{e}"),
             Ok(v) => v,
         };
 
