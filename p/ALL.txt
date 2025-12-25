@@ -254,7 +254,7 @@ fzf	commit	029b241dbb685e60bc86bb9b5abc293e5d17119c
 gawk	release	5.3.2
 gcc	release	15.2.0
 gcc	unstable	16
-gcc	commit	3735bbb7d918e88cac9818b477121cf03558a7cc
+gcc	commit	c3824ad07a3032a48f2776a7536565877c9f95c7
 gdb	release	17.1
 gdbm	release	1.26
 gdk-pixbuf	release	2.44.4
