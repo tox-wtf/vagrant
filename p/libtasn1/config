@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/gnutls/libtasn1.git"
+upstream = "gitlab:gnutls/libtasn1.git"
 
 [[channels]]
 name = "release"

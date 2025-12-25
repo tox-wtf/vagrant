@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/inkscape/inkscape.git/"
+upstream = "gitlab:inkscape/inkscape.git/"
 
 [[channels]]
 name = "release"

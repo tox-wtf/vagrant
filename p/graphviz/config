@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/graphviz/graphviz.git"
+upstream = "gitlab:graphviz/graphviz.git"
 
 [[channels]]
 name = "release"

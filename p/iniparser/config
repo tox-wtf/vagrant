@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/iniparser/iniparser.git"
+upstream = "gitlab:iniparser/iniparser.git"
 
 [[channels]]
 name = "release"

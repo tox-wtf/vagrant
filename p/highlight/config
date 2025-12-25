@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/saalen/highlight.git"
+upstream = "gitlab:saalen/highlight.git"
 
 [[channels]]
 name = "release"

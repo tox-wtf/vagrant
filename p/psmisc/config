@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/psmisc/psmisc.git"
+upstream = "gitlab:psmisc/psmisc.git"
 
 [[channels]]
 name = "release"

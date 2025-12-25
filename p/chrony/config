@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/chrony/chrony.git"
+upstream = "gitlab:chrony/chrony.git"
 
 [[channels]]
 name = "release"

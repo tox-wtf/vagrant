@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/procps-ng/procps.git"
+upstream = "gitlab:procps-ng/procps.git"
 
 [[channels]]
 name = "release"

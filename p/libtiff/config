@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/libtiff/libtiff.git"
+upstream = "gitlab:libtiff/libtiff.git"
 
 [[channels]]
 name = "release"

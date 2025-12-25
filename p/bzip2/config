@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/bzip2/bzip2.git/"
+upstream = "gitlab:bzip2/bzip2.git/"
 chance = 0.05 # last commit dated 2023-05-31
 
 [[channels]]

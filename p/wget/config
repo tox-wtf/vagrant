@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/gnuwget/wget.git"
+upstream = "gitlab:gnuwget/wget.git"
 chance = 0.87
 
 [[channels]]

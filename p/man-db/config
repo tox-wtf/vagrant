@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/man-db/man-db.git"
+upstream = "gitlab:man-db/man-db.git"
 
 [[channels]]
 name = "release"

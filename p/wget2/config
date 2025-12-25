@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/gnuwget/wget2.git"
+upstream = "gitlab:gnuwget/wget2.git"
 
 [[channels]]
 name = "release"

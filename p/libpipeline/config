@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/libpipeline/libpipeline.git"
+upstream = "gitlab:libpipeline/libpipeline.git"
 
 [[channels]]
 name = "release"

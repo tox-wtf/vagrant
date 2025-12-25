@@ -1,4 +1,4 @@
-upstream = "https://gitlab.com/libidn/libidn2.git"
+upstream = "gitlab:libidn/libidn2.git"
 
 [[channels]]
 name = "release"
@@ -9,6 +9,6 @@ name = "commit"
 
 [[channels]]
 name = "1"
-upstream = "https://gitlab.com/libidn/libidn.git"
+upstream = "gitlab:libidn/libidn.git"
 fetch = "gr | vtrim -e 's,-,.,g' | fsl | vsort"
 expected = "^1.[0-9]+$"
