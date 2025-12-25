@@ -1,4 +1,4 @@
-upstream = "https://codeberg.org/gumbo-parser/gumbo-parser.git"
+upstream = "codeberg:gumbo-parser/gumbo-parser.git"
 
 [[channels]]
 name = "release"

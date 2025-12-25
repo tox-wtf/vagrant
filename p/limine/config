@@ -1,4 +1,4 @@
-upstream = "https://codeberg.org/Limine/Limine.git"
+upstream = "codeberg:Limine/Limine.git"
 
 [[channels]]
 name = "release"

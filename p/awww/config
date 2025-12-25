@@ -1,4 +1,4 @@
-upstream = "https://codeberg.org/LGFae/awww.git"
+upstream = "codeberg:LGFae/awww.git"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "https://codeberg.org/dnkl/fcft"
+upstream = "codeberg:dnkl/fcft"
 
 [[channels]]
 name = "release"

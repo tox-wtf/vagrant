@@ -1,4 +1,4 @@
-upstream = "https://codeberg.org/tenacityteam/libid3tag.git"
+upstream = "codeberg:tenacityteam/libid3tag.git"
 chance = 0.88
 
 [[channels]]

@@ -1,4 +1,4 @@
-upstream = "https://codeberg.org/smxi/inxi"
+upstream = "codeberg:smxi/inxi"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "https://codeberg.org/dnkl/foot"
+upstream = "codeberg:dnkl/foot"
 
 [[channels]]
 name = "release"

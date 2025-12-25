@@ -1,4 +1,4 @@
-upstream = "https://codeberg.org/dnkl/tllist"
+upstream = "codeberg:dnkl/tllist"
 
 [[channels]]
 name = "release"
