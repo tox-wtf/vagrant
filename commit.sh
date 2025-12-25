@@ -9,7 +9,7 @@ die() {
 }
 
 git add runcount
-git update-index --no-skip-worktree vagrant.log && git add vagrant.log
+git update-index --no-skip-worktree vat.log && git add vat.log
 git commit -m "auto(aux): update internal data"
 
 git add p/ALL.* p/*/versions.* p/*/channels/*
@@ -24,9 +24,9 @@ commit_versions_updates=$(echo "$versions_updates" | grep -c 'channels/commit$')
 other_versions_updates=$(echo "$versions_updates" | grep -Evc 'channels/(release|unstable|commit)$')
 
 versions_updated=$(echo "$versions_updates" | wc -l)
-vagrant_version=$(git describe --tags || echo "???")
+vat_version=$(git describe --tags || echo "???")
 
-vagrant_header="[ Vagrant v$vagrant_version | $(date +"%Y-%m-%d %H:%M:%S %z") | #$(<runcount) ]"
+vat_header="[ Vat v$vat_version | $(date +"%Y-%m-%d %H:%M:%S %z") | #$(<runcount) ]"
 git restore --staged p
 
 readarray -t changed < <(git status --porcelain=v1 p/**/channels | awk '{print $2}')
@@ -47,7 +47,7 @@ is_changed() {
 }
 
 # Paranoia
-rm -f .vagrant-cache/commit-*-*
+rm -f .vat-cache/commit-*-*
 
 for p in p/**/config; do
     p="${p%/config}"
@@ -55,7 +55,7 @@ for p in p/**/config; do
     is_changed "$p" || continue
     pname="${p#p/}"
 
-    tmp="$(mktemp -u .vagrant-cache/commit-$pname-XXXX)"
+    tmp="$(mktemp -u .vat-cache/commit-$pname-XXXX)"
     :>"$tmp"
 
     # Per-channel commit message
@@ -76,12 +76,12 @@ for p in p/**/config; do
 
         git add "$channel"
         msg_short="$pname:$cname | $wdiff"
-        git commit -m "auto(p): $msg_short" -m "$vagrant_header"
+        git commit -m "auto(p): $msg_short" -m "$vat_header"
     done
 
 # Per-package commit message
 versions_desc="
-$vagrant_header
+$vat_header
 
 $(sed 's,^, - ,' "$tmp")
 "
@@ -94,9 +94,9 @@ $(sed 's,^, - ,' "$tmp")
 done
 
 # Overall commit message
-pushd .vagrant-cache >/dev/null || die "Couldn't access .vagrant-cache"
+pushd .vat-cache >/dev/null || die "Couldn't access .vat-cache"
 desc="
-$vagrant_header
+$vat_header
 
 - Completed in $(<elapsed)
 
@@ -122,4 +122,4 @@ git add p/ALL.*
 
 git commit -m "auto(p): update versions" -m "$desc"
 git push
-git update-index --skip-worktree vagrant.log
+git update-index --skip-worktree vat.log

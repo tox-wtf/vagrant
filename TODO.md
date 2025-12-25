@@ -1,7 +1,7 @@
 # TODO
 
 - [ ] Make ERROR and WARN logs less ugly
-- [ ] Rename project to "vat"
+- [x] Rename project to "vat"
     - This avoids confusion with hashicorp's vagrant
     - I also just prefer that name
 - [x] Add upstream as a field for release, unstable, and commit. If defined, the

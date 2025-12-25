@@ -1,5 +1,5 @@
 [package]
-name = "vagrant"
+name = "vat"
 version = "2.6.1"
 edition = "2024"
 

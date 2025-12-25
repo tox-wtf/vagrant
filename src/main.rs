@@ -17,15 +17,15 @@ mod args;
 mod package;
 mod utils;
 
-/// Timeout for .vagrant-cache
+/// Timeout for .vat-cache
 const CACHE_TIMEOUT: Duration = Duration::from_secs(3600); // 1 hr
 
-static VAGRANT_ROOT: LazyLock<PathBuf> =
+static VAT_ROOT: LazyLock<PathBuf> =
     LazyLock::new(|| env::current_dir().expect("Couldn't get working directory"));
 
-static VAGRANT_CACHE: LazyLock<PathBuf> = LazyLock::new(|| VAGRANT_ROOT.join(".vagrant-cache"));
+static VAT_CACHE: LazyLock<PathBuf> = LazyLock::new(|| VAT_ROOT.join(".vat-cache"));
 
-static SHLIB_PATH: LazyLock<PathBuf> = LazyLock::new(|| VAGRANT_ROOT.join("sh/lib.env"));
+static SHLIB_PATH: LazyLock<PathBuf> = LazyLock::new(|| VAT_ROOT.join("sh/lib.env"));
 
 static NO_CACHE: LazyLock<bool> = LazyLock::new(|| ARGS.no_cache);
 
@@ -41,7 +41,7 @@ fn main() -> color_eyre::Result<()> {
 
     log();
 
-    debug!("Determined Vagrant root to be {}", VAGRANT_ROOT.display());
+    debug!("Determined Vat root to be {}", VAT_ROOT.display());
 
     let packages = if ARGS.packages.is_empty() {
         bulk::find_all()?
@@ -61,7 +61,7 @@ fn main() -> color_eyre::Result<()> {
         bulk::write_all(&map)?;
         increment_runcount()?;
         debug!("Incremented runcount");
-        fs::write(VAGRANT_CACHE.join("elapsed"), &elapsed)?;
+        fs::write(VAT_CACHE.join("elapsed"), &elapsed)?;
     }
 
     info!("Finished in {elapsed}");
@@ -95,7 +95,7 @@ fn increment_runcount() -> Result<()> {
 }
 
 fn clean_cache() -> Result<()> {
-    let cache_path = &*VAGRANT_CACHE;
+    let cache_path = &*VAT_CACHE;
     if let Ok(m) = cache_path.metadata() {
         #[allow(clippy::cast_sign_loss)]
         let mtime = Duration::from_secs(m.mtime() as u64);

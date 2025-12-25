@@ -1,6 +1,6 @@
 // package/bulk.rs
 
-use crate::VAGRANT_CACHE;
+use crate::VAT_CACHE;
 use crate::package::PackageVersions;
 
 use super::{Package, VersionChannel};
@@ -97,11 +97,11 @@ pub fn fetch_all(packages: &[Package]) -> Result<IndexMap<Package, Vec<VersionCh
     }
 
     let total = map.len();
-    fs::write(VAGRANT_CACHE.join("total"), total.to_string())?;
-    fs::write(VAGRANT_CACHE.join("failed"), failed_count.to_string())?;
-    fs::write(VAGRANT_CACHE.join("skipped"), skipped_count.to_string())?;
+    fs::write(VAT_CACHE.join("total"), total.to_string())?;
+    fs::write(VAT_CACHE.join("failed"), failed_count.to_string())?;
+    fs::write(VAT_CACHE.join("skipped"), skipped_count.to_string())?;
     fs::write(
-        VAGRANT_CACHE.join("checked"),
+        VAT_CACHE.join("checked"),
         (total - failed_count - skipped_count).to_string(),
     )?;
     map.sort_keys();

@@ -31,12 +31,12 @@ None of the fields are required, but the recommended fields are typed with
 brackets. Omitted fields are populated with sane defaults.
 
 ### Editor Configuration
-The following config snippet should make working with Vagrant in Neovim a little
+The following config snippet should make working with Vat in Neovim a little
 more pleasant by automatically setting the filetype to TOML, enabling syntax
 highlighting:
 
 ```lua
--- Vagrant config filetype
+-- Vat config filetype
 vim.filetype.add({
     pattern = {
         [".*/p/.*/config"] = "toml",
@@ -45,7 +45,7 @@ vim.filetype.add({
 ```
 
 ## Commits
-Vagrant follows a variant of conventional commits, and uses pre-commit hooks to
+Vat follows a variant of conventional commits, and uses pre-commit hooks to
 enforce these.
 
 Some general rules:
@@ -72,7 +72,7 @@ an issue, and signing off:
 > References: #122, #556
 
 ### Commit Types
-- auto:     automatic commits made by vagrant
+- auto:     automatic commits made by Vat
 - chore:    changes to auxiliary files
 - docs:     changes to any documentation
 - feat:     a new feature or package

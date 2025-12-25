@@ -1,9 +1,9 @@
 #!/usr/bin/env false
 #shellcheck shell=bash
 
-alias vagrant=target/release/vagrant
+alias vat=target/release/vat
 . sh/dev-utils.env
 . sh/lib.env
 
 NO_CACHE="${NO_CACHE:-false}"
-VAGRANT_CACHE="${VAGRANT_CACHE:-$PWD/.vagrant-cache}"
+VAT_CACHE="${VAT_CACHE:-$PWD/.vat-cache}"

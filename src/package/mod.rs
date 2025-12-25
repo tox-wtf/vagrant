@@ -18,8 +18,8 @@ use tracing::{debug, error, info};
 
 use crate::NO_CACHE;
 use crate::SHLIB_PATH;
-use crate::VAGRANT_CACHE;
-use crate::VAGRANT_ROOT;
+use crate::VAT_CACHE;
+use crate::VAT_ROOT;
 use crate::args::ARGS;
 use crate::utils::cmd::cmd;
 use crate::utils::float::defloat;
@@ -87,12 +87,12 @@ impl PackageChannel {
     pub fn cmd(&self, package: &Package, command: &[&str]) -> Result<String> {
         let package_root = Package::dir(&package.name);
 
-        let Some(vagrant_root) = VAGRANT_ROOT.to_str() else {
-            bail!("Invalid Unicode in {}", VAGRANT_ROOT.display());
+        let Some(vat_root) = VAT_ROOT.to_str() else {
+            bail!("Invalid Unicode in {}", VAT_ROOT.display());
         };
 
-        let Some(vagrant_cache) = VAGRANT_CACHE.to_str() else {
-            bail!("Invalid Unicode in {}", VAGRANT_CACHE.display());
+        let Some(vat_cache) = VAT_CACHE.to_str() else {
+            bail!("Invalid Unicode in {}", VAT_CACHE.display());
         };
 
         let Some(shlib_path) = SHLIB_PATH.to_str() else {
@@ -107,8 +107,8 @@ impl PackageChannel {
         let env = HashMap::from([
             ("GIT_TERMINAL_PROMPT", "false"),
             ("PACKAGE_ROOT", &package_root),
-            ("VAGRANT_ROOT", vagrant_root),
-            ("VAGRANT_CACHE", vagrant_cache),
+            ("VAT_ROOT", vat_root),
+            ("VAT_CACHE", vat_cache),
             ("SHLIB_PATH", shlib_path),
             ("NO_CACHE", &no_cache),
             ("channel", &self.name),
@@ -229,7 +229,7 @@ impl Package {
 
     /// Retrieve the directory for a package
     pub fn dir<S: AsRef<str>>(name: S) -> String {
-        format!("{}/p/{}", VAGRANT_ROOT.display(), name.as_ref())
+        format!("{}/p/{}", VAT_ROOT.display(), name.as_ref())
     }
 
     pub fn get_channel(&self, name: &str) -> Option<&PackageChannel> {
