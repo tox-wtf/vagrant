@@ -1,0 +1,7 @@
+upstream = "tox-wtf/versort"
+
+[[channels]]
+name = "release"
+
+[[channels]]
+name = "commit"
