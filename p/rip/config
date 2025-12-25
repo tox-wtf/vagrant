@@ -1,4 +1,4 @@
-upstream = "https://git.gay/tox/rip"
+upstream = "dotgay:tox/rip"
 
 [[channels]]
 name = "release"
