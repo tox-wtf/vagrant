@@ -1,0 +1,7 @@
+upstream = "gh:wlrfx/scenefx"
+
+[[channels]]
+name = "release"
+
+[[channels]]
+name = "commit"
