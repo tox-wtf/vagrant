@@ -1,4 +1,4 @@
-upstream = "https://git.sr.ht/~sircmpwn/wev"
+upstream = "srht:sircmpwn/wev"
 
 [[channels]]
 name = "release"

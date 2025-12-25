@@ -1,4 +1,4 @@
-upstream = "https://git.sr.ht/~kennylevinsen/seatd"
+upstream = "srht:kennylevinsen/seatd"
 
 [[channels]]
 name = "release"

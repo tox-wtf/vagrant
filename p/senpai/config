@@ -1,4 +1,4 @@
-upstream = "https://git.sr.ht/~delthas/senpai"
+upstream = "srht:delthas/senpai"
 
 [[channels]]
 name = "release"

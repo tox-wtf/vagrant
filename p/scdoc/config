@@ -1,4 +1,4 @@
-upstream = "https://git.sr.ht/~sircmpwn/scdoc"
+upstream = "srht:sircmpwn/scdoc"
 chance = 0.94
 
 [[channels]]
