@@ -2,6 +2,7 @@
 
 pub mod bulk;
 
+use color_eyre::eyre::Context;
 use color_eyre::Result;
 use color_eyre::eyre::bail;
 use rand::random_range;
@@ -212,7 +213,7 @@ impl Package {
         let name = name.into();
         let config_path = Path::new(Self::dir(&name).as_str()).join("config");
 
-        let raw = fs::read_to_string(config_path)?;
+        let raw = fs::read_to_string(&config_path).wrap_err_with(|| format!("Couldn't read package config at '{}'", config_path.display()))?;
         let config: PackageConfig = toml::from_str(&raw)?;
 
         let mut package = Self { name, config };
