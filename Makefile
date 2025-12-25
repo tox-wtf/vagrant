@@ -1,7 +1,15 @@
-all: build
+all: build git-config
 
-build:
+build: target/release/vat
+
+Cargo.lock: Cargo.toml
+	cargo generate-lockfile
+
+target/release/vat: Cargo.lock
 	cargo build --release
+
+git-config: .git .gitconfig
+	git config --local include.path ../.gitconfig
 
 check: lint test
 
@@ -41,4 +49,4 @@ test: build
 release:
 	@./release.sh
 
-.PHONY: all build check clean fmt format lint purge run test
+.PHONY: all build check clean fmt format git-config lint purge release run softrun test
