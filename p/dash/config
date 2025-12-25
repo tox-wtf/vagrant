@@ -1,4 +1,4 @@
-upstream = "https://git.kernel.org/pub/scm/utils/dash/dash.git"
+upstream = "kernel:utils/dash/dash.git"
 
 [[channels]]
 name = "release"

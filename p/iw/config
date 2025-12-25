@@ -1,4 +1,4 @@
-upstream = "https://git.kernel.org/pub/scm/linux/kernel/git/jberg/iw.git"
+upstream = "kernel:linux/kernel/git/jberg/iw.git"
 chance = 0.88
 
 [[channels]]

@@ -1,4 +1,4 @@
-upstream = "https://git.kernel.org/pub/scm/fs/xfs/xfsprogs-dev.git"
+upstream = "kernel:fs/xfs/xfsprogs-dev.git"
 
 [[channels]]
 name = "release"

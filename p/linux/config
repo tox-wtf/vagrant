@@ -15,5 +15,5 @@ fetch = "cr | grep -Eo 'next-[0-9]{8}'"
 expected = '''^next-\d{8}$'''
 
 [[channels]]
-upstream = "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git"
+upstream = "kernel:linux/kernel/git/torvalds/linux.git"
 name = "commit"

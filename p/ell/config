@@ -1,4 +1,4 @@
-upstream = "https://git.kernel.org/pub/scm/libs/ell/ell.git"
+upstream = "kernel:libs/ell/ell.git"
 
 [[channels]]
 name = "release"
