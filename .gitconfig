@@ -1,0 +1,34 @@
+# GitHub aliases
+[url "https://github.com/"]
+    insteadOf = "github:"
+    insteadOf = "gh:"
+
+# GitLab aliases
+[url "https://gitlab.com/"]
+    insteadOf = "gitlab:"
+
+# git.gay aliases
+[url "https://git.gay/"]
+    insteadOf = "dotgay:"
+
+# Codeberg aliases
+[url "https://codeberg.org/"]
+    insteadOf = "codeberg:"
+    insteadOf = "cb:"
+
+# Freedesktop aliases
+[url "https://gitlab.freedesktop.org/"]
+    insteadOf = "freedesktop:"
+
+# Inria aliases
+[url "https://gitlab.inria.fr/"]
+    inseadOf = "inria:"
+
+# Kernel aliases
+[url "https://git.kernel.org/pub/scm/"]
+    insteadOf = "kernel:"
+
+# srht aliases
+[url "https://git.sr.ht/"]
+    insteadOf = "sourcehut:"
+    insteadOf = "srht:"

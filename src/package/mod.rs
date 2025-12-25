@@ -23,7 +23,6 @@ use crate::VAT_ROOT;
 use crate::args::ARGS;
 use crate::utils::cmd::cmd;
 use crate::utils::float::defloat;
-use crate::utils::shortform::{get_longform, get_shortform};
 use crate::utils::str::basename;
 use crate::utils::ver::Version;
 
@@ -101,8 +100,7 @@ impl PackageChannel {
 
         let no_cache = NO_CACHE.to_string();
 
-        let upstream = get_longform(self.upstream.as_ref().unwrap_or(&package.config.upstream));
-        let shortform = get_shortform(&upstream);
+        let upstream = self.upstream.as_ref().unwrap_or(&package.config.upstream);
 
         let env = HashMap::from([
             ("GIT_TERMINAL_PROMPT", "false"),
@@ -113,8 +111,7 @@ impl PackageChannel {
             ("NO_CACHE", &no_cache),
             ("channel", &self.name),
             ("name", basename(&package.name)),
-            ("upstream", &upstream),
-            ("shortform", &shortform),
+            ("upstream", upstream),
         ]);
 
         cmd(command, env, &package_root)
@@ -199,11 +196,8 @@ impl UpstreamType {
             // match arch
             s if s.contains("archlinux.org") => Self::Arch,
 
-            // match distfile pages
+            // match (sorted) distfile pages
             s if s.contains("C=M") && s.contains("O=D") => Self::Curl,
-
-            // match github links or shortform
-            s if s.starts_with("https://github.com/") || s.split('/').count() == 2 => Self::Git,
 
             "" => Self::Empty,
 
