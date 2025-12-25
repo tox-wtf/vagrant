@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/cairo/cairo.git"
+upstream = "freedesktop:/cairo/cairo.git"
 chance = 0.74
 
 [[channels]]

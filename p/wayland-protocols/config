@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/wayland/wayland-protocols.git"
+upstream = "freedesktop:/wayland/wayland-protocols.git"
 
 [[channels]]
 name = "release"

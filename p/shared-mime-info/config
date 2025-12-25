@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xdg/shared-mime-info.git"
+upstream = "freedesktop:/xdg/shared-mime-info.git"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/lib/libice.git"
+upstream = "freedesktop:/xorg/lib/libice.git"
 chance = 0.44 # last commit dated 2024-08-24
 
 [[channels]]

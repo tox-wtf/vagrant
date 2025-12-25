@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/poppler/poppler.git/"
+upstream = "freedesktop:/poppler/poppler.git/"
 
 [[channels]]
 name = "release"

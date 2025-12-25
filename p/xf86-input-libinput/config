@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/driver/xf86-input-libinput.git"
+upstream = "freedesktop:/xorg/driver/xf86-input-libinput.git"
 
 [[channels]]
 name = "release"

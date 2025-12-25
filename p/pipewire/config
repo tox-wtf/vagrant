@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/pipewire/pipewire.git"
+upstream = "freedesktop:/pipewire/pipewire.git"
 
 [[channels]]
 name = "release"

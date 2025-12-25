@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/vdpau/libvdpau.git"
+upstream = "freedesktop:/vdpau/libvdpau.git"
 chance = 0.17 # last commit dated 2022-06-03
 
 [[channels]]

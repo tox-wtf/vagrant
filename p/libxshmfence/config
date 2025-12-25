@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/lib/libxshmfence.git"
+upstream = "freedesktop:/xorg/lib/libxshmfence.git"
 
 [[channels]]
 name = "release"

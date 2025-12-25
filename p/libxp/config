@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/lib/libxp.git"
+upstream = "freedesktop:/xorg/lib/libxp.git"
 chance = 0.22 # last commit dated 2022-09-12
 
 [[channels]]

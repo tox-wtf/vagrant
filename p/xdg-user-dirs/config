@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xdg/xdg-user-dirs.git"
+upstream = "freedesktop:/xdg/xdg-user-dirs.git"
 
 [[channels]]
 name = "release"

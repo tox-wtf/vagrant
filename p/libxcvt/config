@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/lib/libxcvt.git"
+upstream = "freedesktop:/xorg/lib/libxcvt.git"
 
 [[channels]]
 name = "release"

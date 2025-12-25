@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/emersion/libliftoff.git"
+upstream = "freedesktop:/emersion/libliftoff.git"
 
 [[channels]]
 name = "release"

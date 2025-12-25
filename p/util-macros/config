@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/util/macros.git"
+upstream = "freedesktop:/xorg/util/macros.git"
 
 [[channels]]
 name = "release"

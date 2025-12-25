@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config.git"
+upstream = "freedesktop:/xkeyboard-config/xkeyboard-config.git"
 
 [[channels]]
 name = "release"

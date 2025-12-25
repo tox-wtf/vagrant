@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/lib/libxtst.git"
+upstream = "freedesktop:/xorg/lib/libxtst.git"
 
 [[channels]]
 name = "release"

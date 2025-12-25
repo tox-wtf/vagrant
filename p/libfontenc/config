@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/lib/libfontenc.git"
+upstream = "freedesktop:/xorg/lib/libfontenc.git"
 chance = 0.44 # last commit dated 2025-02-16
 
 [[channels]]

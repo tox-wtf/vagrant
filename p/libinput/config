@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/libinput/libinput.git"
+upstream = "freedesktop:/libinput/libinput.git"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xdg/startup-notification.git"
+upstream = "freedesktop:/xdg/startup-notification.git"
 
 [[channels]]
 name = "release"

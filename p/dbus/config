@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/dbus/dbus.git"
+upstream = "freedesktop:/dbus/dbus.git"
 
 [[channels]]
 name = "release"

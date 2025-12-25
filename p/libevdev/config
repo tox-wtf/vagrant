@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/libevdev/libevdev.git"
+upstream = "freedesktop:/libevdev/libevdev.git"
 chance = 0.88
 
 [[channels]]

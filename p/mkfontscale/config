@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/app/mkfontscale.git"
+upstream = "freedesktop:/xorg/app/mkfontscale.git"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/freetype/freetype.git"
+upstream = "freedesktop:/freetype/freetype.git"
 
 [[channels]]
 name = "release"

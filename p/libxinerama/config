@@ -1,4 +1,4 @@
-upstream = "https://gitlab.freedesktop.org/xorg/lib/libxinerama.git"
+upstream = "freedesktop:/xorg/lib/libxinerama.git"
 
 [[channels]]
 name = "release"
