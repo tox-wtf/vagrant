@@ -6,6 +6,7 @@
 # GitLab aliases
 [url "https://gitlab.com/"]
     insteadOf = "gitlab:"
+    insteadOf = "gl:"
 
 # git.gay aliases
 [url "https://git.gay/"]
@@ -29,6 +30,6 @@
     insteadOf = "kernel:"
 
 # srht aliases
-[url "https://git.sr.ht/"]
+[url "https://git.sr.ht/~"]
     insteadOf = "sourcehut:"
     insteadOf = "srht:"
