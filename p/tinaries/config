@@ -1,0 +1,4 @@
+upstream = "gh:tox-wtf/tinaries"
+
+[[channels]]
+name = "commit"
