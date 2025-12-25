@@ -232,7 +232,7 @@ impl Package {
 
     pub fn set_defaults(&mut self) {
         if self.config.upstream.is_empty() {
-            self.config.upstream = format!("{n}/{n}", n = basename(&self.name));
+            self.config.upstream = format!("gh:{n}/{n}", n = basename(&self.name));
         }
 
         for channel in &mut self.config.channels {
