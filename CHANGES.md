@@ -7,6 +7,41 @@
 > Major ones are prefixed with **[!!]**.
 
 
+## 2.8.0 - 2025-12-24 22:50:50 -0600
+
+### Features
+
+ - Use kernel shortform
+ - Tweak git url config
+ - Use srht shortform
+ - Use gitlab shortform
+ - Use inria shortform
+ - Use dotgay shortform
+ - Use freedesktop shortform
+ - Use codeberg shortform
+ - Add tinaries
+ - Improve an error message
+ - Update va utility
+ - Add scenefx
+ - **[!]** Use generic git shortform
+ - Add versort
+ - Add vat
+
+### Fixes
+
+ - Typo in inria git url config
+ - Fix dependencies for build target
+ - Fix upstream for snowball
+ - Update missing github shortform
+ - Use new github shortform
+ - Rename vagrant artifacts
+
+### Chores
+
+ - Update makefile
+ - Update dependencies
+
+
 ## 2.7.0 - 2025-12-24 21:19:43 -0600
 
 ### Fixes
