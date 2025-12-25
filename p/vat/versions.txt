@@ -1,0 +1,2 @@
+release	2.8.0
+commit	e62a6e7be0cdbf0abce3763cb8f9ceba698188bb
