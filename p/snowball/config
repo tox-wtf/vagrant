@@ -1,4 +1,4 @@
-upstream="snowballstem/snowball"
+upstream = "gh:snowballstem/snowball"
 
 [[channels]]
 name = "release"
