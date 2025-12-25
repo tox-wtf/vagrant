@@ -1,6 +1,8 @@
 # TODO
 
 - [ ] Make ERROR and WARN logs less ugly
+    - [x] Move timeout errors to rust
+    - [ ] Clean up redundant error messages
 - [x] Rename project to "vat"
     - This avoids confusion with hashicorp's vagrant
     - I also just prefer that name
