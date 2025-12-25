@@ -1,4 +1,4 @@
-upstream = "gnome/json-glib"
+upstream = "gh:gnome/json-glib"
 
 [[channels]]
 name = "release"

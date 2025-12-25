@@ -1,4 +1,4 @@
-upstream = "nigels-com/glew"
+upstream = "gh:nigels-com/glew"
 chance = 0.8
 
 [[channels]]

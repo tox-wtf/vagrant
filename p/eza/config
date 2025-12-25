@@ -1,4 +1,4 @@
-upstream = "eza-community/eza"
+upstream = "gh:eza-community/eza"
 
 [[channels]]
 name = "release"

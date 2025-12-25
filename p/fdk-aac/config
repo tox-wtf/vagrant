@@ -1,4 +1,4 @@
-upstream = "mstorsjo/fdk-aac"
+upstream = "gh:mstorsjo/fdk-aac"
 chance = 0.91
 
 [[channels]]

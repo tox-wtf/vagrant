@@ -1,4 +1,4 @@
-upstream = "boostorg/boost"
+upstream = "gh:boostorg/boost"
 
 [[channels]]
 name = "release"

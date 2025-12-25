@@ -1,4 +1,4 @@
-upstream = "fftw/fftw3"
+upstream = "gh:fftw/fftw3"
 
 [[channels]]
 name = "release"

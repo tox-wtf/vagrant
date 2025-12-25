@@ -1,4 +1,4 @@
-upstream = "rpm-software-management/popt"
+upstream = "gh:rpm-software-management/popt"
 
 chance = 0.22
 

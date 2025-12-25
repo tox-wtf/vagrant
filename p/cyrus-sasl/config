@@ -1,4 +1,4 @@
-upstream = "cyrusimap/cyrus-sasl"
+upstream = "gh:cyrusimap/cyrus-sasl"
 
 [[channels]]
 name = "release"

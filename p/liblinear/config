@@ -1,4 +1,4 @@
-upstream = "cjlin1/liblinear"
+upstream = "gh:cjlin1/liblinear"
 chance = 0.88
 
 [[channels]]

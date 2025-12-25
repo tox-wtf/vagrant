@@ -1,4 +1,4 @@
-upstream = "old-man-programmer/tree"
+upstream = "gh:old-man-programmer/tree"
 chance = 0.5
 
 [[channels]]

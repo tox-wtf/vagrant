@@ -1,4 +1,4 @@
-upstream = "gnome/gdk-pixbuf"
+upstream = "gh:gnome/gdk-pixbuf"
 
 # the 2.90.3 tag was created in 2010 and fucks up vsort lol
 # thanks gnome

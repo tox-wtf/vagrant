@@ -1,4 +1,4 @@
-upstream = "rockdaboot/libpsl"
+upstream = "gh:rockdaboot/libpsl"
 
 [[channels]]
 name = "release"

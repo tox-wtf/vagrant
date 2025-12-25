@@ -1,4 +1,4 @@
-upstream = "the-tcpdump-group/libpcap"
+upstream = "gh:the-tcpdump-group/libpcap"
 
 [[channels]]
 name = "release"

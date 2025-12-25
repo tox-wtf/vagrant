@@ -1,4 +1,4 @@
-upstream = "gpg/gnupg"
+upstream = "gh:gpg/gnupg"
 
 [[channels]]
 name = "release"

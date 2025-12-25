@@ -1,4 +1,4 @@
-upstream = "anholt/libepoxy"
+upstream = "gh:anholt/libepoxy"
 chance = 0.93
 
 [[channels]]

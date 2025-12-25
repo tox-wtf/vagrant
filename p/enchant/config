@@ -1,4 +1,4 @@
-upstream = "rrthomas/enchant"
+upstream = "gh:rrthomas/enchant"
 
 [[channels]]
 name = "release"

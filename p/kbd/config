@@ -1,4 +1,4 @@
-upstream = "legionus/kbd"
+upstream = "gh:legionus/kbd"
 
 [[channels]]
 name = "release"

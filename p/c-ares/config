@@ -1,4 +1,4 @@
-upstream = "c-ares/c-ares"
+upstream = "gh:c-ares/c-ares"
 
 chance = 0.95
 

@@ -1,4 +1,4 @@
-upstream = "htacg/tidy-html5"
+upstream = "gh:htacg/tidy-html5"
 
 [[channels]]
 name = "release"

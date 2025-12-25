@@ -1,4 +1,4 @@
-upstream = "golang/go"
+upstream = "gh:golang/go"
 
 [[channels]]
 name = "release"

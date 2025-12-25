@@ -1,4 +1,4 @@
-upstream = "pypa/packaging"
+upstream = "gh:pypa/packaging"
 
 [[channels]]
 name = "release"

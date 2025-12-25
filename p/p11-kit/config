@@ -1,4 +1,4 @@
-upstream = "p11-glue/p11-kit"
+upstream = "gh:p11-glue/p11-kit"
 
 [[channels]]
 name = "release"

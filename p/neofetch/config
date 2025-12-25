@@ -1,4 +1,4 @@
-upstream = "dylanaraps/neofetch"
+upstream = "gh:dylanaraps/neofetch"
 chance = 0 # dead
 
 [[channels]]

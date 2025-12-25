@@ -1,4 +1,4 @@
-upstream = "cliutils/cli11"
+upstream = "gh:cliutils/cli11"
 
 [[channels]]
 name = "release"

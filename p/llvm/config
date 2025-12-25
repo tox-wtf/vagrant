@@ -1,4 +1,4 @@
-upstream = "llvm/llvm-project"
+upstream = "gh:llvm/llvm-project"
 
 [[channels]]
 name = "release"

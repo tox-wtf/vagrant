@@ -1,4 +1,4 @@
-upstream = "mpv-player/mpv"
+upstream = "gh:mpv-player/mpv"
 
 [[channels]]
 name = "release"

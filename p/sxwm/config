@@ -1,4 +1,4 @@
-upstream = "uint23/sxwm"
+upstream = "gh:uint23/sxwm"
 
 [[channels]]
 name = "release"

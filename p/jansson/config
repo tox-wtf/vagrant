@@ -1,4 +1,4 @@
-upstream = "akheron/jansson"
+upstream = "gh:akheron/jansson"
 chance = 0.35
 
 [[channels]]

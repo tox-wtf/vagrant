@@ -1,4 +1,4 @@
-upstream = "bugaevc/wl-clipboard"
+upstream = "gh:bugaevc/wl-clipboard"
 
 [[channels]]
 name = "release"

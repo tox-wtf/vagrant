@@ -1,4 +1,4 @@
-upstream = "rust-lang/rust"
+upstream = "gh:rust-lang/rust"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "kkos/oniguruma"
+upstream = "gh:kkos/oniguruma"
 chance = 0 # "This project ended on April 24, 2025."
 
 [[channels]]

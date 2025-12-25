@@ -1,4 +1,4 @@
-upstream = "crate-ci/typos"
+upstream = "gh:crate-ci/typos"
 
 [[channels]]
 name = "unstable"

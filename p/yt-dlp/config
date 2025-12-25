@@ -1,4 +1,4 @@
-upstream = "yt-dlp/yt-dlp"
+upstream = "gh:yt-dlp/yt-dlp"
 
 [[channels]]
 name = "release"

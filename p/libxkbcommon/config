@@ -1,4 +1,4 @@
-upstream = "xkbcommon/libxkbcommon"
+upstream = "gh:xkbcommon/libxkbcommon"
 
 [[channels]]
 name = "release"

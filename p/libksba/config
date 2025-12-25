@@ -1,4 +1,4 @@
-upstream = "gpg/libksba"
+upstream = "gh:gpg/libksba"
 
 [[channels]]
 name = "release"

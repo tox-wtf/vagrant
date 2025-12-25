@@ -1,4 +1,4 @@
-upstream = "hyprwm/xdg-desktop-portal-hyprland"
+upstream = "gh:hyprwm/xdg-desktop-portal-hyprland"
 
 [[channels]]
 name = "release"

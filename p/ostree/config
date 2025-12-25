@@ -1,4 +1,4 @@
-upstream = "ostreedev/ostree"
+upstream = "gh:ostreedev/ostree"
 
 [[channels]]
 name = "release"

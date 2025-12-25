@@ -1,4 +1,4 @@
-upstream = "pallets/markupsafe"
+upstream = "gh:pallets/markupsafe"
 
 [[channels]]
 name = "release"

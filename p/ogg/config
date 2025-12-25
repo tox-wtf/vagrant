@@ -1,4 +1,4 @@
-upstream = "xiph/ogg"
+upstream = "gh:xiph/ogg"
 chance = 0.66
 
 [[channels]]

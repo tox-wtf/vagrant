@@ -1,4 +1,4 @@
-upstream = "hummer12007/brightnessctl"
+upstream = "gh:hummer12007/brightnessctl"
 chance = 0.2
 
 [[channels]]

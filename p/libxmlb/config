@@ -1,4 +1,4 @@
-upstream = "hughsie/libxmlb"
+upstream = "gh:hughsie/libxmlb"
 
 [[channels]]
 name = "release"

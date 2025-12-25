@@ -1,4 +1,4 @@
-upstream = "werman/noise-suppression-for-voice"
+upstream = "gh:werman/noise-suppression-for-voice"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "gnome/libnotify"
+upstream = "gh:gnome/libnotify"
 
 [[channels]]
 name = "release"

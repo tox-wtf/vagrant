@@ -1,4 +1,4 @@
-upstream = "yaml/pyyaml"
+upstream = "gh:yaml/pyyaml"
 chance = 0.91
 
 [[channels]]

@@ -1,4 +1,4 @@
-upstream = "tealdeer-rs/tealdeer"
+upstream = "gh:tealdeer-rs/tealdeer"
 
 [[channels]]
 name = "release"

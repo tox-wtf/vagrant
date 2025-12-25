@@ -1,4 +1,4 @@
-upstream = "tox-wtf/tuun"
+upstream = "gh:tox-wtf/tuun"
 
 [[channels]]
 name = "release"

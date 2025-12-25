@@ -1,4 +1,4 @@
-upstream = "dabeaz/ply"
+upstream = "gh:dabeaz/ply"
 
 [[channels]]
 name = "release"

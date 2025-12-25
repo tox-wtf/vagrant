@@ -1,4 +1,4 @@
-upstream = "WayfireWM/wayfire"
+upstream = "gh:WayfireWM/wayfire"
 
 [[channels]]
 name = "release"

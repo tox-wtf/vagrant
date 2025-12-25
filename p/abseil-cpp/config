@@ -1,4 +1,4 @@
-upstream = "abseil/abseil-cpp"
+upstream = "gh:abseil/abseil-cpp"
 
 [[channels]]
 name = "unstable"

@@ -1,4 +1,4 @@
-upstream = "pypa/setuptools"
+upstream = "gh:pypa/setuptools"
 
 [[channels]]
 name = "release"

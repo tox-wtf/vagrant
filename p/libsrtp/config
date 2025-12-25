@@ -1,4 +1,4 @@
-upstream = "cisco/libsrtp"
+upstream = "gh:cisco/libsrtp"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "sabotage-linux/gettext-tiny"
+upstream = "gh:sabotage-linux/gettext-tiny"
 
 [[channels]]
 name = "release"

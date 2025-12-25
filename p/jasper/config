@@ -1,4 +1,4 @@
-upstream = "jasper-software/jasper"
+upstream = "gh:jasper-software/jasper"
 
 [[channels]]
 name = "release"

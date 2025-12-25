@@ -1,4 +1,4 @@
-upstream = "svaarala/duktape"
+upstream = "gh:svaarala/duktape"
 chance = 0.16 # last commit dated 2024-01-29
 
 [[channels]]

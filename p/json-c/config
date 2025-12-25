@@ -1,4 +1,4 @@
-upstream = "json-c/json-c"
+upstream = "gh:json-c/json-c"
 chance = 0.9
 
 [[channels]]

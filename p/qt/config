@@ -1,4 +1,4 @@
-upstream = "qt/qtbase"
+upstream = "gh:qt/qtbase"
 
 [[channels]]
 name = "release"

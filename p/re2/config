@@ -1,4 +1,4 @@
-upstream = "google/re2"
+upstream = "gh:google/re2"
 
 [[channels]]
 name = "release"

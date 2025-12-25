@@ -1,4 +1,4 @@
-upstream = "troglobit/sysklogd"
+upstream = "gh:troglobit/sysklogd"
 
 [[channels]]
 name = "release"

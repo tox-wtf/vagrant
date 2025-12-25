@@ -1,4 +1,4 @@
-upstream = "openprinting/cups-filters"
+upstream = "gh:openprinting/cups-filters"
 
 [[channels]]
 name = "release"

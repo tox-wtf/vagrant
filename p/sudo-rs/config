@@ -1,4 +1,4 @@
-upstream = "trifectatechfoundation/sudo-rs"
+upstream = "gh:trifectatechfoundation/sudo-rs"
 
 [[channels]]
 name = "release"

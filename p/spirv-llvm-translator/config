@@ -1,4 +1,4 @@
-upstream = "KhronosGroup/SPIRV-LLVM-Translator"
+upstream = "gh:KhronosGroup/SPIRV-LLVM-Translator"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "nss-dev/nss"
+upstream = "gh:nss-dev/nss"
 
 [[channels]]
 name = "release"

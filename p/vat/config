@@ -1,4 +1,4 @@
-upstream = "tox-wtf/vat"
+upstream = "gh:tox-wtf/vat"
 
 [[channels]]
 name = "release"

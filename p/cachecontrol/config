@@ -1,4 +1,4 @@
-upstream = "psf/cachecontrol"
+upstream = "gh:psf/cachecontrol"
 
 [[channels]]
 name = "release"

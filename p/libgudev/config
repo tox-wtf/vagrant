@@ -1,4 +1,4 @@
-upstream = "gnome/libgudev"
+upstream = "gh:gnome/libgudev"
 chance = 0.44 # last commit dated 2024-08-06
 
 [[channels]]

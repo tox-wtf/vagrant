@@ -1,4 +1,4 @@
-upstream = "haasn/libplacebo"
+upstream = "gh:haasn/libplacebo"
 
 [[channels]]
 name = "release"

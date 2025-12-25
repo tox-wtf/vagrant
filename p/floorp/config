@@ -1,4 +1,4 @@
-upstream = "floorp-projects/floorp"
+upstream = "gh:floorp-projects/floorp"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "nodejs/node"
+upstream = "gh:nodejs/node"
 
 [[channels]]
 name = "release"

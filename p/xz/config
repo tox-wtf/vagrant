@@ -1,4 +1,4 @@
-upstream = "tukaani-project/xz"
+upstream = "gh:tukaani-project/xz"
 
 [[channels]]
 name = "release"

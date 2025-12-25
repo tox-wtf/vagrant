@@ -1,4 +1,4 @@
-upstream = "intel/libvpl"
+upstream = "gh:intel/libvpl"
 
 [[channels]]
 name = "release"

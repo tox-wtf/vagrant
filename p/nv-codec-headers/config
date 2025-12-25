@@ -1,4 +1,4 @@
-upstream = "ffmpeg/nv-codec-headers"
+upstream = "gh:ffmpeg/nv-codec-headers"
 
 [[channels]]
 name = "release"

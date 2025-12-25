@@ -1,4 +1,4 @@
-upstream = "musicplayerdaemon/mpd"
+upstream = "gh:musicplayerdaemon/mpd"
 
 [[channels]]
 name = "release"

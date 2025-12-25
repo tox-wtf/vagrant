@@ -1,4 +1,4 @@
-upstream = "RsyncProject/rsync"
+upstream = "gh:RsyncProject/rsync"
 
 [[channels]]
 name = "release"

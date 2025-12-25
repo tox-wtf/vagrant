@@ -1,4 +1,4 @@
-upstream = "BurntSushi/ripgrep"
+upstream = "gh:BurntSushi/ripgrep"
 
 [[channels]]
 name = "release"

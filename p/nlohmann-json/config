@@ -1,4 +1,4 @@
-upstream = "nlohmann/json"
+upstream = "gh:nlohmann/json"
 
 [[channels]]
 name = "release"

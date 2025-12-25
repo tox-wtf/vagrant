@@ -1,4 +1,4 @@
-upstream = "westes/flex"
+upstream = "gh:westes/flex"
 chance = 0.5
 
 [[channels]]

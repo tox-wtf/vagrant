@@ -1,4 +1,4 @@
-upstream = "uclouvain/openjpeg"
+upstream = "gh:uclouvain/openjpeg"
 
 [[channels]]
 name = "release"

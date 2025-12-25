@@ -1,4 +1,4 @@
-upstream = "seccomp/libseccomp"
+upstream = "gh:seccomp/libseccomp"
 chance = 0.94
 
 [[channels]]

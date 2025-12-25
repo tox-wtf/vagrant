@@ -1,4 +1,4 @@
-upstream = "shadow-maint/shadow"
+upstream = "gh:shadow-maint/shadow"
 
 [[channels]]
 name = "release"

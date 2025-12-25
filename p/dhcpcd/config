@@ -1,4 +1,4 @@
-upstream = "networkconfiguration/dhcpcd"
+upstream = "gh:networkconfiguration/dhcpcd"
 
 [[channels]]
 name = "release"

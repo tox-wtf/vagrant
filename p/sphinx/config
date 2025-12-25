@@ -1,4 +1,4 @@
-upstream = "sphinx-doc/sphinx"
+upstream = "gh:sphinx-doc/sphinx"
 
 [[channels]]
 name = "release"

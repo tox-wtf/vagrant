@@ -1,4 +1,4 @@
-upstream = "mic92/iana-etc"
+upstream = "gh:mic92/iana-etc"
 
 [[channels]]
 name = "release"

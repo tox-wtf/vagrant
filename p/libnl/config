@@ -1,4 +1,4 @@
-upstream = "thom311/libnl"
+upstream = "gh:thom311/libnl"
 
 [[channels]]
 name = "release"

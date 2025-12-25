@@ -1,4 +1,4 @@
-upstream = "marzer/tomlplusplus"
+upstream = "gh:marzer/tomlplusplus"
 
 [[channels]]
 name = "release"

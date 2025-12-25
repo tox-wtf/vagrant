@@ -1,4 +1,4 @@
-upstream = "dav1dde/glad"
+upstream = "gh:dav1dde/glad"
 
 [[channels]]
 name = "release"

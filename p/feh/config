@@ -1,4 +1,4 @@
-upstream = "derf/feh"
+upstream = "gh:derf/feh"
 chance = 0.88
 
 [[channels]]

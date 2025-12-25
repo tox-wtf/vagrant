@@ -1,4 +1,4 @@
-upstream = "airblader/xcb-util-xrm"
+upstream = "gh:airblader/xcb-util-xrm"
 chance = 0.22
 
 [[channels]]

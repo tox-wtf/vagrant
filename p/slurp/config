@@ -1,4 +1,4 @@
-upstream = "emersion/slurp"
+upstream = "gh:emersion/slurp"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "benhoyt/inih"
+upstream = "gh:benhoyt/inih"
 
 [[channels]]
 name = "release"

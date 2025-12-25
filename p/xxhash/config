@@ -1,4 +1,4 @@
-upstream = "Cyan4973/xxhash"
+upstream = "gh:Cyan4973/xxhash"
 
 [[channels]]
 name = "release"

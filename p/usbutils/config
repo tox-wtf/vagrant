@@ -1,4 +1,4 @@
-upstream = "gregkh/usbutils"
+upstream = "gh:gregkh/usbutils"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "WayfireWM/wf-config"
+upstream = "gh:WayfireWM/wf-config"
 
 [[channels]]
 name = "release"

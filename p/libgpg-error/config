@@ -1,4 +1,4 @@
-upstream = "gpg/libgpg-error"
+upstream = "gh:gpg/libgpg-error"
 
 [[channels]]
 name = "release"

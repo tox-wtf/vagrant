@@ -1,4 +1,4 @@
-upstream = "linux-pam/linux-pam"
+upstream = "gh:linux-pam/linux-pam"
 
 [[channels]]
 name = "release"

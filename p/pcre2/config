@@ -1,4 +1,4 @@
-upstream = "PCRE2Project/pcre2"
+upstream = "gh:PCRE2Project/pcre2"
 
 [[channels]]
 name = "release"

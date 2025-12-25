@@ -1,4 +1,4 @@
-upstream = "mbed-tls/mbedtls"
+upstream = "gh:mbed-tls/mbedtls"
 
 [[channels]]
 name = "release"

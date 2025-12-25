@@ -1,4 +1,4 @@
-upstream = "troydhanson/uthash"
+upstream = "gh:troydhanson/uthash"
 
 [[channels]]
 name = "release"

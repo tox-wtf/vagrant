@@ -1,4 +1,4 @@
-upstream = "gpg/libgcrypt"
+upstream = "gh:gpg/libgcrypt"
 
 [[channels]]
 name = "release"

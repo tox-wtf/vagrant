@@ -1,4 +1,4 @@
-upstream = "michaelforney/samurai"
+upstream = "gh:michaelforney/samurai"
 chance = 0.72
 
 [[channels]]

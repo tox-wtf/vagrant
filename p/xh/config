@@ -1,4 +1,4 @@
-upstream = "ducaale/xh"
+upstream = "gh:ducaale/xh"
 
 [[channels]]
 name = "release"

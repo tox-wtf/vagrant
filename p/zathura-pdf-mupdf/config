@@ -1,4 +1,4 @@
-upstream = "pwmt/zathura-pdf-mupdf"
+upstream = "gh:pwmt/zathura-pdf-mupdf"
 
 [[channels]]
 name = "release"

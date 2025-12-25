@@ -1,4 +1,4 @@
-upstream = "caddyserver/caddy"
+upstream = "gh:caddyserver/caddy"
 
 [[channels]]
 name = "release"

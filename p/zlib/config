@@ -1,4 +1,4 @@
-upstream = "madler/zlib"
+upstream = "gh:madler/zlib"
 chance = 0.5
 
 [[channels]]

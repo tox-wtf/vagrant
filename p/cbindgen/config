@@ -1,4 +1,4 @@
-upstream = "mozilla/cbindgen"
+upstream = "gh:mozilla/cbindgen"
 
 # cbindgen has a tag named '' lol
 [[channels]]

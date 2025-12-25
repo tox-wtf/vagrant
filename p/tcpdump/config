@@ -1,4 +1,4 @@
-upstream = "the-tcpdump-group/tcpdump"
+upstream = "gh:the-tcpdump-group/tcpdump"
 
 [[channels]]
 name = "release"

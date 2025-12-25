@@ -1,4 +1,4 @@
-upstream = "facebook/zstd"
+upstream = "gh:facebook/zstd"
 
 [[channels]]
 name = "release"

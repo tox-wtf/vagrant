@@ -1,4 +1,4 @@
-upstream = "lu-zero/cargo-c"
+upstream = "gh:lu-zero/cargo-c"
 
 [[channels]]
 name = "release"

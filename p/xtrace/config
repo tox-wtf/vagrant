@@ -1,4 +1,4 @@
-upstream = "yuq/xtrace"
+upstream = "gh:yuq/xtrace"
 
 [[channels]]
 name = "commit"

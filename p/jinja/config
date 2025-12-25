@@ -1,4 +1,4 @@
-upstream = "pallets/jinja"
+upstream = "gh:pallets/jinja"
 
 [[channels]]
 name = "release"

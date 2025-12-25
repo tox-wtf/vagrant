@@ -1,4 +1,4 @@
-upstream = "zeux/pugixml"
+upstream = "gh:zeux/pugixml"
 
 [[channels]]
 name = "release"

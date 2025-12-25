@@ -1,4 +1,4 @@
-upstream = "gnome/gtkmm"
+upstream = "gh:gnome/gtkmm"
 
 [[channels]]
 name = "release"

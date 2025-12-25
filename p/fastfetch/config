@@ -1,4 +1,4 @@
-upstream = "fastfetch-cli/fastfetch"
+upstream = "gh:fastfetch-cli/fastfetch"
 
 [[channels]]
 name = "release"

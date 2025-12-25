@@ -1,4 +1,4 @@
-upstream = "gwsw/less"
+upstream = "gh:gwsw/less"
 
 [[channels]]
 name = "release"

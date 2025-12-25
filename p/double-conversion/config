@@ -1,4 +1,4 @@
-upstream = "google/double-conversion"
+upstream = "gh:google/double-conversion"
 chance = 0.88
 
 [[channels]]

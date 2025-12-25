@@ -1,4 +1,4 @@
-upstream = "paullouisageneau/libjuice"
+upstream = "gh:paullouisageneau/libjuice"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "perl/perl5"
+upstream = "gh:perl/perl5"
 
 [[channels]]
 name = "release"

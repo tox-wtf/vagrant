@@ -1,4 +1,4 @@
-upstream = "mierak/rmpc"
+upstream = "gh:mierak/rmpc"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "scrapy/cssselect"
+upstream = "gh:scrapy/cssselect"
 
 [[channels]]
 name = "release"

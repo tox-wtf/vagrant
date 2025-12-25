@@ -1,4 +1,4 @@
-upstream = "zaphoyd/websocketpp"
+upstream = "gh:zaphoyd/websocketpp"
 
 [[channels]]
 name = "release"

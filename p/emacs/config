@@ -1,4 +1,4 @@
-upstream = "emacs-mirror/emacs"
+upstream = "gh:emacs-mirror/emacs"
 
 [[channels]]
 name = "release"

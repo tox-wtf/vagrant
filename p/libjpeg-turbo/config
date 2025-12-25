@@ -1,4 +1,4 @@
-upstream = "libjpeg-turbo/libjpeg-turbo"
+upstream = "gh:libjpeg-turbo/libjpeg-turbo"
 
 [[channels]]
 name = "release"

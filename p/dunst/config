@@ -1,4 +1,4 @@
-upstream = "dunst-project/dunst"
+upstream = "gh:dunst-project/dunst"
 
 [[channels]]
 name = "release"

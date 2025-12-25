@@ -1,4 +1,4 @@
-upstream = "gnome/libsoup"
+upstream = "gh:gnome/libsoup"
 
 [[channels]]
 name = "release"

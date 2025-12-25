@@ -1,4 +1,4 @@
-upstream = "Qalculate/libqalculate"
+upstream = "gh:Qalculate/libqalculate"
 
 [[channels]]
 name = "release"

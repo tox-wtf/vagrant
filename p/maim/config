@@ -1,4 +1,4 @@
-upstream = "naelstrof/maim"
+upstream = "gh:naelstrof/maim"
 
 [[channels]]
 name = "release"

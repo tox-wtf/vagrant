@@ -1,4 +1,4 @@
-upstream = "apache/apr"
+upstream = "gh:apache/apr"
 
 [[channels]]
 name = "release"

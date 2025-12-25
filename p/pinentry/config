@@ -1,4 +1,4 @@
-upstream = "gpg/pinentry"
+upstream = "gh:gpg/pinentry"
 
 [[channels]]
 name = "release"

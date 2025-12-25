@@ -1,4 +1,4 @@
-upstream = "tox-wtf/versort"
+upstream = "gh:tox-wtf/versort"
 
 [[channels]]
 name = "release"

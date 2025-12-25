@@ -1,4 +1,4 @@
-upstream = "lfs-book/lsb-tools"
+upstream = "gh:lfs-book/lsb-tools"
 
 [[channels]]
 name = "release"

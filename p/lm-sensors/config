@@ -1,4 +1,4 @@
-upstream = "hramrach/lm-sensors"
+upstream = "gh:hramrach/lm-sensors"
 
 [[channels]]
 name = "release"

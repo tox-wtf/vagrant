@@ -1,4 +1,4 @@
-upstream = "rfc1036/whois"
+upstream = "gh:rfc1036/whois"
 
 [[channels]]
 name = "release"

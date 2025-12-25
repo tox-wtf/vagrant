@@ -1,4 +1,4 @@
-upstream = "kyz/libmspack"
+upstream = "gh:kyz/libmspack"
 
 [[channels]]
 name = "release"

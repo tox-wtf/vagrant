@@ -1,4 +1,4 @@
-upstream = "KhronosGroup/vulkan-headers"
+upstream = "gh:KhronosGroup/vulkan-headers"
 
 [[channels]]
 name = "release"

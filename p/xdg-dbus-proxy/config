@@ -1,4 +1,4 @@
-upstream = "flatpak/xdg-dbus-proxy"
+upstream = "gh:flatpak/xdg-dbus-proxy"
 
 [[channels]]
 name = "release"

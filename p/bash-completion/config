@@ -1,4 +1,4 @@
-upstream = "scop/bash-completion"
+upstream = "gh:scop/bash-completion"
 
 [[channels]]
 name = "release"

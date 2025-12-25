@@ -1,4 +1,4 @@
-upstream = "libsdl-org/SDL"
+upstream = "gh:libsdl-org/SDL"
 
 [[channels]]
 name = "release"

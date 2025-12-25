@@ -1,4 +1,4 @@
-upstream = "g-truc/glm"
+upstream = "gh:g-truc/glm"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "openjdk/jdk"
+upstream = "gh:openjdk/jdk"
 
 [[channels]]
 name = "unstable"
@@ -12,24 +12,24 @@ expected = '''^[0-9]{2}\.u[0-9]+$'''
 
 [[channels]]
 name = "21"
-upstream = "openjdk/jdk21u"
+upstream = "gh:openjdk/jdk21u"
 fetch = '''gr | vtrim -e 's,\+,.,' -e 's,-?b-?,.,' | grep "^21\." | grep -v ga | vrep -3 | vsort | rev | sed 's,\.,u.,' | rev'''
 expected = '''^21\.[0-9]+\.[0-9]+\.u[0-9]+$'''
 
 [[channels]]
 name = "17"
-upstream = "openjdk/jdk17u"
+upstream = "gh:openjdk/jdk17u"
 fetch = '''gr | vtrim -e 's,\+,.,' -e 's,-?b-?,.,' | grep "^17\." | grep -v ga | vrep -3 | vsort | rev | sed 's,\.,u.,' | rev'''
 expected = '''^17\.[0-9]+\.[0-9]+\.u[0-9]+$'''
 
 [[channels]]
 name = "11"
-upstream = "openjdk/jdk11u"
+upstream = "gh:openjdk/jdk11u"
 fetch = '''gr | vtrim -e 's,\+,.,' -e 's,-?b-?,.,' | grep "^11\." | grep -v ga | vrep -3 | vsort | rev | sed 's,\.,u.,' | rev'''
 expected = '''^11\.[0-9]+\.[0-9]+\.u[0-9]+$'''
 
 [[channels]]
 name = "8"
-upstream = "openjdk/jdk8u"
+upstream = "gh:openjdk/jdk8u"
 fetch = '''gr | vtrim -e 's,\+,.,' -e 's,-?b-?,.,' -e 's,u,.,' | grep -v ga | vsort | rev | sed 's,\.,u.,' | rev'''
 expected = '''^8\.[0-9]+\.u[0-9]+$'''

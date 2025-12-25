@@ -1,4 +1,4 @@
-upstream = "gavinhoward/bc"
+upstream = "gh:gavinhoward/bc"
 
 [[channels]]
 name = "release"

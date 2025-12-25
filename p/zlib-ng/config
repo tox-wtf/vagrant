@@ -1,4 +1,4 @@
-upstream = "zlib-ng/zlib-ng"
+upstream = "gh:zlib-ng/zlib-ng"
 
 [[channels]]
 name = "release"

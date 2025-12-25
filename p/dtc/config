@@ -1,4 +1,4 @@
-upstream = "dgibson/dtc"
+upstream = "gh:dgibson/dtc"
 
 [[channels]]
 name = "release"

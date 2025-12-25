@@ -1,4 +1,4 @@
-upstream = "nayuki/QR-Code-generator"
+upstream = "gh:nayuki/QR-Code-generator"
 
 [[channels]]
 name = "release"

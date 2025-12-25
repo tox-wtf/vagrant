@@ -1,4 +1,4 @@
-upstream = "openprinting/libppd"
+upstream = "gh:openprinting/libppd"
 
 [[channels]]
 name = "release"

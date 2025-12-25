@@ -1,4 +1,4 @@
-upstream = "ksh93/ksh"
+upstream = "gh:ksh93/ksh"
 
 [[channels]]
 name = "release"

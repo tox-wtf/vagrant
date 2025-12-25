@@ -1,4 +1,4 @@
-upstream = "mm2/little-cms"
+upstream = "gh:mm2/little-cms"
 
 [[channels]]
 name = "release"

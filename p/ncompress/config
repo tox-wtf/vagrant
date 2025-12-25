@@ -1,4 +1,4 @@
-upstream = "vapier/ncompress"
+upstream = "gh:vapier/ncompress"
 
 [[channels]]
 name = "release"

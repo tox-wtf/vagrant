@@ -1,4 +1,4 @@
-upstream = "gpg/libassuan"
+upstream = "gh:gpg/libassuan"
 
 [[channels]]
 name = "release"

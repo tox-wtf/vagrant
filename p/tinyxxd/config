@@ -1,4 +1,4 @@
-upstream = "xyproto/tinyxxd"
+upstream = "gh:xyproto/tinyxxd"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "scour-project/scour"
+upstream = "gh:scour-project/scour"
 
 [[channels]]
 name = "release"

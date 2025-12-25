@@ -1,4 +1,4 @@
-upstream = "plougher/squashfs-tools"
+upstream = "gh:plougher/squashfs-tools"
 
 [[channels]]
 name = "release"

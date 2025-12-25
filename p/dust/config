@@ -1,4 +1,4 @@
-upstream = "bootandy/dust"
+upstream = "gh:bootandy/dust"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "besser82/libxcrypt"
+upstream = "gh:besser82/libxcrypt"
 
 [[channels]]
 name = "release"

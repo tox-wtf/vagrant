@@ -1,4 +1,4 @@
-upstream = "notofonts/notofonts.github.io"
+upstream = "gh:notofonts/notofonts.github.io"
 
 [[channels]]
 name = "release"

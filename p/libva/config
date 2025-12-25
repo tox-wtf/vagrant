@@ -1,4 +1,4 @@
-upstream = "intel/libva"
+upstream = "gh:intel/libva"
 
 [[channels]]
 name = "release"

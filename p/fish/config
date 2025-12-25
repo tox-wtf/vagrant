@@ -1,4 +1,4 @@
-upstream = "fish-shell/fish-shell"
+upstream = "gh:fish-shell/fish-shell"
 
 [[channels]]
 name = "release"

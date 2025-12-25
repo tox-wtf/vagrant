@@ -1,4 +1,4 @@
-upstream = "obsproject/obs-studio"
+upstream = "gh:obsproject/obs-studio"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "webmproject/libvpx"
+upstream = "gh:webmproject/libvpx"
 
 [[channels]]
 name = "release"

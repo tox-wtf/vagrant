@@ -1,4 +1,4 @@
-upstream = "kitware/cmake"
+upstream = "gh:kitware/cmake"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "xiph/vorbis"
+upstream = "gh:xiph/vorbis"
 
 [[channels]]
 name = "release"

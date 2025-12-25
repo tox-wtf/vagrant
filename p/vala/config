@@ -1,4 +1,4 @@
-upstream = "gnome/vala"
+upstream = "gh:gnome/vala"
 
 [[channels]]
 name = "release"

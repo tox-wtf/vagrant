@@ -1,4 +1,4 @@
-upstream = "sqlalchemy/mako"
+upstream = "gh:sqlalchemy/mako"
 
 [[channels]]
 name = "release"

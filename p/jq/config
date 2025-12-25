@@ -1,4 +1,4 @@
-upstream = "jqlang/jq"
+upstream = "gh:jqlang/jq"
 
 [[channels]]
 name = "release"

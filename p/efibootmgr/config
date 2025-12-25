@@ -1,4 +1,4 @@
-upstream = "rhboot/efibootmgr"
+upstream = "gh:rhboot/efibootmgr"
 chance = 0.44
 
 [[channels]]

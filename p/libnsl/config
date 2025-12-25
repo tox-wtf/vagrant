@@ -1,4 +1,4 @@
-upstream = "thkukuk/libnsl"
+upstream = "gh:thkukuk/libnsl"
 
 [[channels]]
 name = "release"

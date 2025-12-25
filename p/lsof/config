@@ -1,4 +1,4 @@
-upstream = "lsof-org/lsof"
+upstream = "gh:lsof-org/lsof"
 
 [[channels]]
 name = "release"

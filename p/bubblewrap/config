@@ -1,4 +1,4 @@
-upstream = "containers/bubblewrap"
+upstream = "gh:containers/bubblewrap"
 chance = 0.42
 
 [[channels]]

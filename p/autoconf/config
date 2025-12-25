@@ -1,4 +1,4 @@
-upstream = "autotools-mirror/autoconf"
+upstream = "gh:autotools-mirror/autoconf"
 chance = 0.93
 
 [[channels]]

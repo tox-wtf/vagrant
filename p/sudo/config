@@ -1,4 +1,4 @@
-upstream = "sudo-project/sudo"
+upstream = "gh:sudo-project/sudo"
 
 [[channels]]
 name = "release"

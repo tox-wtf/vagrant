@@ -1,4 +1,4 @@
-upstream = "ximion/appstream"
+upstream = "gh:ximion/appstream"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "tox-wtf/catfetch"
+upstream = "gh:tox-wtf/catfetch"
 chance = 0.22
 
 [[channels]]

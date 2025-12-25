@@ -1,4 +1,4 @@
-upstream = "aristocratos/btop"
+upstream = "gh:aristocratos/btop"
 
 [[channels]]
 name = "release"

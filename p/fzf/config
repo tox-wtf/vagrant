@@ -1,4 +1,4 @@
-upstream = "junegunn/fzf"
+upstream = "gh:junegunn/fzf"
 
 [[channels]]
 name = "release"

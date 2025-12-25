@@ -1,4 +1,4 @@
-upstream = "clementtsang/bottom"
+upstream = "gh:clementtsang/bottom"
 
 [[channels]]
 name = "release"

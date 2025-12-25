@@ -1,4 +1,4 @@
-upstream = "randy408/libspng"
+upstream = "gh:randy408/libspng"
 
 [[channels]]
 name = "release"

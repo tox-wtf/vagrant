@@ -1,4 +1,4 @@
-upstream = "htop-dev/htop"
+upstream = "gh:htop-dev/htop"
 
 [[channels]]
 name = "release"

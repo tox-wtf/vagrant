@@ -1,4 +1,4 @@
-upstream = "bminor/binutils-gdb"
+upstream = "gh:bminor/binutils-gdb"
 
 [[channels]]
 name = "release"

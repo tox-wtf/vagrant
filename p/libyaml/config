@@ -1,4 +1,4 @@
-upstream = "yaml/libyaml"
+upstream = "gh:yaml/libyaml"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "autotools-mirror/libtool"
+upstream = "gh:autotools-mirror/libtool"
 
 [[channels]]
 name = "release"

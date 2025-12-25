@@ -1,4 +1,4 @@
-upstream = "tytso/e2fsprogs"
+upstream = "gh:tytso/e2fsprogs"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "flatpak/xdg-desktop-portal"
+upstream = "gh:flatpak/xdg-desktop-portal"
 
 [[channels]]
 name = "release"

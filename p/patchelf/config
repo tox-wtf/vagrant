@@ -1,4 +1,4 @@
-upstream = "nixos/patchelf"
+upstream = "gh:nixos/patchelf"
 chance = 0.88
 
 [[channels]]

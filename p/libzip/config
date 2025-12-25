@@ -1,4 +1,4 @@
-upstream = "nih-at/libzip"
+upstream = "gh:nih-at/libzip"
 
 [[channels]]
 name = "release"

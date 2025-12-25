@@ -1,4 +1,4 @@
-upstream = "gnome/gsettings-desktop-schemas"
+upstream = "gh:gnome/gsettings-desktop-schemas"
 
 [[channels]]
 name = "release"

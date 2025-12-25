@@ -1,4 +1,4 @@
-upstream = "open-source-parsers/jsoncpp"
+upstream = "gh:open-source-parsers/jsoncpp"
 chance = 0.44
 
 [[channels]]

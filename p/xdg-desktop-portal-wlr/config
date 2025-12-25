@@ -1,4 +1,4 @@
-upstream = "emersion/xdg-desktop-portal-wlr"
+upstream = "gh:emersion/xdg-desktop-portal-wlr"
 
 [[channels]]
 name = "release"

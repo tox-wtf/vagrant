@@ -1,4 +1,4 @@
-upstream = "tox-wtf/lfstage"
+upstream = "gh:tox-wtf/lfstage"
 chance = 0.77
 
 # no releases yet

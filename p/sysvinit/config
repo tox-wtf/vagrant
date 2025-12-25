@@ -1,4 +1,4 @@
-upstream = "slicer69/sysvinit"
+upstream = "gh:slicer69/sysvinit"
 
 [[channels]]
 name = "release"

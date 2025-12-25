@@ -1,4 +1,4 @@
-upstream = "zsh-users/zsh"
+upstream = "gh:zsh-users/zsh"
 
 [[channels]]
 name = "release"

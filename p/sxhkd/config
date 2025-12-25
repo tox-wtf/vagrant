@@ -1,4 +1,4 @@
-upstream = "baskerville/sxhkd"
+upstream = "gh:baskerville/sxhkd"
 
 [[channels]]
 name = "release"

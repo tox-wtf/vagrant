@@ -1,4 +1,4 @@
-upstream = "alsa-project/alsa-utils"
+upstream = "gh:alsa-project/alsa-utils"
 
 [[channels]]
 name = "release"

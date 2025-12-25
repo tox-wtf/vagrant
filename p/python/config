@@ -1,4 +1,4 @@
-upstream = "python/cpython"
+upstream = "gh:python/cpython"
 
 [[channels]]
 name = "release"

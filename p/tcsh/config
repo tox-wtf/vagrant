@@ -1,4 +1,4 @@
-upstream = "tcsh-org/tcsh"
+upstream = "gh:tcsh-org/tcsh"
 
 [[channels]]
 name = "release"

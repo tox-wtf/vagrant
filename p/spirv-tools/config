@@ -1,4 +1,4 @@
-upstream = "KhronosGroup/spirv-tools"
+upstream = "gh:KhronosGroup/spirv-tools"
 
 [[channels]]
 name = "release"

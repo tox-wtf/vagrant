@@ -1,4 +1,4 @@
-upstream = "rockowitz/ddcutil"
+upstream = "gh:rockowitz/ddcutil"
 
 [[channels]]
 name = "release"

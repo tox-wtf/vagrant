@@ -1,4 +1,4 @@
-upstream = "nvidia/egl-x11"
+upstream = "gh:nvidia/egl-x11"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "mesonbuild/meson"
+upstream = "gh:mesonbuild/meson"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "util-linux/util-linux"
+upstream = "gh:util-linux/util-linux"
 
 [[channels]]
 name = "release"

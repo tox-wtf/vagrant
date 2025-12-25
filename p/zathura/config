@@ -1,4 +1,4 @@
-upstream = "pwmt/zathura"
+upstream = "gh:pwmt/zathura"
 
 [[channels]]
 name = "release"

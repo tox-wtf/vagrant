@@ -1,4 +1,4 @@
-upstream = "gnome/at-spi2-core"
+upstream = "gh:gnome/at-spi2-core"
 
 [[channels]]
 name = "release"

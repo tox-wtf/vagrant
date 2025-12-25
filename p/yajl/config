@@ -1,4 +1,4 @@
-upstream = "lloyd/yajl"
+upstream = "gh:lloyd/yajl"
 chance = 0.01 # last commit dated 2015-09-24
 
 [[channels]]

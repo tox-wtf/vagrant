@@ -1,4 +1,4 @@
-upstream = "Kistler-Group/sdbus-cpp"
+upstream = "gh:Kistler-Group/sdbus-cpp"
 
 [[channels]]
 name = "release"

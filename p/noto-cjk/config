@@ -1,4 +1,4 @@
-upstream = "notofonts/noto-cjk"
+upstream = "gh:notofonts/noto-cjk"
 
 # versioning scheme is incredibly strange
 [[channels]]

@@ -1,4 +1,4 @@
-upstream = "openssh/openssh-portable"
+upstream = "gh:openssh/openssh-portable"
 
 [[channels]]
 name = "release"

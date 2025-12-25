@@ -1,4 +1,4 @@
-upstream = "dylanaraps/sowm"
+upstream = "gh:dylanaraps/sowm"
 chance = 0.03 # dead
 
 [[channels]]

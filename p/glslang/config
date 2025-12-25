@@ -1,4 +1,4 @@
-upstream = "khronosgroup/glslang"
+upstream = "gh:khronosgroup/glslang"
 
 [[channels]]
 name = "release"

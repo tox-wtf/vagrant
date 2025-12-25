@@ -1,4 +1,4 @@
-upstream = "xiph/flac"
+upstream = "gh:xiph/flac"
 chance = 0.66
 
 [[channels]]

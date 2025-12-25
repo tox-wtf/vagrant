@@ -1,4 +1,4 @@
-upstream = "eradman/entr"
+upstream = "gh:eradman/entr"
 
 [[channels]]
 name = "release"

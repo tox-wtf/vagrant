@@ -1,4 +1,4 @@
-upstream = "google/brotli"
+upstream = "gh:google/brotli"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "hyprwm/aquamarine"
+upstream = "gh:hyprwm/aquamarine"
 
 [[channels]]
 name = "release"
