@@ -1,4 +1,4 @@
-upstream = "https://gitlab.inria.fr/mpc/mpc.git"
+upstream = "inria:mpc/mpc.git"
 
 [[channels]]
 name = "release"
