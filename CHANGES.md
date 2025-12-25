@@ -7,6 +7,24 @@
 > Major ones are prefixed with **[!!]**.
 
 
+## 2.7.0 - 2025-12-24 21:19:43 -0600
+
+### Fixes
+
+ - Fix fetch for openssl
+
+### Chores
+
+ - **[!]** Rename vagrant to vat
+ - Update dependencies
+ - Formatting
+
+### Docs
+
+ - Scdoc:commit | 70de0e5e -> 1c36cde8
+ - Simplify tab expansion command
+
+
 ## 2.6.1 - 2025-12-05 23:06:03 -0600
 
 ### Features
