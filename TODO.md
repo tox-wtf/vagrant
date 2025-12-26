@@ -41,4 +41,4 @@
     - ~~Probably add an `org` field to `Package` in the form "org/name"~~
 - [ ] Support chances at the channel level
 - [x] Ensure curl doesn't write incomplete files
-- [ ] Fix commit script behavior for newly added channels
+- [x] Fix commit script behavior for newly added channels
