@@ -7,6 +7,30 @@
 > Major ones are prefixed with **[!!]**.
 
 
+## 2.8.1 - 2025-12-26 03:59:43 -0600
+
+### Features
+
+ - Add a few packages
+ - Tweak timeout settings
+ - Add timeout error
+ - Clean up an error message
+ - Clean up log init
+
+### Fixes
+
+ - Handle channels without prior version history in commit.sh
+
+### Chores
+
+ - Update dependencies
+ - Specify options for release profile
+
+### Docs
+
+ - Update todos
+
+
 ## 2.8.0 - 2025-12-24 22:50:50 -0600
 
 ### Features
