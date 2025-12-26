@@ -1,0 +1,6 @@
+upstream = "https://www.kermitproject.org/gkermit.html"
+chance = 0.11 # last release dated 2021-11-15
+
+[[channels]]
+name = "release"
+fetch = ''' cr | grep -oP '^<title>G-Kermit \K[0-9]+\.[0-9]+' '''
