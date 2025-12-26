@@ -1,4 +1,7 @@
-<h1 align="center">Vat</h1>
+<div align="center">
+    <img src="https://www.dandreapartners.com/wp-content/uploads/2024/01/vat.jpg" width="25%">
+    <h1 align="center">Vat</h1>
+</div>
 
 <h2 align="center">Version Aggregator and Tracker</h2>
 
