@@ -1,2 +1,2 @@
 release	1.25.0
-commit	4cb17f5ae65e129765794986d36fbfc33c0c65bc
+commit	53e8fbbdec5779d59341b37e0b630b06ecf6951a
