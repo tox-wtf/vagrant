@@ -1,0 +1,6 @@
+upstream = "https://www.ohse.de/uwe/software/lrzsz.html"
+chance = 0.02 # last release dated December 1998
+
+[[channels]]
+name = "release"
+fetch = "defcurlrelease"
