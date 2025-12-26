@@ -1,2 +1,2 @@
 release	25.11
-commit	860a08cce6e55d9893865cd2e93c2fc1b805adb5
+commit	b5640d5293ad8dca06cb447692ea7cbb21680eb1
