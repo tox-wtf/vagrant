@@ -1,0 +1,5 @@
+upstream = "https://invisible-island.net/archives/byacc/current/?C=M;O=D"
+chance = 0.44 # last release dated 2024-12-31
+
+[[channels]]
+name = "release"
