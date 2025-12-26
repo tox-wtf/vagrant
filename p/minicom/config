@@ -1,4 +1,4 @@
-upstream = "https://salsa.debian.org/minicom-team/minicom.git/"
+upstream = "salsa:minicom-team/minicom.git/"
 
 [[channels]]
 name = "release"

@@ -1,4 +1,4 @@
-upstream = "https://salsa.debian.org/debian/netcat-openbsd.git"
+upstream = "salsa:debian/netcat-openbsd.git"
 
 [[channels]]
 name = "release"

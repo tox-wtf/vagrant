@@ -25,6 +25,10 @@
 [url "https://gitlab.inria.fr/"]
     insteadOf = "inria:"
 
+# Salsa aliases
+[url "https://salsa.debian.org/"]
+    insteadOf = "salsa:"
+
 # Kernel aliases
 [url "https://git.kernel.org/pub/scm/"]
     insteadOf = "kernel:"
