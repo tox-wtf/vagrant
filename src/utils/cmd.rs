@@ -45,7 +45,10 @@ pub fn cmd(cmd: &[&str], env: HashMap<&str, &str>, cwd: &str) -> Result<String> 
         .spawn()
         .wrap_err("Failed to spawn command")?;
 
-    let Some(status) = child.wait_timeout(Duration::from_secs(32)).expect("Failed to wait on child") else {
+    let Some(status) = child
+        .wait_timeout(Duration::from_secs(32))
+        .expect("Failed to wait on child")
+    else {
         child.kill().expect("Could not kill child");
         child.wait().expect("Failed to wait on child");
         return Err(CmdError::Timeout).wrap_err("Timed out");
@@ -54,11 +57,19 @@ pub fn cmd(cmd: &[&str], env: HashMap<&str, &str>, cwd: &str) -> Result<String> 
     let code = status.code().unwrap_or(1);
 
     let mut out_buf = Vec::new();
-    child.stdout.as_mut().expect("Handle present").read_to_end(&mut out_buf)?;
+    child
+        .stdout
+        .as_mut()
+        .expect("Handle present")
+        .read_to_end(&mut out_buf)?;
     let out = String::from_utf8_lossy(&out_buf).to_string();
 
     let mut err_buf = Vec::new();
-    child.stderr.as_mut().expect("Handle present").read_to_end(&mut err_buf)?;
+    child
+        .stderr
+        .as_mut()
+        .expect("Handle present")
+        .read_to_end(&mut err_buf)?;
     let err = String::from_utf8_lossy(&err_buf).to_string();
 
     trace!("{out}");
@@ -75,7 +86,8 @@ pub fn cmd(cmd: &[&str], env: HashMap<&str, &str>, cwd: &str) -> Result<String> 
 
     if code != 0 {
         warn!("Exited with nonzero status: {code}");
-        return Err(CmdError::NonzeroStatus).wrap_err_with(|| format!("Exited with nonzero status: {code}"));
+        return Err(CmdError::NonzeroStatus)
+            .wrap_err_with(|| format!("Exited with nonzero status: {code}"));
     }
 
     Ok(out)

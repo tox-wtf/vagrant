@@ -8,10 +8,10 @@ use color_eyre::Result;
 use color_eyre::eyre::{Context, Error};
 use indexmap::IndexMap;
 use rayon::prelude::*;
-use walkdir::WalkDir;
 use std::path::Path;
 use std::{env, fs};
 use tracing::{debug, error};
+use walkdir::WalkDir;
 
 pub fn find_all() -> Result<Vec<Package>> {
     let mut packages = Vec::with_capacity(512);
@@ -21,8 +21,9 @@ pub fn find_all() -> Result<Vec<Package>> {
         let path = entry.path();
 
         if path.ends_with("config") {
-            let package = Package::from_config_path(path)
-                .wrap_err_with(|| format!("Failed to form package from config at '{}'", path.display()))?;
+            let package = Package::from_config_path(path).wrap_err_with(|| {
+                format!("Failed to form package from config at '{}'", path.display())
+            })?;
 
             packages.push(package);
         }

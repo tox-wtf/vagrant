@@ -2,9 +2,9 @@
 
 pub mod bulk;
 
+use color_eyre::Result;
 use color_eyre::eyre::Context;
 use color_eyre::eyre::ContextCompat;
-use color_eyre::Result;
 use color_eyre::eyre::bail;
 use rand::random_range;
 use regex::Regex;
@@ -239,11 +239,14 @@ impl Package {
                     name.push_str(c.to_str().wrap_err("Invalid UTF-8")?);
                     name.push('/');
                 }
-                _ => bail!("Invalid component in config path")
+                _ => bail!("Invalid component in config path"),
             }
         }
 
-        let name = name.strip_suffix('/').wrap_err("Unexpected package name")?.to_string();
+        let name = name
+            .strip_suffix('/')
+            .wrap_err("Unexpected package name")?
+            .to_string();
 
         if name.is_empty() {
             bail!("Received an empty package name");
@@ -262,10 +265,18 @@ impl Package {
             VAT_ROOT.join("p").join(name).join("config")
         }
 
-        let raw = fs::read_to_string(&config_path).wrap_err_with(|| format!("Couldn't read package config at '{}'", config_path.display()))?;
+        let raw = fs::read_to_string(&config_path).wrap_err_with(|| {
+            format!(
+                "Couldn't read package config at '{}'",
+                config_path.display()
+            )
+        })?;
         let config: PackageConfig = toml::from_str(&raw)?;
 
-        let mut package = Self { name: name.to_string(), config };
+        let mut package = Self {
+            name: name.to_string(),
+            config,
+        };
         package.set_defaults();
 
         Ok(package)

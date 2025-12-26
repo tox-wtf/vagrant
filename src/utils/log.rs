@@ -3,15 +3,17 @@
 use std::env;
 use std::time::Instant;
 
-use tracing_subscriber::fmt::time::FormatTime;
 use tracing_subscriber::EnvFilter;
+use tracing_subscriber::fmt::time::FormatTime;
 
 /// # Uptime struct for timestamp formatting in logs
 struct Uptime(Instant);
 
 impl Uptime {
     /// # Create a new [`Uptime`]
-    fn new() -> Self { Self(Instant::now()) }
+    fn new() -> Self {
+        Self(Instant::now())
+    }
 }
 
 impl FormatTime for Uptime {
