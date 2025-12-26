@@ -1,0 +1,7 @@
+upstream = "gh:zlin/wgetpaste"
+
+[[channels]]
+name = "release"
+
+[[channels]]
+name = "commit"
