@@ -1,0 +1,8 @@
+upstream = "cb:catseye/Befunge-93.git"
+
+[[channels]]
+name = "release"
+fetch = "gr | vtrim -e 's,^rel_,,' | vsort"
+
+[[channels]]
+name = "commit"
