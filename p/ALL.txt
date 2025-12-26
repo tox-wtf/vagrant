@@ -564,6 +564,7 @@ libvpl-tools	release	1.5.0
 libvpl-tools	commit	ad9deecaf0ee76f689373b55fe620c843e3c8a4d
 libvpx	release	1.15.2
 libvpx	commit	d5399cdd6abea1169a246f28c5ca9a50975d7ba9
+libvterm	release	0.3.3
 libwebp	release	1.6.0
 libwebp	commit	d52b9ee34d6bb8fb7a190fe359d8560cfc2afc91
 libx11	release	1.8.12
@@ -992,9 +993,13 @@ uchardet	release	0.0.8
 uchardet	commit	06029ec3340cdf6bf9a6a537dafb3f39eda0560e
 ufw	release	0.36.2
 ufw	commit	bdb71dc636c918421d50cac647353b2be08202a0
+unibilium	release	2.1.2
+unibilium	commit	31fef2218ea8a99686de7a4f1b22813591d1685f
 unrar	release	7.2.3
 usbutils	release	019
 usbutils	commit	5ea89970255d1a7f1e53c639b9a1cbdf417875b0
+utf8proc	release	2.11.2
+utf8proc	commit	a36778dbe37f8fc86aae5ca37b68564f8f54353c
 uthash	release	2.3.0
 uthash	commit	af6e637f19c102167fb914b9ebcc171389270b48
 util-linux	release	2.41.3

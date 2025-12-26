@@ -3629,6 +3629,15 @@
     ]
   },
   {
+    "package": "libvterm",
+    "versions": [
+      {
+        "channel": "release",
+        "version": "0.3.3"
+      }
+    ]
+  },
+  {
     "package": "libwebp",
     "versions": [
       {
@@ -6436,6 +6445,19 @@
     ]
   },
   {
+    "package": "unibilium",
+    "versions": [
+      {
+        "channel": "release",
+        "version": "2.1.2"
+      },
+      {
+        "channel": "commit",
+        "version": "31fef2218ea8a99686de7a4f1b22813591d1685f"
+      }
+    ]
+  },
+  {
     "package": "unrar",
     "versions": [
       {
@@ -6454,6 +6476,19 @@
       {
         "channel": "commit",
         "version": "5ea89970255d1a7f1e53c639b9a1cbdf417875b0"
+      }
+    ]
+  },
+  {
+    "package": "utf8proc",
+    "versions": [
+      {
+        "channel": "release",
+        "version": "2.11.2"
+      },
+      {
+        "channel": "commit",
+        "version": "a36778dbe37f8fc86aae5ca37b68564f8f54353c"
       }
     ]
   },
