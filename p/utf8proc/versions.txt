@@ -1,0 +1,2 @@
+release	2.11.2
+commit	a36778dbe37f8fc86aae5ca37b68564f8f54353c
