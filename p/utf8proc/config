@@ -1,0 +1,7 @@
+upstream = "gh:JuliaStrings/utf8proc"
+
+[[channels]]
+name = "release"
+
+[[channels]]
+name = "commit"

@@ -1,0 +1,5 @@
+upstream = "https://launchpad.net/libvterm/+download"
+
+[[channels]]
+name = "release"
+fetch = "defcurlrelease"
