@@ -1,0 +1,10 @@
+upstream = "https://salsa.debian.org/minicom-team/minicom.git/"
+
+[[channels]]
+name = "release"
+
+[[channels]]
+name = "unstable"
+
+[[channels]]
+name = "commit"
