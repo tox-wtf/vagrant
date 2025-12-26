@@ -3,6 +3,7 @@
 pub mod bulk;
 
 use color_eyre::eyre::Context;
+use color_eyre::eyre::ContextCompat;
 use color_eyre::Result;
 use color_eyre::eyre::bail;
 use rand::random_range;
@@ -13,9 +14,13 @@ use std::fmt::Debug;
 use std::fmt::Write;
 use std::fs;
 use std::hash::Hash;
+use std::path::Component;
 use std::path::{Path, PathBuf};
 use std::str::FromStr;
 use tracing::{debug, error, info};
+
+#[cfg(test)]
+use pretty_assertions::assert_eq;
 
 use crate::NO_CACHE;
 use crate::SHLIB_PATH;
@@ -209,14 +214,58 @@ impl UpstreamType {
 }
 
 impl Package {
-    pub fn from_name<S: Into<String>>(name: S) -> Result<Self> {
-        let name = name.into();
-        let config_path = Path::new(Self::dir(&name).as_str()).join("config");
+    /// Create a new [`Package`] from its package config path
+    ///
+    /// The package config path's first and final components must be "p" and "config",
+    /// respectively. The following examples are valid:
+    /// * "p/libtree/config"
+    /// * "p/py/build/config"
+    /// * "p/causalagency/irc/catgirl/config"
+    pub fn from_config_path<P: AsRef<Path>>(config_path: P) -> Result<Self> {
+        let config_path = config_path.as_ref();
+        let mut components = config_path.components();
+
+        match components.next() {
+            Some(Component::Normal(c)) if c == "p" => {}
+            _ => bail!("config path must start with 'p'"),
+        }
+
+        let mut name = String::with_capacity(16);
+
+        for comp in components.by_ref() {
+            match comp {
+                Component::Normal(c) if c == "config" => break,
+                Component::Normal(c) => {
+                    name.push_str(c.to_str().wrap_err("Invalid UTF-8")?);
+                    name.push('/');
+                }
+                _ => bail!("Invalid component in config path")
+            }
+        }
+
+        let name = name.strip_suffix('/').wrap_err("Unexpected package name")?.to_string();
+
+        if name.is_empty() {
+            bail!("Received an empty package name");
+        }
+
+        Self::from_name(name)
+    }
+
+    pub fn from_name<S: AsRef<str>>(name: S) -> Result<Self> {
+        let name = name.as_ref();
+        let config_path = Path::new(Self::dir(name).as_str()).join("config");
+
+        #[cfg(test)]
+        assert_eq! {
+            config_path,
+            VAT_ROOT.join("p").join(name).join("config")
+        }
 
         let raw = fs::read_to_string(&config_path).wrap_err_with(|| format!("Couldn't read package config at '{}'", config_path.display()))?;
         let config: PackageConfig = toml::from_str(&raw)?;
 
-        let mut package = Self { name, config };
+        let mut package = Self { name: name.to_string(), config };
         package.set_defaults();
 
         Ok(package)

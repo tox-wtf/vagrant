@@ -5,31 +5,26 @@ use crate::package::PackageVersions;
 
 use super::{Package, VersionChannel};
 use color_eyre::Result;
-use color_eyre::eyre::{Context, ContextCompat, Error};
+use color_eyre::eyre::{Context, Error};
 use indexmap::IndexMap;
 use rayon::prelude::*;
+use walkdir::WalkDir;
 use std::path::Path;
 use std::{env, fs};
 use tracing::{debug, error};
 
 pub fn find_all() -> Result<Vec<Package>> {
-    let search_path = Path::new("p");
     let mut packages = Vec::with_capacity(512);
 
-    for entry in search_path.read_dir()?.flatten() {
+    for entry in WalkDir::new("p").min_depth(1) {
+        let entry = entry?;
         let path = entry.path();
 
-        if path.join("config").is_file() {
-            let file_name = path
-                .file_name()
-                .wrap_err_with(|| format!("Invalid filename in {}", path.display()))?
-                .to_string_lossy()
-                .to_string();
+        if path.ends_with("config") {
+            let package = Package::from_config_path(path)
+                .wrap_err_with(|| format!("Failed to form package from config at '{}'", path.display()))?;
 
-            packages.push(
-                Package::from_name(file_name.clone())
-                    .wrap_err_with(|| format!("Failed to form package '{file_name}'"))?,
-            );
+            packages.push(package);
         }
     }
 
@@ -134,4 +129,29 @@ pub fn write_all(map: &IndexMap<Package, Vec<VersionChannel>>) -> Result<()> {
     fs::write(path.join("ALL.txt"), alltxt)?;
 
     Ok(())
+}
+
+#[cfg(test)]
+#[allow(clippy::unwrap_used)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn find_packages() {
+        let all = find_all().unwrap();
+
+        dbg!(&all);
+        assert!(all.iter().any(|p| p.name == "tree"));
+        assert!(all.iter().any(|p| p.name == "glibc"));
+        assert!(all.iter().any(|p| p.name == "iana-etc"));
+    }
+
+    #[test]
+    fn find_nested() {
+        let all = find_all().unwrap();
+
+        dbg!(&all);
+        assert!(all.iter().any(|p| p.name == "py/build"));
+        assert!(all.iter().all(|p| p.name != "py"));
+    }
 }
