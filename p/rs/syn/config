@@ -1,0 +1,4 @@
+upstream = "https://crates.io/crates/syn"
+
+[[channels]]
+name = "release"
