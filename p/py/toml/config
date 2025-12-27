@@ -1,0 +1,8 @@
+upstream = "gh:uiri/toml"
+chance = 0.14 # last commit dated 2023-10-10
+
+[[channels]]
+name = "release"
+
+[[channels]]
+name = "commit"
