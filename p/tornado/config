@@ -1,0 +1,12 @@
+upstream = "gh:tornadoweb/tornado"
+
+[[channels]]
+name = "release"
+fetch = "gr | vtrim | fl | vsort"
+
+[[channels]]
+name = "unstable"
+fetch = "gr | vtrim | vsort"
+
+[[channels]]
+name = "commit"
