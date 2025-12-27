@@ -191,6 +191,7 @@ impl Default for PackageConfig {
 
 pub enum UpstreamType {
     Arch,
+    CratesIO,
     Curl,
     Empty,
     Git,
@@ -201,6 +202,9 @@ impl UpstreamType {
         match str {
             // match arch
             s if s.contains("archlinux.org") => Self::Arch,
+
+            // match crates.io
+            s if s.starts_with("https://crates.io/crates/") => Self::CratesIO,
 
             // match (sorted) distfile pages
             s if s.contains("C=M") && s.contains("O=D") => Self::Curl,
@@ -303,6 +307,7 @@ impl Package {
             if channel.fetch.is_empty() {
                 channel.fetch = match (ut, channel.name.as_str()) {
                     (UpstreamType::Arch, "release") => "archver".into(),
+                    (UpstreamType::CratesIO, "release") => "cratesiover".into(),
 
                     (UpstreamType::Curl, "release") => "defcurlrelease".into(),
                     (UpstreamType::Curl, "unstable") => "defcurlunstable".into(),
