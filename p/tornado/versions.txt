@@ -1,0 +1,3 @@
+release	6.5.4
+unstable	6.5.4
+commit	e14929c305019fd494c74934445f0b72af4f98ab
