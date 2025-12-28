@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+shopt -s globstar
+shopt -s nullglob
+
 argv0="$0"
 set -u
 
@@ -12,11 +15,10 @@ git add runcount
 git update-index --no-skip-worktree vat.log && git add vat.log
 git commit -m "auto(aux): update internal data"
 
-git add p/ALL.* p/*/versions.* p/*/channels/*
+git add p/ALL.* p/**/versions.* p/**/channels/*
 
-# TODO: Use porcelain here
-packages_updated=$(git status -s p | grep -vF ALL | cut -d/ -f2 | uniq | wc -l)
-versions_updates=$(git status -s p | cut -d/ -f2- | uniq | grep -F channels/)
+packages_updated=$(git status --porcelain=v1 p | grep -vF ALL | cut -d/ -f2 | uniq | wc -l)
+versions_updates=$(git status --porcelain=v1 p | cut -d/ -f2- | uniq | grep -F channels/)
 
 release_versions_updates=$(echo "$versions_updates" | grep -c 'channels/release$')
 unstable_versions_updates=$(echo "$versions_updates" | grep -c 'channels/unstable$')
@@ -34,9 +36,6 @@ declare -A changed_map
 for c in "${changed[@]}"; do
     changed_map["$c"]=1
 done
-
-shopt -s globstar
-shopt -s nullglob
 
 is_changed() {
     local f="$1"
