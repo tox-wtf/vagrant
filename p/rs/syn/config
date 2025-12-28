@@ -1,4 +1,7 @@
-upstream = "https://crates.io/crates/syn"
+upstream = "gh:dtolnay/syn"
 
 [[channels]]
 name = "release"
+
+[[channels]]
+name = "commit"
