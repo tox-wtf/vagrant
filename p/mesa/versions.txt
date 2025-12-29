@@ -1,2 +1,2 @@
 release	25.3.2
-commit	ea4dedde8fe7757a593501eb6fcbaf0a78d1b36b
+commit	5e8cc19a3ba673cff0675809d36534483bb913b0
