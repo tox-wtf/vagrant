@@ -123,10 +123,14 @@ make run
 - Make
 
 #### Runtime
+- Awk
 - Bash
 - Coreutils
 - Curl
 - Git
+- Grep
+- Jq
+- Sed
 - [Versort](https://github.com/tox-wtf/versort)
 
 #### Development
