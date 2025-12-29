@@ -1,2 +1,2 @@
-release	10.5.1
-commit	b63d24db1fdab5cff024e8baf575f8c93bea7439
+release	10.6.0
+commit	388df810865879f75f0be300a24d149f39b85834
