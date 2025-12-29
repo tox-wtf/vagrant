@@ -7,6 +7,21 @@
 > Major ones are prefixed with **[!!]**.
 
 
+## 2.9.1 - 2025-12-29 00:33:58 -0600
+
+### Fixes
+
+ - Remove unused import
+
+### Chores
+
+ - Use minor versions for dependencies
+
+### Docs
+
+ - Update todos
+
+
 ## 2.9.0 - 2025-12-29 00:24:37 -0600
 
 ### Features
