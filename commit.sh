@@ -31,7 +31,8 @@ vat_version=$(git describe --tags || echo "???")
 vat_header="[ Vat v$vat_version | $(date +"%Y-%m-%d %H:%M:%S %z") | #$(<runcount) ]"
 git restore --staged p
 
-readarray -t changed < <(git status --porcelain=v1 p/**/channels | awk '{print $2}')
+# TODO: Decide if `-u all` is needed elsewhere
+readarray -t changed < <(git status --porcelain=v1 -u all p/**/channels | awk '{print $2}')
 declare -A changed_map
 for c in "${changed[@]}"; do
     changed_map["$c"]=1
@@ -40,7 +41,7 @@ done
 is_changed() {
     local f="$1"
     for c in "${changed[@]}"; do
-        [[ $c == "$f" || $c == $f/* ]] && return 0
+        [[ $c == $f || $c == $f/* ]] && return 0
     done
     return 1
 }
@@ -54,7 +55,7 @@ for p in p/**/config; do
     is_changed "$p" || continue
     pname="${p#p/}"
 
-    tmp="$(mktemp -u .vat-cache/commit-$pname-XXXX)"
+    tmp="$(mktemp -u .vat-cache/commit-${pname//\//.}-XXXX)"
     :>"$tmp"
 
     # Per-channel commit message
