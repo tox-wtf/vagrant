@@ -5,7 +5,6 @@ use std::path::{Path, PathBuf};
 use std::sync::LazyLock;
 use std::time::{Duration, Instant, SystemTime, UNIX_EPOCH};
 use std::{env, fs};
-use tracing::{debug, info};
 
 use self::args::ARGS;
 use self::package::{Package, bulk};
@@ -16,8 +15,8 @@ mod args;
 mod package;
 mod utils;
 
-/// Timeout for .vat-cache
-const CACHE_TIMEOUT: Duration = Duration::from_secs(3600); // 1 hr
+#[macro_use]
+extern crate tracing;
 
 static VAT_ROOT: LazyLock<PathBuf> =
     LazyLock::new(|| env::current_dir().expect("Couldn't get working directory"));

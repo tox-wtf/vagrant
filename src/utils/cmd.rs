@@ -8,7 +8,6 @@ use std::time::Duration;
 use color_eyre::Result;
 use color_eyre::eyre::Context;
 use thiserror::Error;
-use tracing::{trace, warn};
 use wait_timeout::ChildExt;
 
 #[derive(Error, Debug)]

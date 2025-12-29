@@ -10,7 +10,6 @@ use indexmap::IndexMap;
 use rayon::prelude::*;
 use std::path::Path;
 use std::{env, fs};
-use tracing::{debug, error};
 use walkdir::WalkDir;
 
 pub fn find_all() -> Result<Vec<Package>> {

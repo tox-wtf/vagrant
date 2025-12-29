@@ -17,7 +17,6 @@ use std::hash::Hash;
 use std::path::Component;
 use std::path::{Path, PathBuf};
 use std::str::FromStr;
-use tracing::{debug, error, info};
 
 #[cfg(test)]
 use pretty_assertions::assert_eq;
