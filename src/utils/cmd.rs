@@ -3,12 +3,15 @@
 use std::collections::HashMap;
 use std::io::{self, Read};
 use std::process::{Command, Stdio};
-use std::time::Duration;
+use std::time::{Duration, Instant};
+use std::thread;
 
 use color_eyre::Result;
 use color_eyre::eyre::Context;
 use thiserror::Error;
 use wait_timeout::ChildExt;
+
+use crate::CONFIG;
 
 #[derive(Error, Debug)]
 enum CmdError {
@@ -29,7 +32,7 @@ enum CmdError {
 }
 
 /// # Lowish level function to execute a command and return stdout
-#[allow(clippy::similar_names)]
+#[allow(clippy::similar_names, clippy::unwrap_used)]
 pub fn cmd(cmd: &[&str], env: HashMap<&str, &str>, cwd: &str) -> Result<String> {
     trace!("Evaluating command: {}", cmd.join(" "));
 
@@ -44,34 +47,41 @@ pub fn cmd(cmd: &[&str], env: HashMap<&str, &str>, cwd: &str) -> Result<String> 
         .spawn()
         .wrap_err("Failed to spawn command")?;
 
-    let Some(status) = child
-        .wait_timeout(Duration::from_secs(32))
-        .expect("Failed to wait on child")
-    else {
+    let timeout = CONFIG.get().expect("Config should be initialized").fetch_timeout;
+    trace!("Spawned command with a timeout of {timeout} seconds");
+
+    let mut stdout = child.stdout.take().unwrap();
+    let mut stderr = child.stderr.take().unwrap();
+
+    let out_thread = thread::spawn(move || {
+        let mut buf = Vec::new();
+        stdout.read_to_end(&mut buf).unwrap();
+        buf
+    });
+
+    let err_thread = thread::spawn(move || {
+        let mut buf = Vec::new();
+        stderr.read_to_end(&mut buf).unwrap();
+        buf
+    });
+
+    let timeout = Duration::from_secs(timeout);
+    let Some(status) = child.wait_timeout(timeout)? else {
         child.kill().expect("Could not kill child");
         child.wait().expect("Failed to wait on child");
         return Err(CmdError::Timeout).wrap_err("Timed out");
     };
 
+    let out_buf = out_thread.join().unwrap();
+    let err_buf = err_thread.join().unwrap();
+
     let code = status.code().unwrap_or(1);
+    trace!("Command exited with code {code}");
 
-    let mut out_buf = Vec::new();
-    child
-        .stdout
-        .as_mut()
-        .expect("Handle present")
-        .read_to_end(&mut out_buf)?;
     let out = String::from_utf8_lossy(&out_buf).to_string();
-
-    let mut err_buf = Vec::new();
-    child
-        .stderr
-        .as_mut()
-        .expect("Handle present")
-        .read_to_end(&mut err_buf)?;
     let err = String::from_utf8_lossy(&err_buf).to_string();
 
-    trace!("{out}");
+    trace!("Received output in stdout:\n{out}");
 
     if !err.is_empty() {
         warn!("{err}");
