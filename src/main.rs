@@ -10,7 +10,6 @@ use self::args::ARGS;
 use self::config::Config;
 use self::package::{Package, bulk};
 use self::utils::log::log;
-use self::utils::once::OnceLockTry;
 use color_eyre::Result;
 
 mod args;
@@ -37,9 +36,8 @@ static CONFIG: OnceLock<Config> = OnceLock::new();
 fn setup() {
     log();
 
-    CONFIG.__try_init(|| {
-        Config::parse()
-    }).unwrap();
+    CONFIG.set(Config::parse().expect("Invalid config"))
+        .expect("Only one thread should be setting the config");
 }
 
 fn main() -> color_eyre::Result<()> {
@@ -50,10 +48,8 @@ fn main() -> color_eyre::Result<()> {
         .install()?;
 
     log();
-
-    CONFIG.__try_init(|| {
-        Config::parse()
-    })?;
+    CONFIG.set(Config::parse()?)
+        .expect("Only one thread should be setting the config");
 
     clean_cache()?;
     let start_timestamp = Instant::now();
