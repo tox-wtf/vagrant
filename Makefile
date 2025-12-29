@@ -39,7 +39,9 @@ test: build
 	@cargo test --no-fail-fast --future-incompat-report --all-features --locked --release
 	@target/release/vat -pg | tee vat.log
 	@sed -i 's,\x1b\[[0-9;]*m,,g' vat.log
-	@grep -E 'ERROR|WARN' vat.log || true
+	@echo
+	@echo "\x1b[1mIssues:\x1b[0m"
+	@grep --color=always -E 'ERROR|WARN' vat.log || echo "None"
 	@awk -v f=$$(cat .vat-cache/failed) -v c=$$(cat .vat-cache/checked) \
 		'BEGIN { exit !(f/c < 0.05) }'
 

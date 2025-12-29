@@ -32,6 +32,16 @@ static NO_CACHE: LazyLock<bool> = LazyLock::new(|| ARGS.no_cache);
 
 static CONFIG: OnceLock<Config> = OnceLock::new();
 
+#[cfg(test)]
+#[ctor::ctor]
+fn setup() {
+    log();
+
+    CONFIG.__try_init(|| {
+        Config::parse()
+    }).unwrap();
+}
+
 fn main() -> color_eyre::Result<()> {
     HookBuilder::default()
         .display_env_section(true)
