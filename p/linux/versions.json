@@ -5,7 +5,7 @@
   },
   {
     "channel": "mainline",
-    "version": "6.19-rc2"
+    "version": "6.19-rc3"
   },
   {
     "channel": "next",
@@ -13,6 +13,6 @@
   },
   {
     "channel": "commit",
-    "version": "d26143bb38e2546fe6f8c9860c13a88146ce5dd6"
+    "version": "7839932417dd53bb09eb5a585a7a92781dfd7cb2"
   }
 ]

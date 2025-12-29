@@ -1,4 +1,4 @@
 release	6.18.2
-mainline	6.19-rc2
+mainline	6.19-rc3
 next	next-20251219
-commit	d26143bb38e2546fe6f8c9860c13a88146ce5dd6
+commit	7839932417dd53bb09eb5a585a7a92781dfd7cb2
