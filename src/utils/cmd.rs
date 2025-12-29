@@ -3,7 +3,7 @@
 use std::collections::HashMap;
 use std::io::{self, Read};
 use std::process::{Command, Stdio};
-use std::time::{Duration, Instant};
+use std::time::Duration;
 use std::thread;
 
 use color_eyre::Result;
