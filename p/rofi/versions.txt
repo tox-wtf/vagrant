@@ -1,2 +1,2 @@
 release	2.0.0
-commit	c1f9b160c535333feba570d832e1157ebdf4c24c
+commit	aaa248b98146f6f1a749eae50a5348f009385a21
