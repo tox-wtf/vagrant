@@ -42,3 +42,6 @@
 - [ ] Support chances at the channel level
 - [x] Ensure curl doesn't write incomplete files
 - [x] Fix commit script behavior for newly added channels
+- [x] Add config.toml
+    - [x] Replace .gitconfig's URL replacements with an in-house solution
+        - This would allow shorthands for non-git upstreams

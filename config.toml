@@ -1,0 +1,67 @@
+# Maximum lifespan for a fetch (in seconds)
+fetch_timeout = 30
+
+# Maximum lifespan for .vat-cache (in seconds)
+cache_timeout = 3600
+
+# Shortforms for upstream URLs
+# GitHub
+[[shortforms]]
+short = "github:"
+full  = "https://github.com/"
+
+[[shortforms]]
+short = "gh:"
+full  = "https://github.com/"
+
+# GitLab
+[[shortforms]]
+short = "gitlab:"
+full  = "https://gitlab.com/"
+
+[[shortforms]]
+short = "gl:"
+full  = "https://gitlab.com/"
+
+# Dotgay
+[[shortforms]]
+short = "dotgay:"
+full  = "https://git.gay/"
+
+# Codeberg
+[[shortforms]]
+short = "codeberg:"
+full  = "https://codeberg.org/"
+
+[[shortforms]]
+short = "cb:"
+full  = "https://codeberg.org/"
+
+# Freedesktop
+[[shortforms]]
+short = "freedesktop:"
+full  = "https://gitlab.freedesktop.org/"
+
+# Inria
+[[shortforms]]
+short = "inria:"
+full  = "https://gitlab.inria.fr/"
+
+# Salsa
+[[shortforms]]
+short = "salsa:"
+full  = "https://salsa.debian.org/"
+
+# Kernel
+[[shortforms]]
+short = "kernel:"
+full  = "https://git.kernel.org/pub/scm/"
+
+# Sourcehut
+[[shortforms]]
+short = "sourcehut:"
+full  = "https://git.sr.ht/~"
+
+[[shortforms]]
+short = "srht:"
+full  = "https://git.sr.ht/~"

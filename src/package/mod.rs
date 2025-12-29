@@ -21,6 +21,7 @@ use std::str::FromStr;
 #[cfg(test)]
 use pretty_assertions::assert_eq;
 
+use crate::CONFIG;
 use crate::NO_CACHE;
 use crate::SHLIB_PATH;
 use crate::VAT_CACHE;
@@ -105,7 +106,7 @@ impl PackageChannel {
 
         let no_cache = NO_CACHE.to_string();
 
-        let upstream = self.upstream.as_ref().unwrap_or(&package.config.upstream);
+        let upstream = expand_shortform(self.upstream.as_ref().unwrap_or(&package.config.upstream));
 
         let env = HashMap::from([
             ("GIT_TERMINAL_PROMPT", "false"),
@@ -116,7 +117,7 @@ impl PackageChannel {
             ("NO_CACHE", &no_cache),
             ("channel", &self.name),
             ("name", basename(&package.name)),
-            ("upstream", upstream),
+            ("upstream", &upstream),
         ]);
 
         cmd(command, env, &package_root)
@@ -296,12 +297,12 @@ impl Package {
 
     pub fn set_defaults(&mut self) {
         if self.config.upstream.is_empty() {
-            self.config.upstream = format!("gh:{n}/{n}", n = basename(&self.name));
+            self.config.upstream = format!("https://github.com/{n}/{n}", n = basename(&self.name));
         }
 
         for channel in &mut self.config.channels {
-            let upstream = channel.upstream.as_ref().unwrap_or(&self.config.upstream);
-            let ut = UpstreamType::from_str(upstream);
+            let upstream = expand_shortform(channel.upstream.as_ref().unwrap_or(&self.config.upstream));
+            let ut = UpstreamType::from_str(&upstream);
 
             if channel.fetch.is_empty() {
                 channel.fetch = match (ut, channel.name.as_str()) {
@@ -443,4 +444,17 @@ impl Package {
         let version_channels = serde_json::from_str(&json_str)?;
         Ok(version_channels)
     }
+}
+
+fn expand_shortform<S: Into<String>>(upstream: S) -> String {
+    let upstream = upstream.into();
+    let shortforms = CONFIG.get().expect("Config should be initialized").shortforms.as_slice();
+
+    for sf in shortforms {
+        if upstream.starts_with(&sf.short) {
+            return upstream.replacen(&sf.short, &sf.full, 1);
+        }
+    }
+
+    upstream
 }

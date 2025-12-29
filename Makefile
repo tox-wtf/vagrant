@@ -1,4 +1,4 @@
-all: build git-config
+all: build
 
 build: target/release/vat
 
@@ -7,9 +7,6 @@ Cargo.lock: Cargo.toml
 
 target/release/vat: Cargo.lock src/*.rs src/*/*.rs
 	cargo build --release
-
-git-config: .git .gitconfig
-	git config --local include.path ../.gitconfig
 
 check: lint test
 
