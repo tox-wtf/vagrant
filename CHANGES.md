@@ -7,6 +7,49 @@
 > Major ones are prefixed with **[!!]**.
 
 
+## 2.9.0 - 2025-12-29 00:24:37 -0600
+
+### Features
+
+ - Add test setup and improve test target output
+ - **[!]** Add config and in-house url shortforms
+ - Remove tracing macro imports
+ - Add once utilities
+ - Add vt function to dev-utils
+ - Add rs/quote
+ - Move rs/syn to gh upstream
+ - Add rs/syn
+ - Add support for crates.io upstreams
+ - Add a few python modules
+ - Add nvchecker
+ - Add tornado
+ - Add pycurl
+ - Tweak dev utils
+ - Add byacc
+ - Add befunge-93
+ - Add wlr-randr
+ - Add wgetpaste
+ - Add gkermit
+ - Add salsa shortform
+ - Add minicom
+ - Add lrzsz
+
+### Fixes
+
+ - Avoid deadlocking on noisy commands
+ - Improve commit script
+ - **[!]** Properly handle nested packages
+
+### Chores
+
+ - Formatting
+
+### Docs
+
+ - Add missing runtime dependencies
+ - Add project logo to readme
+
+
 ## 2.8.1 - 2025-12-26 03:59:43 -0600
 
 ### Features
