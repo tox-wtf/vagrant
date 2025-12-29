@@ -3,6 +3,8 @@
 - [ ] Make ERROR and WARN logs less ugly
     - [x] Move timeout errors to rust
     - [ ] Clean up redundant error messages
+    - [ ] Capture common error messages from stderr and map them to an `Error`
+        - [ ] `fatal: unable to access 'https://gcc.gnu.org/git/gcc.git/': The requested URL returned error: 500` -> `Error::Http(Code)`
 - [x] Rename project to "vat"
     - This avoids confusion with hashicorp's vagrant
     - I also just prefer that name
