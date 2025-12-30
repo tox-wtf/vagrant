@@ -1,2 +1,2 @@
-release	4.3.1
-commit	b31387416dc72e9b91f7efdab715326a8fd71749
+release	4.3.2
+commit	248a8e7c549f84e5bd611cd97b41f7109bc7abaf
