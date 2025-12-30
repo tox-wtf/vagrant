@@ -1,2 +1,2 @@
-release	2.0.111
-commit	7e38d5d76409bb5d7e243ba29668c74e84602bcc
+release	2.0.112
+commit	1534d3a578b7a849989ac26e52fcb043c9cf02d6
