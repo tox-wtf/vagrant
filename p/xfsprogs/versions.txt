@@ -1,2 +1,2 @@
-release	6.17.0
-commit	de85869984a4095826fb170fc9bd6ae0053c9006
+release	6.18.0
+commit	8b892adad226bb9fef4009c4cba4dbc25b70b011
