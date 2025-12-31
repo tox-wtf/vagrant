@@ -1,2 +1,2 @@
-release	4.99.5
+release	4.99.6
 commit	c3da8e911a02295360e4499446cd53cbf7604ce7
