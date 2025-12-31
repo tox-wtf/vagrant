@@ -1,3 +1,3 @@
 release	1.92.0
 nightly	2025-12-31
-commit	ab32c26b49eacb1b694972bb29d20167bdbdfc51
+commit	2848c2ebe9a8a604cd63455263299d7258bc8252
