@@ -1,2 +1,2 @@
-release	6.5
+release	6.6
 unstable	6.6.20251230
