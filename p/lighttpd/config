@@ -1,0 +1,13 @@
+upstream = "gh:lighttpd/lighttpd1.4"
+
+[[channels]]
+name = "release"
+
+[[channels]]
+name = "commit"
+
+[[channels]]
+name = "2-commit"
+fetch = "defgitcommit"
+expected = "^[0-9a-f]{40}$"
+upstream = "gh:lighttpd/lighttpd2"
