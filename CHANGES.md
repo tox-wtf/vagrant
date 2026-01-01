@@ -7,6 +7,27 @@
 > Major ones are prefixed with **[!!]**.
 
 
+## 2.9.2 - 2025-12-31 22:09:44 -0600
+
+### Features
+
+ - Add lighttpd
+ - Add libgit2
+
+### Fixes
+
+ - Use set for OnceLock
+ - Commit script bugfix
+
+### Chores
+
+ - Update dependencies
+
+### Docs
+
+ - Update readme
+
+
 ## 2.9.1 - 2025-12-29 00:33:58 -0600
 
 ### Fixes
