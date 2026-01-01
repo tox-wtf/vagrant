@@ -112,7 +112,7 @@ cli11	release	2.6.1
 cli11	commit	457839d482455e746faabc07e2e6fa4c30f2d553
 cmake	release	4.2.1
 cmake	unstable	4.2.1
-cmake	commit	f62df62207a8d72ee660c197072cc82fe1258ac3
+cmake	commit	97ad58a86cf73d85f755939114eb6b32f085d0dd
 coreutils	release	9.9
 coreutils	commit	75e314a11a3ccfecadddf0270dc4619e3486ea66
 cpio	release	2.15
@@ -192,7 +192,7 @@ elogind	release	255.17
 elogind	unstable	257-pre
 elogind	commit	88c346cdc5ef231465552de9c55332fd9d2c408b
 emacs	release	30.2
-emacs	commit	20e1a57d443c5fc36aa6c09a644870dfa0bceb3e
+emacs	commit	ef12da4ba1dedc24838f3e92b35e67343a59c355
 enchant	release	2.8.14
 enchant	commit	ce3f4d3278aa6b8c7857bec9f10fa0d5b2152758
 entr	release	5.7
@@ -278,7 +278,7 @@ gkermit	release	2.01
 glad	release	2.0.8
 glad	commit	27bed1181560211b55e39a9b132fef8c5846aae5
 glaze	release	6.4.1
-glaze	commit	9efe5f8e8dbcdea39d599f6c687fbe203386e374
+glaze	commit	a196acc1e9ac027e3b881680353fc773aaed1d58
 glew	release	2.3.0
 glew	commit	24ec9e49a8d92cec92068ac9b07baec924f2fd7d
 glib	release	2.86.3
@@ -357,7 +357,7 @@ inih	commit	8e06f6b77b5d4471bdc6d85ada81b67d37354a5c
 iniparser	release	4.2.6
 iniparser	commit	4bef811283e0ec1658c60e09950bd5a1ddc92e4b
 inkscape	release	1.4.3
-inkscape	commit	9f21259b07fcb52c45837bcb569b6888ab7f1073
+inkscape	commit	e3e065f6c4ab3c43fa36633db3f496445052b95b
 inxi	release	3.3.40.1
 inxi	commit	20451ca41fe61723250bb0d8f2ba2ec708719b90
 iputils	release	20250605
@@ -377,7 +377,7 @@ jasper	commit	7576bf0e4d5b25fac4bf0a8607aa451eb3ccb4a7
 jbig2dec	release	0.20
 jbig2dec	commit	d915733ec69260c1fd2c458b06835cb57bb85ac7
 jdk	unstable	27.3
-jdk	release	25.u36
+jdk	release	26.u29
 jdk	21	21.0.10.u6
 jdk	17	17.0.18.u7
 jdk	11	11.0.31.u0
@@ -648,6 +648,9 @@ libyaml	release	0.2.5
 libyaml	commit	840b65c40675e2d06bf40405ad3f12dec7f35923
 libzip	release	1.11.4
 libzip	commit	a1364389320754b437234c30989e37e1881b4fef
+lighttpd	release	1.4.82
+lighttpd	commit	e4cea1bf7f092e37e607e35c3872a167c5ced3e3
+lighttpd	2-commit	42018b01eb8d6156efc182fc6771e87b9a24af5e
 limine	release	10.6.0
 limine	commit	388df810865879f75f0be300a24d149f39b85834
 linux	release	6.18.2
@@ -660,7 +663,7 @@ little-cms	release	2.17
 little-cms	commit	23994d72c6323ca466cff85765b08011a2ec0bac
 llvm	release	21.1.8
 llvm	unstable	21.1.8
-llvm	commit	6f0d05f7c96a6c5eff716ee820c49aed18e091ad
+llvm	commit	e2e2c50bebc03d2e70eb1b33827cf6258496ed2c
 lm-sensors	release	3.6.2
 lm-sensors	commit	c297368a0e4b0442fca06bae58a0bd3386629af0
 lmdb	release	0.9.33
@@ -711,7 +714,7 @@ mpd	release	0.24.6
 mpd	commit	cc1308a1f548353b467a39a2930bc9d1aaf2e862
 mpdecimal	release	4.0.1
 mpfr	release	4.2.2
-mpfr	commit	8288743fb20db6102f42f4fd81e7c88b0fecde9a
+mpfr	commit	bb962f6d9329d73a75ead1fb8e34ef21d3f78779
 mpg123	release	1.33.4
 mpv	release	0.41.0
 mpv	commit	f57c5ca422aa3b30d4a746dbad542667936b07ca
@@ -735,7 +738,7 @@ ncurses	unstable	6.6.20251231
 neofetch	release	7.1.0
 neofetch	commit	ccd5d9f52609bbdcd5d8fa78c4fdb0f12954125f
 neovim	release	0.11.5
-neovim	commit	0f9aae20ec60262822ffd6a2a565628e20f4bcea
+neovim	commit	1c96140b1a608020bfcee5f5ad73b2179e31b057
 netcat	release	1.234.1
 netcat	commit	37b4f2cf889e4e18eadbe2c7eb57dc0eda3fc580
 nettle	release	3.10.2
@@ -901,7 +904,7 @@ rubberband	release	4.0.0
 rubberband	commit	e4296ac80b1170018a110bc326fd0d45a0eb27d6
 rust	release	1.92.0
 rust	nightly	2026-01-01
-rust	commit	48622726c4a91c87bf6cd4dbe1000c95df59906e
+rust	commit	6e48b44e77d117d84ff3c340368dea3064117559
 samurai	release	1.2
 samurai	commit	737f702fed670acb25e5e70b4b802690df7a4a8b
 scdoc	release	1.11.4
@@ -913,9 +916,9 @@ scour	commit	0609c596766ec98e4e2092b49bd03b802702ba1a
 sdbus-cpp	release	2.2.1
 sdbus-cpp	commit	6715ef1fc3e9c0a9045ef57f981407fa8168ac02
 sdl	release	3.4.0
-sdl	commit	a962f40bbba175e9716557a25d5d7965f134a3d3
-sdl2-compat	release	2.32.60
-sdl2-compat	commit	f1ff620204263dbff6a6557662dc0e0901841d56
+sdl	commit	d15ecb21bead102489cb2180ac48a43dfe2e2676
+sdl2-compat	release	2.32.62
+sdl2-compat	commit	0846ba29413339352e2384b9a56ea04130039a18
 seatd	release	0.9.1
 seatd	commit	99b8e39faf2b92068ce2572a54391c136c48d101
 sed	release	4.9
@@ -1038,8 +1041,8 @@ util-macros	release	1.20.2
 util-macros	commit	a9d71e3fd8e6758b70be31c586921bbbcd2a8449
 vala	release	0.56.18
 vala	commit	d680994c54dd34b8bd3bd808f0023be19ea647da
-vat	release	2.9.1
-vat	commit	469ca8d47607a4fa69b64e77348820e409a09f2f
+vat	release	2.9.2
+vat	commit	31977e288e9c5c69a3b6fd8b34b267392f5bfb88
 versort	release	0.2.3
 versort	commit	93f1263f3c95e10df1484732c64c727503d5430e
 vim	release	9.1.2035
@@ -1053,7 +1056,7 @@ vulkan-loader	release	1.4.337
 vulkan-loader	sdk	1.4.335.0
 vulkan-loader	commit	69e84021a1f5912706f94dd8ff3bf217d780398e
 wayfire	release	0.10.1
-wayfire	commit	86fe042b65f9ce9ae148e66c20e9267f626e9c55
+wayfire	commit	0bdb2e0616ed6db46def6276ecba694a290b7eac
 wayfire-plugins-extra	release	0.10.0
 wayfire-plugins-extra	commit	439a9b4dc66f1174f97e0db18b15726751fbf6d1
 wayland	release	1.24.0
