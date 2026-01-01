@@ -1,2 +1,2 @@
-release	25.3.2
-commit	369a3b22b494aecc2ad241b9d66f2d877fcafc18
+release	25.3.3
+commit	27dcc2b9493b2ecc180b8a953271b39d3fffbc02
