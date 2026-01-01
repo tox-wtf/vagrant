@@ -1,2 +1,2 @@
-release	3.2.28
-commit	9698e20399176a04bd01102ddaf44d73c9c8a33e
+release	3.4.0
+commit	a962f40bbba175e9716557a25d5d7965f134a3d3
