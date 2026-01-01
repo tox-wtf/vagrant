@@ -1,2 +1,2 @@
 release	1.10.6
-commit	0ddbca0d731a0fe7e90400e62f11c8d8baf5e62c
+commit	d08be3e1015924892e9f70d6ef3a30aacdb6d130
