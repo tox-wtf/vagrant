@@ -1,2 +1,2 @@
-release	2025.12.01
+release	2026.01.01
 commit	e3bdd5e75581e2b46d93343ec98594f3c89669c0
