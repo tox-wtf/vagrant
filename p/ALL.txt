@@ -127,12 +127,12 @@ cups-filters	release	2.0.1
 cups-filters	commit	956283c74a34ae924266a2a63f8e5f529a1abd06
 curl	release	8.17.0
 curl	unstable	8.17.0
-curl	commit	27ffb81a58d067b24e34a3d5b9e8b939f5dd8094
+curl	commit	ae1597c312d7614ac7a8be627fff0961c8e26e3c
 cyrus-sasl	release	2.1.28
 cyrus-sasl	commit	ac0c278817a082c625c496ec812318c019e0b96f
 cython	release	3.2.3
 cython	unstable	3.2.3
-cython	commit	f9519726a7dfe74ce4b10904848fdb611c03b656
+cython	commit	39e91338cb0ed8b43fc748f9ce0dc5d296696d90
 dash	release	0.5.13
 dash	commit	5139d6a27763fc0be386e15634db21e45598b299
 dbus	release	1.16.2
@@ -160,7 +160,7 @@ dosfstools	commit	289a48b9cb5b3c589391d28aa2515c325c932c7a
 double-conversion	release	3.4.0
 double-conversion	commit	50063989fc1bde19cb69302d8005e6fb4f99f64c
 doxygen	release	1.15.0
-doxygen	commit	2cc77a090bcdb513010fcf9cab1addf59abcb78f
+doxygen	commit	c07695597cc6ad40aa39c4f6d64b6620535a6849
 dtc	release	1.7.2
 dtc	commit	194ac9422ac956e7b1f0dd43649a169bbbf86c58
 duktape	release	2.7.0
@@ -192,7 +192,7 @@ elogind	release	255.17
 elogind	unstable	257-pre
 elogind	commit	88c346cdc5ef231465552de9c55332fd9d2c408b
 emacs	release	30.2
-emacs	commit	e09990891ffac9fa20385a8a38a18edf2e27d246
+emacs	commit	b51c95c1c73a1b45c81cd2e076af75c0bba9e110
 enchant	release	2.8.14
 enchant	commit	ce3f4d3278aa6b8c7857bec9f10fa0d5b2152758
 entr	release	5.7
@@ -233,7 +233,7 @@ flex	commit	bf254c75b1e0d2641ebbd7fc85fb183f36a62ea7
 flit	release	3.12.0
 flit	commit	25e602763ef129de9b8006a913f81ee4ce6ec67a
 floorp	release	12.9.2
-floorp	commit	25a7170025e6f8e97750df74a1c7a1d5361978f0
+floorp	commit	ca2b723e0ffeb8c8dc0d8f30a12106fee8defacb
 fmt	release	12.1.0
 fmt	commit	bf3babfd7c0d4cc8eeef05781512fedf61955ac2
 font-util	release	1.4.1
@@ -283,7 +283,7 @@ glew	release	2.3.0
 glew	commit	24ec9e49a8d92cec92068ac9b07baec924f2fd7d
 glib	release	2.86.3
 glib	unstable	2.87.1
-glib	commit	b5698589e2053e88a0fd5976079276e735c2ae58
+glib	commit	28fe3105e300720e29efc7be0b0fc0d1da2f2212
 glib-networking	release	2.80.1
 glib-networking	unstable	2.80.1
 glib-networking	commit	d9f2e67e755516027ab00066dcadf82b4f2ac88e
@@ -291,7 +291,7 @@ glibc	release	2.42
 glibc	unstable	2.42.9000
 glibc	commit	2e9ed6f045ddca7e835cb07f8298426de73920be
 glm	release	1.0.3
-glm	commit	2436fe76714d80a0a9b6dda43a186e48eae02abd
+glm	commit	b1fed407864225653dae04674f04014c92287a26
 glslang	release	16.1.0
 glslang	sdk	1.4.335.0
 glslang	commit	1399733f1b769b98a90e9a354892bfeaf62bbffa
@@ -452,7 +452,7 @@ libfontenc	release	1.1.8
 libfontenc	commit	dcdbcce903ee49200040c0da092b45253c20c6df
 libfuse	release	3.18.1
 libfuse	2	2.9.9
-libfuse	commit	8fd68792ae578ebe7abebe48f752a1c3bd5a1d01
+libfuse	commit	6278995cca991978abd25ebb2c20ebd3fc9e8a13
 libgbm	release	1.0.4
 libgbm	commit	04abbb632d371c5b78da0b7a15d801728899c131
 libgcrypt	release	1.11.2
@@ -540,7 +540,7 @@ libspng	commit	adc94393dbeddf9e027d1b2dfff7c1bab975224e
 libsrtp	release	2.7.0
 libsrtp	commit	c26095605bb542feb120b9a336c3bceea28d99cf
 libssh2	release	1.11.1
-libssh2	commit	fdbc32b0d1dcf53e5798839daa1c97e1ddb58859
+libssh2	commit	eeaf29bae86bdcbaddacff2b44a55c7d6148e9ad
 libtasn1	release	4.20.0
 libtasn1	commit	a3d48c2d9845e54e099769242366d47c09c8464e
 libtiff	release	4.7.1
@@ -654,8 +654,8 @@ lighttpd	release	1.4.82
 lighttpd	commit	e4cea1bf7f092e37e607e35c3872a167c5ced3e3
 lighttpd	2-commit	42018b01eb8d6156efc182fc6771e87b9a24af5e
 limine	release	10.6.0
-limine	commit	388df810865879f75f0be300a24d149f39b85834
-linux	release	6.18.2
+limine	commit	b72fd29274ac8d299ad923db800053e8711eb193
+linux	release	6.18.3
 linux	mainline	6.19-rc3
 linux	next	next-20251219
 linux	commit	b69053dd3ffbc0d2dedbbc86182cdef6f641fe1b
@@ -665,7 +665,7 @@ little-cms	release	2.17
 little-cms	commit	23994d72c6323ca466cff85765b08011a2ec0bac
 llvm	release	21.1.8
 llvm	unstable	21.1.8
-llvm	commit	6055f87d20ce97700c665dfc993a3bf35ca51df6
+llvm	commit	6271978c7b4d75086c0fb3efed9f4c3958ff719c
 lm-sensors	release	3.6.2
 lm-sensors	commit	c297368a0e4b0442fca06bae58a0bd3386629af0
 lmdb	release	0.9.33
@@ -700,7 +700,7 @@ mbedtls	release	4.0.0
 mbedtls	commit	da7aa7678c042a53b686ec001682bba4394f9be9
 mercurial	release	7.1.2
 mesa	release	25.3.3
-mesa	commit	2e63aa11910ef10ff110c60d254f586468a68bd5
+mesa	commit	96d19c250c39c5663e076aaa16ba549980a2702c
 mesa-demos	release	9.0.0
 mesa-demos	commit	cba8da1f87b264d0906ba3f4320db0368916decd
 meson	release	1.10.0
@@ -723,7 +723,7 @@ mpv	commit	72efbfd009a2b3259055133d74b88c81b1115ae1
 mtdev	release	1.1.7
 mtdev	commit	9035c2225494b80b02e985fc7ee77880e0bd6993
 muon	release	0.5.0
-muon	commit	d9b244a617346c3a7cd4d34f6dc3df7d2ec39bb9
+muon	commit	5384c53770ccea5b4744f96e94694e8077e85969
 mupdf	release	1.27.0
 mupdf	commit	8bf8b3f547b3d79baef42fe6d78f4a406435118f
 nano	release	8.7
@@ -756,7 +756,7 @@ niri	commit	cf0b4bc0ca93ab5c18b562ada1d8609b67b3c4e3
 nlohmann-json	release	3.12.0
 nlohmann-json	commit	515d994acbac04e0efa41db21e0d16591f6f97c9
 nodejs	release	25.2.1
-nodejs	commit	0457bfee2c25987570e3dca2ebe07332de7d0795
+nodejs	commit	3518af036c7446e91a34f89811a3f4b7199bb5ba
 noise-suppression-for-voice	release	1.10
 noise-suppression-for-voice	commit	9c4e5c28d8950e2cef837d8a0abd36c2fd9b5c2d
 noto-cjk	commit	f8d157532fbfaeda587e826d4cd5b21a49186f7c
@@ -770,7 +770,7 @@ nss	commit	213eff47d0697b06a123d954db4ce2fd46e5bd1a
 numpy	release	2.4.0
 numpy	commit	917b5f530d8636151a707005d5552cdbddda068b
 nushell	release	0.109.1
-nushell	commit	37287284b955bfaf194c4295cad5317e34a3b277
+nushell	commit	96e053e97dcaa106d9954ae1c59190eeb6a2ca4c
 nv-codec-headers	release	13.0.19.0
 nv-codec-headers	commit	876af32a202d0de83bd1d36fe74ee0f7fcf86b0d
 nvchecker	release	2.20
@@ -856,7 +856,7 @@ py/build	commit	a40623b20de5d29c80b569283191d65e630f4fc0
 py/platformdirs	release	4.5.1
 py/platformdirs	commit	dfcf9c561a49a1c2ccc32c75c7d6827b1f4262e0
 py/structlog	release	25.5.0
-py/structlog	commit	19d6987e21b5a42c432c02ff08e0e62e83a2f669
+py/structlog	commit	615af520e451a987fccf12981f384464a07b4952
 py/toml	release	0.10.2
 py/toml	commit	65bab7582ce14c55cdeec2244c65ea23039c9e6f
 pycurl	release	7.45.7
@@ -867,7 +867,7 @@ pyserial	release	3.5
 pyserial	commit	911a0b8c110f3d3513bab67e64d95d1310517454
 python	release	3.14.2
 python	unstable	3.15.0a3
-python	commit	61fc72a4a431cbfd42f22e2af76177c73431c3e6
+python	commit	8a2deea1fc725f8147254f87c6042fcf75a1d03b
 pyyaml	release	6.0.3
 pyyaml	commit	d51d8a138f7230834fc6e95635ff09ebd329185f
 qemu	release	10.2.0
@@ -876,7 +876,7 @@ qr-code-generator	release	1.8.0
 qr-code-generator	commit	2c9044de6b049ca25cb3cd1649ed7e27aa055138
 qt	release	6.10.1
 qt	5	5.15.18
-qt	commit	47411014356f47154507818c23dea8dc941de006
+qt	commit	0ee5978de58b5c6956455a130329d3226bf290fe
 quickshell	release	0.2.1
 quickshell	commit	41828c4180fb921df7992a5405f5ff05d2ac2fff
 ratpoison	release	1.4.9
@@ -906,7 +906,7 @@ rubberband	release	4.0.0
 rubberband	commit	e4296ac80b1170018a110bc326fd0d45a0eb27d6
 rust	release	1.92.0
 rust	nightly	2026-01-02
-rust	commit	a47f4dfd7f496ed51a383c540497899f9e3f91b4
+rust	commit	bf6b5b9dedd3e95a2867555e3d780fc3ece11ff6
 samurai	release	1.2
 samurai	commit	737f702fed670acb25e5e70b4b802690df7a4a8b
 scdoc	release	1.11.4
@@ -987,7 +987,7 @@ sxwm	commit	f5d9381a86c2a0aada94e0da9a4fff79fdd057dc
 sysklogd	release	2.7.2
 sysklogd	commit	c1c3f253a8963c6e9e41fafcf9b888f3f5a34906
 systemd	release	259
-systemd	commit	2553c53730e3f4ea63c9a5e5c52db2f8b0cbf696
+systemd	commit	5fcca42f18e421867c6471e36cebf82daed33a89
 sysvinit	release	3.15
 sysvinit	commit	2da36cf51d4816438d5f944ec5e5d2f56f49e292
 tar	release	1.35
@@ -1045,11 +1045,11 @@ util-macros	commit	a9d71e3fd8e6758b70be31c586921bbbcd2a8449
 vala	release	0.56.18
 vala	commit	d680994c54dd34b8bd3bd808f0023be19ea647da
 vat	release	2.9.2
-vat	commit	38354a73a1eb06f2816129a0515d3261b3fcb9d0
+vat	commit	a5993601441c4c2c11a3fe628b13e0baf5fa86f3
 versort	release	0.2.3
 versort	commit	93f1263f3c95e10df1484732c64c727503d5430e
-vim	release	9.1.2037
-vim	commit	62d8f3dab5a0b30c31a8df86a973c5e59821a3f0
+vim	release	9.1.2041
+vim	commit	7f5c60b31e9f04beb149e256486eb69bfb47ad39
 vorbis	release	1.3.7
 vorbis	commit	2d79800b6751dddd4b8b4ad50832faa5ae2a00d9
 vulkan-headers	release	1.4.337
