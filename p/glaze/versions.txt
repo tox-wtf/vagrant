@@ -1,2 +1,2 @@
-release	6.4.1
+release	6.5.0
 commit	69684df2e0cd836cb23fcff75c9a23eddc48611c
