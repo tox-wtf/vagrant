@@ -1,2 +1,2 @@
 release	2.6.0
-commit	e6f9ae8f18efb0d5f66f7be95f6d784f32109503
+commit	7c3fb80adcb2a41f15267edcfb73200a3f3e1f78
