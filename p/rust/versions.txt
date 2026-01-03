@@ -1,3 +1,3 @@
 release	1.92.0
 nightly	2026-01-03
-commit	4c3310a6db02750ff0cfd0def09dd05c5942d723
+commit	1d22b964dfa858eeb7a74ee3d8c06adfcd79d702
