@@ -350,7 +350,7 @@
       },
       {
         "channel": "commit",
-        "version": "6d018a1f241a9d892e67f25cac1b5b119ae60a88"
+        "version": "beffb57e89902d080eace96a576458a99d09f938"
       }
     ]
   },
@@ -730,7 +730,7 @@
       },
       {
         "channel": "commit",
-        "version": "cf53158fa026aaf4a536c7da7ca2ded4923420e9"
+        "version": "f3c49b593d7bcc828757afaf045865071fb20fb7"
       }
     ]
   },
@@ -743,7 +743,7 @@
       },
       {
         "channel": "commit",
-        "version": "3424ae3efa8b487f6327773e6f0554d1bfb33191"
+        "version": "ae5ceffc1341463d0588ee982a32995338b09cad"
       }
     ]
   },
@@ -787,7 +787,7 @@
       },
       {
         "channel": "commit",
-        "version": "6a126107422cf4b0ca05ced7e1a61ab571ee878c"
+        "version": "0a13a1066b485778c0a91f46ab836f7a6699fbba"
       }
     ]
   },
@@ -860,7 +860,7 @@
       },
       {
         "channel": "commit",
-        "version": "a419d3f6aaa1326fbad22c3c4d0556c4cdc9203d"
+        "version": "803b1b18fc0753e1c18f3eefd30fc5e0f727d646"
       }
     ]
   },
@@ -1255,7 +1255,7 @@
       },
       {
         "channel": "commit",
-        "version": "bb43055ef08049fa3a1694b7769adbade762c17d"
+        "version": "be9371cde31fd2cc58f6469ac8cbaeb3cf31ebee"
       }
     ]
   },
@@ -1509,7 +1509,7 @@
       },
       {
         "channel": "commit",
-        "version": "975dae3adf0ce51718a2c008a38f9bcaf7845a10"
+        "version": "9f25b6baace1dd7045c661773d9107367224995d"
       }
     ]
   },
@@ -1603,7 +1603,7 @@
       },
       {
         "channel": "commit",
-        "version": "23b6cd27ff19b70cbf98e058cd2cf0647d5284ff"
+        "version": "fc85a255849229c024c8e65f536fe1875d84841c"
       }
     ]
   },
@@ -1655,7 +1655,7 @@
       },
       {
         "channel": "commit",
-        "version": "e6c378fa5200cd8eb8b4356ef33e88fd13ee5436"
+        "version": "882d2e6c3584f6844359a50239813fb447dcb20e"
       }
     ]
   },
@@ -1799,7 +1799,7 @@
       },
       {
         "channel": "commit",
-        "version": "f7b09869fd8f055542dd6bad08b4fd272c2a2d53"
+        "version": "b8cfb3cce0bfab1db22e4cc8ddf6a07cb7b46866"
       }
     ]
   },
@@ -1966,7 +1966,7 @@
       },
       {
         "channel": "commit",
-        "version": "e84983fa40a6e97d3e169f1f3549af889b1b1f22"
+        "version": "f8ee0f84753b22254d217bf28ce8ecca7db7025c"
       }
     ]
   },
@@ -2110,7 +2110,7 @@
       },
       {
         "channel": "commit",
-        "version": "526770f1f1e2a51e8727610b46e3ad4f0317d9a8"
+        "version": "9f954a25ed0e630a231c967d966d2abb9f192a27"
       },
       {
         "channel": "2",
@@ -2300,7 +2300,7 @@
       },
       {
         "channel": "commit",
-        "version": "3a7c6b857014bbfdf1c267fa9c551e6a273dc775"
+        "version": "d2e64be93163a1248c587fcbd720c57b048a5ac9"
       }
     ]
   },
@@ -4282,7 +4282,7 @@
       },
       {
         "channel": "commit",
-        "version": "e9b2b21f746d363dc15107b0828400309804eb70"
+        "version": "48a986839bc81c27afac2599ca057b7a5b1b5d1c"
       }
     ]
   },
@@ -4896,7 +4896,7 @@
       },
       {
         "channel": "commit",
-        "version": "ae5cbdae561cf8255df68ddf388bc2ff0b91b624"
+        "version": "95852d71568af81ff740c226635ea1b5aafb70a1"
       }
     ]
   },
@@ -5027,7 +5027,7 @@
     "versions": [
       {
         "channel": "release",
-        "version": "580.119.02"
+        "version": "580.105.08"
       }
     ]
   },
@@ -5135,7 +5135,7 @@
       },
       {
         "channel": "commit",
-        "version": "7d32bf24d5f7ec64157ecfec908e82d03976d2ed"
+        "version": "1464d5fd062ea50be3bbfa0565f54f0da765855f"
       }
     ]
   },
@@ -5360,7 +5360,7 @@
       },
       {
         "channel": "commit",
-        "version": "93e085d1443685e797c505b3990e1cad5b79be8b"
+        "version": "3bc327655b1061871995749dfe42bbd016cefdb4"
       }
     ]
   },
@@ -5460,7 +5460,7 @@
       },
       {
         "channel": "commit",
-        "version": "96c03bac519f18bdc85a4eaf4740e467c5f8195b"
+        "version": "7425a3929cc80885dba77237a17fe472eed4b88a"
       }
     ]
   },
@@ -5620,7 +5620,7 @@
       },
       {
         "channel": "commit",
-        "version": "b538c2832d582a428a6f4ddc818680c5e05a0745"
+        "version": "abdbe0b80724c5d12886b78ec0959b05b7352f9d"
       }
     ]
   },
@@ -5676,7 +5676,7 @@
       },
       {
         "channel": "commit",
-        "version": "dc44d23814cdb486baf31875fe9ed8efcf799a04"
+        "version": "58d3298c93d56065147aea7b6d7c518673e4c053"
       }
     ]
   },
@@ -5871,7 +5871,7 @@
       },
       {
         "channel": "commit",
-        "version": "85c8ff69cb3efd950395cc444a54bbbdad668865"
+        "version": "50d59402bfb82a7fcdf542ed418affe425ff867e"
       }
     ]
   },
@@ -5949,7 +5949,7 @@
       },
       {
         "channel": "commit",
-        "version": "3ee8d1406c1068eeeffd8e5662e69b96fa50f5a7"
+        "version": "24156f5471b8edcbcf7c446b2405bc3597cbe212"
       }
     ]
   },
@@ -6782,7 +6782,7 @@
       },
       {
         "channel": "commit",
-        "version": "88449562fd55ea4bdd4f7ad2f83f82585c236938"
+        "version": "61a34c19a2ff12fc7e3278eafe807dcb583a6802"
       }
     ]
   },
