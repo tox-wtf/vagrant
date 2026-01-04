@@ -1,2 +1,2 @@
 release	2.4.0
-commit	a706cebe0d93daa6afd6cb6f622fbf0017821fab
+commit	fabb52c4629ccc2766527403116f3805b969ec94
