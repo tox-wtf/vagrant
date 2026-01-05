@@ -1,3 +1,3 @@
 release	1.92.0
-nightly	2026-01-04
-commit	5afdf5d8c0377d6babd2504986982b5e5d724798
+nightly	2026-01-05
+commit	451b7b6c775a2378fd18d2560bbfb31c3695d1cc
