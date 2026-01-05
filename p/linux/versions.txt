@@ -1,4 +1,4 @@
 release	6.18.3
 mainline	6.19-rc3
 next	next-20251219
-commit	54e82e93ca93e49cb4c33988adec5c8cb9d0df31
+commit	3609fa95fb0f2c1b099e69e56634edb8fc03f87c
