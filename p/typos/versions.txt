@@ -1,3 +1,3 @@
-unstable	1.41.0
-release	1.41.0
-commit	5c19779cb52ea50e151f5a10333ccd269227b5ae
+unstable	1.42.0
+release	1.42.0
+commit	bb4666ad77b539a6b4ce4eda7ebb6de553704021
