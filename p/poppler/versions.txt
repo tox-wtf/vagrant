@@ -1,2 +1,2 @@
-release	25.12.0
-commit	ed8d19eab3784e75bd9169ed8559d04b2f442de7
+release	26.01.0
+commit	a956f036584161a23958ba5886e5d1d43d9404ff
