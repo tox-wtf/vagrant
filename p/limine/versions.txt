@@ -1,2 +1,2 @@
-release	10.6.0
-commit	0602546ad25b3de25e9deeb40aff7950223b2ee1
+release	10.6.2
+commit	ecc7d12db3a8488b51c61aff2957ab2725a8f77d
