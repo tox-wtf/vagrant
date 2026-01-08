@@ -8,7 +8,7 @@
 Vat aggregates and tracks arbitrarily many versions for a collection of
 packages. Though designed with Linux From Scratch maintenance in mind, Vat
 is adaptable to most tasks requiring version fetching. The version database is
-updated every ~6 hours.
+updated every ~6 hours (as long as my server doesn't randomly go offline).
 
 Feature set:
 - Standard and arbitrary version channels
