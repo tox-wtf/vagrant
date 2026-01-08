@@ -1,2 +1,2 @@
-release	9.4
-commit	fe2e171fa171381df07a519920a5c67c05d6dc11
+release	10.0.1
+commit	3e5990f8ecc6e38a9a1a27a0e4c460cd841ebcad
