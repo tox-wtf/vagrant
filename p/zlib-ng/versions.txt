@@ -1,2 +1,2 @@
 release	2.3.2
-commit	e2ecd2665b8ddf5eadae6925c0f0c2f2da86fed3
+commit	6bb27e3726010be652d33497995abdb915460db5
