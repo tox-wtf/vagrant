@@ -1,2 +1,2 @@
-release	1.5.1
-commit	d841294993c03b530d7be7694204993c3e8e9c58
+release	1.5.3
+commit	b85063f5d38b0082dbf4df8e9c4e9c39ab049ab0
