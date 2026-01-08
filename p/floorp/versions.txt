@@ -1,2 +1,2 @@
-release	12.9.2
-commit	2e7217abffd362572832772cb6c5d369c546fddf
+release	12.10.1
+commit	7f4d41db485e43c78d2ac60aaeb624e6b66b4a77
