@@ -1,4 +1,4 @@
-release	6.18.3
+release	6.18.4
 mainline	6.19-rc4
-next	next-20260108
-commit	f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1
+next	next-20260109
+commit	372800cb95a35a7c40a07e2e0f7de4ce6786d230

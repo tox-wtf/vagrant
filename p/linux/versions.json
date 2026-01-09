@@ -1,7 +1,7 @@
 [
   {
     "channel": "release",
-    "version": "6.18.3"
+    "version": "6.18.4"
   },
   {
     "channel": "mainline",
@@ -9,10 +9,10 @@
   },
   {
     "channel": "next",
-    "version": "next-20260108"
+    "version": "next-20260109"
   },
   {
     "channel": "commit",
-    "version": "f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1"
+    "version": "372800cb95a35a7c40a07e2e0f7de4ce6786d230"
   }
 ]
