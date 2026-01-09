@@ -1,11 +1,11 @@
 [
   {
     "channel": "unstable",
-    "version": "27.3"
+    "version": "27.4"
   },
   {
     "channel": "release",
-    "version": "26.u29"
+    "version": "26.u30"
   },
   {
     "channel": "21",
