@@ -1,2 +1,2 @@
-release	1.2.3
-commit	6c20fae3e8bc63922e2f97dae1bdcf1512b1a255
+release	1.2.4
+commit	709b87e1370217f0bb0f19523f05deb38ef4328d
