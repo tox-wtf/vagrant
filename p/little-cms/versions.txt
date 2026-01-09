@@ -1,2 +1,2 @@
-release	2.17
-commit	d6ed3248a4bb69440cb264314bebb2d95348993c
+release	2.18
+commit	35b57af4e1a4d6d7a40ba188f9f4efb7857ff511
