@@ -1,2 +1,2 @@
-release	2.4.0
-commit	36b7375b6487fcde44c4170db41d2a10726b1d01
+release	2.4.1
+commit	b91f4568c86beafb0337e33cdb982a16a2fca64e
