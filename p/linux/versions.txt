@@ -1,4 +1,4 @@
 release	6.18.4
 mainline	6.19-rc4
 next	next-20260109
-commit	372800cb95a35a7c40a07e2e0f7de4ce6786d230
+commit	b6151c4e60e5f695fac8b5c3e011cfcfd6e27cba
