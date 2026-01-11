@@ -1,2 +1,2 @@
-release	6.5.1
-commit	825fadd884ea4332d69ccd79271a6bab92a989de
+release	7.0.0
+commit	407c0cce7da85b2fff323ff8e676b81d50a2d4cb
