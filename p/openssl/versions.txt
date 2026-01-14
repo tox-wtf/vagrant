@@ -1,2 +1,2 @@
 release	3.6.0
-commit	175cda569df9a0188f388ee3afe87c26eaa77f25
+commit	7e535fe6b16f3551252b336f911cee190ff4a4a6
