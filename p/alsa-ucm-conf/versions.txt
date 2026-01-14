@@ -1,2 +1,2 @@
-release	1.2.15.2
-commit	aab54b958352bffc100ea0fd89075c8bc9b674a8
+release	1.2.15.3
+commit	858d3a2443c66a7d5a2b5598308619237e8fc75d
