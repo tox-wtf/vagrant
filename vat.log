@@ -1,1825 +1,255 @@
-   0.054  INFO Fetched versions for grep
-        - release: 3.12
-
-   0.085  INFO Fetched versions for kbd
-        - release: 2.9.0
-        - commit: 2f9a4e56c2ef245fbe840677aad9d5932e17f50d
-
-   0.088  INFO Fetched versions for libmspack
-        - release: 1.11
-        - commit: 305907723a4e7ab2018e58040059ffb5e77db837
-
-   0.089  INFO Fetched versions for dash
-        - release: 0.5.13
-        - commit: 5139d6a27763fc0be386e15634db21e45598b299
-
-   0.094  INFO Fetched versions for apr
-        - release: 1.7.6
-        - commit: e461da5864fdd2fca6a15ec8d6c42d7f67c5f199
-
-   0.098  INFO Fetched versions for 7zip
+   0.332  INFO Fetched versions for 7zip
         - release: 25.01
         - commit: 5e96a8279489832924056b1fa82f29d5837c9469
 
-   0.099  INFO Fetched versions for cups-browsed
-        - release: 2.1.1
-        - commit: 055bc62a27487d3efed451f9142403d7d3af4486
-
-   0.101  INFO Fetched versions for appstream
-        - release: 1.1.1
-        - commit: 37ba617e2b46d8ce5311251defa28183f4533c4e
-
-   0.102  INFO Fetched versions for libtool
-        - release: 2.6.0
-        - commit: 97998eb82af095abc1dfff68281cc045b4f1cc9a
-
-   0.103  INFO Fetched versions for protobuf
-        - release: 33.3
-        - commit: f34bc471fc53b40c989337215c0a5b81e5a691b5
-
-   0.106  INFO Fetched versions for seatd
-        - release: 0.9.2
-        - commit: a3c56c324c3a84474cc1615d94ccd6a6255d0c10
-
-   0.108  INFO Fetched versions for libdisplay-info
-        - release: 0.3.0
-        - commit: 73ec53d800275cce4b8a4af6af03ea2aac9912fd
-
-   0.110  INFO Fetched versions for grub
-        - release: 2.12
-
-   0.112  INFO Fetched versions for libconfig
-        - release: 1.8.2
-        - commit: a42cb47c1526a4f2ed025fcbb2289863375bc898
-
-   0.123  INFO Fetched versions for btop
-        - release: 1.4.6
-        - commit: 39f8ebe13395cd8f71596940ec07edc73c96db9a
-
-   0.127  INFO Fetched versions for double-conversion
+   0.346  INFO Fetched versions for double-conversion
         - release: 3.4.0
         - commit: 50063989fc1bde19cb69302d8005e6fb4f99f64c
 
-   0.128  INFO Fetched versions for autoconf
-        - release: 2.72
-        - commit: 9513bc15f75b4ed14848dd52390eb11063ef038e
-
-   0.131  INFO Fetched versions for numpy
-        - release: 2.4.1
-        - commit: 89776e23e188438637b636651ff3ce0df4bd2097
-
-   0.133  INFO Fetched versions for libnotify
-        - release: 0.8.8
-        - commit: 8b35b6b74e4af71a20b024330b71ce0daf6c022f
-
-   0.137  INFO Fetched versions for libplacebo
-        - release: 7.351.0
-        - commit: 591c7b1281d71af45c4bfbaab2d29d37508acb74
-
-   0.139  INFO Fetched versions for aquamarine
-        - release: 0.10.0
-        - commit: 534c88e2f20ee728123464dba28c441d55be14c3
-
-   0.141  INFO Fetched versions for ksh
-        - release: 1.0.10
-        - commit: 0f6866b6bebc26d003acb6f467d0694a8aea5177
-
-   0.156  INFO Fetched versions for floorp
-        - release: 12.10.1
-        - commit: 5ed08e9b896ec0121584136c24083ab343bfae19
-
-   0.159  INFO Fetched versions for libass
-        - release: 0.17.4
-        - commit: fadc390583f24eb5cf98f16925fd3adee50bca88
-
-   0.161  INFO Fetched versions for readline
-        - release: 8.3
-        - unstable: 8.3
-
-   0.162  INFO Fetched versions for cuda
-        - release: 13.1.0
-
-   0.163  INFO Fetched versions for libidn
-        - release: 2.3.8
-        - commit: 482bc1fc2e701a27f5bc657a0fd0f6a75820109f
-        - 1: 1.43
-
-   0.168  INFO Fetched versions for aspell
-        - release: 0.60.8.1
-
-   0.171  INFO Fetched versions for cssselect
-        - release: 1.3.0
-        - commit: 439ad91e8911e4b366945d1c9eea8db93dd5d368
-
-   0.173  INFO Fetched versions for markupsafe
-        - release: 3.0.3
-        - commit: b2e4d9c7687be25695fffbe93a37622302b24fb1
-
-   0.185  INFO Fetched versions for rsync
-        - release: 3.4.1
-        - commit: 2a97d81e99f61519acd4a683a9605216df1f91d4
-
-   0.187  INFO Fetched versions for libxpresent
-        - release: 1.0.2
-        - commit: 4d92149372461bf575e8a09b1064a2884c38c3aa
-
-   0.194  INFO Fetched versions for automake
-        - release: 1.18.1
-
-   0.197  INFO Fetched versions for lame
-        - release: 3.100
-
-   0.201  INFO Fetched versions for apr-util
-        - release: 1.6.3
-        - commit: c9a9a77cbed92a50cdb30d3f88038d8c8271cc14
-
-   0.201  INFO Fetched versions for llvm
-        - release: 21.1.8
-        - unstable: 21.1.8
-        - commit: c726fff61cb3bd5a3a98c52bb63b99fcb3b25524
-
-   0.205  INFO Fetched versions for kmod
-        - release: 34.2
-        - commit: a403590f6e9f25216480abdb7e038257d706f17f
-
-   0.205  INFO Fetched versions for cups-filters
-        - release: 2.0.1
-        - commit: 956283c74a34ae924266a2a63f8e5f529a1abd06
-
-   0.216  INFO Fetched versions for libnftnl
-        - release: 1.3.1
-        - commit: 0f48d7638800bb48c863e6b7e5f2fe92972bb31c
-
-   0.219  INFO Fetched versions for libcupsfilters
-        - release: 2.1.1
-        - commit: a02c49054ff828772b9edea083a3fe58e90e9b15
-
-   0.224  INFO Fetched versions for less
-        - release: 685
-        - unstable: 691
-        - commit: ac365da87548deff920cb9ecc286de161c8e8a54
-
-   0.225  INFO Fetched versions for nushell
-        - release: 0.109.1
-        - commit: d5c341b3285f53c7ab671044f7dfdd441c4f5397
-
-   0.236  INFO Fetched versions for psmisc
-        - release: 23.7
-        - commit: f3b51bdc90b6b5cb610528cce3d8262a932d50f0
-
-   0.237  INFO Fetched versions for gsettings-desktop-schemas
-        - release: 49.1
-        - commit: 4278209e6a506dfc795afbf7c75043d64cf6c521
-
-   0.238  INFO Fetched versions for libpng
-        - release: 1.6.53
-        - commit: 0f07f70aa55e4771d00b0f8a238dca992fbb60e4
-
-   0.239  INFO Fetched versions for btrfs-progs
-        - release: 6.17.1
-        - commit: 79c154a3ab313f877886e06479fe6058ecdd2d53
-
-   0.240  INFO Fetched versions for befunge-93
-        - release: 2.25
-        - commit: 8fe4065c0415b6f6fa6f699798fa9b64737aadc1
-
-   0.261  INFO Fetched versions for fmt
-        - release: 12.1.0
-        - commit: 0e078f6ed0624be8babc43bd145371d9f3a08aab
-
-   0.266  INFO Fetched versions for libnsl
-        - release: 2.0.1
-        - commit: d6438ee1c45ef8161342b0e8e2c76a6184dbb0c5
-
-   0.268  INFO Fetched versions for libdrm
-        - release: 2.4.131
-        - commit: 369990d9660a387f618d0eedc341eb285016243b
-
-   0.272  INFO Fetched versions for doxygen
-        - release: 1.16.1
-        - commit: be35cfa67151fb669318efbbdc675799da68f495
-
-   0.272  INFO Fetched versions for libinput
-        - release: 1.30.1
-        - commit: 731d4452c33647b76217ce8f6b20e69f6cc355f3
-
-   0.273  INFO Fetched versions for lfstage
-        - commit: d2bcde008e1cc1633ed1a40a1cccaa079f083e99
-
-   0.280  INFO Fetched versions for libxrandr
-        - release: 1.5.4
-        - commit: 242fae8378b213f8e477bde1c4be2fb654201b3d
-
-   0.282  INFO Fetched versions for abseil-cpp
-        - unstable: 20260107.0
-        - release: 20260107.0
-        - commit: 83b229ada56b2d60ca46d6ed46172bf52a50081c
-
-   0.282  INFO Fetched versions for cups
-        - release: 2.4.16
-        - commit: 2f6411e489b58c57036e294c15bae1230843980e
-
-   0.288  INFO Fetched versions for mbedtls
-        - release: 4.0.0
-        - commit: f7173e4389e172589fb9f1d7b74853962023d4fa
-
-   0.295  INFO Fetched versions for libassuan
-        - release: 3.0.2
-        - commit: 515415b4e2ea1a49a410e2103fdbe45c59ce5c7f
-
-   0.296  INFO Fetched versions for rhash
-        - release: 1.4.6
-        - commit: b76c6a3312422c09817c2cef40442b2f2d9d4689
-
-   0.297  INFO Fetched versions for at-spi2-core
-        - release: 2.59.0
-        - commit: 754122feded18fd01cd1bc96373c412f14ac3974
-
-   0.300  INFO Fetched versions for byacc
-        - release: 2.0.20241231
-
-   0.308  INFO Fetched versions for libjxl
-        - release: 0.11.1
-        - commit: 53042ec537712e0df08709524f4df097d42174bc
-
-   0.310  INFO Fetched versions for nv-codec-headers
-        - release: 13.0.19.0
-        - commit: 876af32a202d0de83bd1d36fe74ee0f7fcf86b0d
-
-   0.311  INFO Fetched versions for lm-sensors
-        - release: 3.6.2
-        - commit: c297368a0e4b0442fca06bae58a0bd3386629af0
-
-   0.311  INFO Fetched versions for dbus
-        - release: 1.16.2
-        - unstable: 1.16.2
-        - commit: 4f5796a37dd303b6030127d20cba52c72523df79
-
-   0.311  INFO Fetched versions for rubberband
-        - release: 4.0.0
-        - commit: e4296ac80b1170018a110bc326fd0d45a0eb27d6
-
-   0.317  INFO Fetched versions for binutils
-        - release: 2.45.1
-
-   0.336  INFO Fetched versions for gsl
-        - release: 2.8
-
-   0.336  INFO Fetched versions for libnl
-        - release: 3.12.0
-        - commit: 655a638d4e1f74be9256a3108ae2abb84827a9ce
-
-   0.344  INFO Fetched versions for libppd
-        - release: 2.1.1
-        - commit: 262d25e4125337201b452b072c7aa4b0d70a98d0
-
-   0.345  INFO Fetched versions for sed
-        - release: 4.9
-
-   0.349  INFO Fetched versions for libpcap
-        - release: 1.10.6
-        - commit: d81c01c95a124405982812e16c2e34c5cfb3ab6a
-
-   0.349  INFO Fetched versions for libdatachannel
-        - release: 0.24.0
-        - commit: 99dadbde19552cc995a87bffe1ff71d5a6c459fa
-
-   0.354  INFO Fetched versions for pugixml
-        - release: 1.15
-        - commit: 710052066cc0a7210d7f554196ae43bd1cd9da3e
-
-   0.360  INFO Fetched versions for libepoxy
-        - release: 1.5.10
-        - commit: 1b6d7db184bb1a0d9af0e200e06a0331028eaaae
-
-   0.365  INFO Fetched versions for mercurial
-        - release: 7.1.2
-
-   0.367  INFO Fetched versions for lmdb
-        - release: 0.9.33
-
-   0.367  INFO Fetched versions for desktop-file-utils
-        - release: 0.28
-        - unstable: 0.28
-        - commit: 3c113f3ced7f7823ce6f06059f6803f3a65b79e2
-
-   0.370  INFO Fetched versions for bluefish
-        - release: 2.2.19
-
-   0.375  INFO Fetched versions for bind-utils
-        - release: 9.21.16
-        - unstable: 9.21.16
-
-   0.392  INFO Fetched versions for boost
-        - release: 1.90.0
-        - commit: 5ff06e94efb848ee689c12150a5fe4875558c6d2
-
-   0.394  INFO Fetched versions for curl
-        - release: 8.18.0
-        - unstable: 8.18.0
-        - commit: bd3b2a626a33434a1e9e83a1e8573ef2c8c65358
-
-   0.398  INFO Fetched versions for acl
-        - release: 2.3.2
-        - commit: 9053e722421454b115e699743a9b0a66808ab756
-
-   0.401  INFO Fetched versions for libksba
-        - release: 1.6.7
-        - commit: 2dd35bef663f5ba89260222299aabffd017c4bbd
-
-   0.403  INFO Fetched versions for rmpc
-        - release: 0.10.0
-        - commit: fc7280987117a1df7c74fdd1d20da3561cb05d3d
-
-   0.410  INFO Fetched versions for libxres
-        - release: 1.2.3
-        - commit: 30c789e5065f7af7d6a03c09e3ceb073ed810bdd
-
-   0.414  INFO Fetched versions for rip
-        - release: 1.1.0
-        - commit: ac8c794e94ae49e6a975153e0240dca2018357e0
-
-   0.421  INFO Fetched versions for nvchecker
-        - release: 2.20
-        - commit: 4c6efe1f2de2a5beb32bb993c4f45c69ba4c9afd
-
-   0.429  INFO Fetched versions for dtc
-        - release: 1.7.2
-        - commit: 9a1c801a1a3c102bf95c5339c9e985b26b823a21
-
-   0.432  INFO Fetched versions for libjpeg-turbo
-        - release: 3.1.3
-        - commit: 813425f735fcc8babccc1516dd214f77378dca5e
-
-   0.448  INFO Fetched versions for dbus-glib
-        - release: 0.114
-        - commit: 8c1e96ffcbf4f5d8fb576224ca3abda052131013
-
-   0.453  INFO Fetched versions for nvidia
-        - release: 580.119.02
-
-   0.454  INFO Fetched versions for libpsl
-        - release: 0.21.5
-        - commit: b87753fbe660316716569b64502b094085738949
-
-   0.455  INFO Fetched versions for font-util
-        - release: 1.4.1
-        - unstable: 1.4.1
-        - commit: 7af30077fc459e7fe3415ffa803583d7465a8a99
-
-   0.464  INFO Fetched versions for libpciaccess
-        - release: 0.18.1
-        - commit: 191dfe0707e2a93c08e4b3e99454b6146c5bfca2
-
-   0.469  INFO Fetched versions for libevdev
-        - release: 1.13.6
-        - commit: be44b6e6a83c31f259e16fa7e0dace57ff7c6af7
-
-   0.473  INFO Fetched versions for bottom
-        - release: 0.12.3
-        - commit: a53af4ed5144378ca337ad3563814322e72eac86
-
-   0.475  INFO Fetched versions for senpai
-        - release: 0.4.1
-        - commit: d89304820f80822c378b025afcf20b18a4fff8a3
-
-   0.476  INFO Fetched versions for lsb-tools
-        - release: 0.12
-        - commit: 813340a04f3ff807cf6dbec698586745f41e8762
-
-   0.477  INFO Fetched versions for gstreamer
-        - release: 1.27.50
-        - commit: bb7069bd6fff80e8599d6e79f3f000b83dbce4d6
-
-   0.476  INFO Fetched versions for pulseaudio
-        - release: 17.0
-        - commit: b096704c0d42c5e784deb781a07b23cfb5286a82
-
-   0.478  INFO Fetched versions for libaom
-        - release: 3.13.1
-        - unstable: 3.13.1
-        - commit: d6f220c2b0f627088e19b8f748812e05dc7bbf08
-
-   0.483  INFO Fetched versions for dhcpcd
-        - release: 10.3.0
-        - commit: 2c1db0494c401c3d8698ae3b57f352b798ac0eaa
-
-   0.487  INFO Fetched versions for pyparsing
-        - release: 3.3.1
-        - commit: 15d52d1a0759b034e1591aba9b63bf46d89ff5ce
-
-   0.488  INFO Fetched versions for gumbo-parser
-        - release: 0.13.2
-        - commit: 6dddad6503480afc1a1379187aa114415ac7e640
-
-   0.489  INFO Fetched versions for c-ares
-        - release: 1.34.6
-        - unstable: 1.34.6
-        - commit: 73bc590b8ee80b4eee8ae637f5089584b217f3b0
-
-   0.492  INFO Fetched versions for libdecor
-        - release: 0.2.5
-        - commit: 73fc377e13834010178919b182e738ea53f15c10
-
-   0.494  INFO Fetched versions for cyrus-sasl
-        - release: 2.1.28
-        - commit: ac0c278817a082c625c496ec812318c019e0b96f
-
-   0.499  INFO Fetched versions for libliftoff
-        - release: 0.5.0
-        - commit: 9114b1e4dc8646b8f6512518567477926922905e
-
-   0.501  INFO Fetched versions for inih
-        - release: 62
-        - unstable: 62
-        - commit: 8e06f6b77b5d4471bdc6d85ada81b67d37354a5c
-
-   0.524  INFO Fetched versions for rofi
-        - release: 2.0.0
-        - commit: 11bf5db2abbcc9cefe0ecf365083afba2b5a383e
-
-   0.527  INFO Fetched versions for elogind
+   0.398  INFO Fetched versions for floorp
+        - release: 12.10.2
+        - commit: c22f2150774aa451f4ef0497090a292e28e7e6cc
+
+   0.421  INFO Fetched versions for elogind
         - release: 255.17
         - unstable: 257-pre
         - commit: 88c346cdc5ef231465552de9c55332fd9d2c408b
 
-   0.533  INFO Fetched versions for ripgrep
-        - release: 15.1.0
-        - commit: 0a88cccd5188074de96f54a4b6b44a63971ac157
+   0.571  INFO Fetched versions for git
+        - release: 2.52.0
+        - unstable: 2.52.0
+        - commit: 8745eae506f700657882b9e32b2aa00f234a6fb6
 
-   0.540  INFO Fetched versions for rust
-        - release: 1.92.0
-        - nightly: 2026-01-11
-        - commit: b68e16cfc0e9f8b29c9ec41bfa6ab0a637eff19c
+   0.632  INFO Fetched versions for abseil-cpp
+        - unstable: 20260107.0
+        - release: 20260107.0
+        - commit: fa3783ec81cd53a77f5de34673db1e9216ac92af
 
-   0.541  INFO Fetched versions for libxscrnsaver
-        - release: 1.2.5
-        - commit: 60c957ba8a727d01b376da0142aef7e18aa86fe1
+   0.667  INFO Fetched versions for emacs
+        - release: 30.2
+        - commit: 986aaf06cda0bd1de0c20e3079d824a83e977b69
 
-   0.545  INFO Fetched versions for alacritty
+   0.727  INFO Fetched versions for fmt
+        - release: 12.1.0
+        - commit: 0e078f6ed0624be8babc43bd145371d9f3a08aab
+
+   0.804  INFO Fetched versions for glad
+        - release: 2.0.8
+        - commit: 27bed1181560211b55e39a9b132fef8c5846aae5
+
+   0.827  INFO Fetched versions for doxygen
+        - release: 1.16.1
+        - commit: be35cfa67151fb669318efbbdc675799da68f495
+
+   0.945  INFO Fetched versions for enchant
+        - release: 2.8.14
+        - commit: ce3f4d3278aa6b8c7857bec9f10fa0d5b2152758
+
+   1.009  INFO Fetched versions for alacritty
         - release: 0.16.1
         - commit: 6ee6e53ee3457c24137f117237b0ff1d84f6f836
 
-   0.547  INFO Fetched versions for libtree
-        - release: 3.1.1
-        - unstable: 3.1.1
-        - commit: 95d8992968a18ae957fef723f103b416d0843398
+   1.039  INFO Fetched versions for dtc
+        - release: 1.7.2
+        - commit: 9a1c801a1a3c102bf95c5339c9e985b26b823a21
 
-   0.548  INFO Fetched versions for dunst
+   1.062  INFO Fetched versions for libidn
+        - release: 2.3.8
+        - commit: 482bc1fc2e701a27f5bc657a0fd0f6a75820109f
+        - 1: 1.43
+
+   1.121  INFO Fetched versions for glaze
+        - release: 7.0.0
+        - commit: c8253ecba8c9f9b987425a2f44b7b23e69919417
+
+   1.147  INFO Fetched versions for entr
+        - release: 5.7
+        - commit: 81fb8966fd709b3d99996df644ee1c4c8492235d
+
+   1.210  INFO Fetched versions for alsa-lib
+        - release: 1.2.15.3
+        - commit: 75ed5f05babcae7515aff5277e038ffd854c7669
+
+   1.284  INFO Fetched versions for dunst
         - release: 1.13.0
         - commit: 4513804045df098683e67e2da2b04a348a2196fb
 
-   0.548  INFO Fetched versions for mesa
-        - release: 25.3.3
-        - commit: b4023532e3e546f8dff58f7a0464f9bb9c211bd7
+   1.298  INFO Fetched versions for grub
+        - release: 2.12
 
-   0.551  INFO Fetched versions for libjuice
+   1.334  INFO Fetched versions for glew
+        - release: 2.3.0
+        - commit: 24ec9e49a8d92cec92068ac9b07baec924f2fd7d
+
+   1.366  INFO Fetched versions for libxpresent
+        - release: 1.0.2
+        - commit: 4d92149372461bf575e8a09b1064a2884c38c3aa
+
+   1.428  INFO Fetched versions for alsa-plugins
+        - release: 1.2.12
+        - commit: 52574cb5ccbb8b546df2759e4b341a20332269b6
+
+   1.515  INFO Fetched versions for dust
+        - release: 1.2.4
+        - commit: 709b87e1370217f0bb0f19523f05deb38ef4328d
+
+   1.557  INFO Fetched versions for gsettings-desktop-schemas
+        - release: 49.1
+        - commit: ab5b93b7a75142800b779afe9b51d80fb6e55250
+
+   1.670  INFO Fetched versions for eza
+        - release: 0.23.4
+        - commit: 58b98cfa542fdd6ac5bba8fb13f077e9f6fd1f5b
+
+   1.686  INFO Fetched versions for alsa-ucm-conf
+        - release: 1.2.15.3
+        - commit: 858d3a2443c66a7d5a2b5598308619237e8fc75d
+
+   1.730  INFO Fetched versions for gsl
+        - release: 2.8
+
+   1.786  INFO Fetched versions for e2fsprogs
+        - release: 1.47.3
+        - commit: 0b2752ce6276b383a5254cd766204f81f41b6631
+
+   1.923  INFO Fetched versions for alsa-utils
+        - release: 1.2.15.2
+        - commit: ed63d017e0e94dbae9223caf0dae94fc94db18ca
+
+   1.928  INFO Fetched versions for ed
+        - release: 1.22.4
+
+   1.971  INFO Fetched versions for font-util
+        - release: 1.4.1
+        - unstable: 1.4.1
+        - commit: 7af30077fc459e7fe3415ffa803583d7465a8a99
+
+   1.975  INFO Fetched versions for fastfetch
+        - release: 2.57.0
+        - commit: 501746a270c8e0a11b4bff573e6601115e747259
+
+   2.117  INFO Fetched versions for glib
+        - release: 2.86.3
+        - unstable: 2.87.1
+        - commit: b83da6726fe155f5ad3c512ed18bd258c5e764d0
+
+   2.154  INFO Fetched versions for gstreamer
+        - release: 1.27.50
+        - commit: 59e5298217c17e43e1003833fd428af1cefc8246
+
+   2.190  INFO Fetched versions for efivar
+        - release: 39
+        - commit: 9711b8aa5acc63c54a12ba5505fe68b4475c8a13
+
+   2.215  INFO Fetched versions for ani-cli
+        - release: 4.10
+        - commit: c8aa791982cd4c5d72234c590a2834cfa5a712e6
+
+   2.281  INFO Fetched versions for libinput
+        - release: 1.30.1
+        - commit: 21ac8568d585cdb74b0d1a09912b00a4b465f91b
+
+   2.436  INFO Fetched versions for egl-gbm
+        - release: 1.1.2.1
+        - commit: a73cbcec5e3911ea6b075df63f6f4e559392926c
+
+   2.479  INFO Fetched versions for appstream
+        - release: 1.1.1
+        - commit: 37ba617e2b46d8ce5311251defa28183f4533c4e
+
+   2.507  INFO Fetched versions for glib-networking
+        - release: 2.80.1
+        - unstable: 2.80.1
+        - commit: d9f2e67e755516027ab00066dcadf82b4f2ac88e
+
+   2.543  INFO Fetched versions for libjpeg-turbo
+        - release: 3.1.3
+        - commit: 739d1ae1bcb4d7105a4a2259e74189e40757204a
+
+   2.667  INFO Fetched versions for fcft
+        - release: 3.3.3
+        - commit: fc9330645fb8bf122424e63b3a9ccfa1d0a92cfc
+
+   2.697  INFO Fetched versions for libxrandr
+        - release: 1.5.4
+        - commit: 242fae8378b213f8e477bde1c4be2fb654201b3d
+
+   2.738  INFO Fetched versions for egl-wayland
+        - release: 1.1.21
+        - commit: a557bed172dcd7ba379095f784d047202281c0de
+
+   2.796  INFO Fetched versions for apr
+        - release: 1.7.6
+        - commit: e461da5864fdd2fca6a15ec8d6c42d7f67c5f199
+
+   2.842  INFO Fetched versions for libjuice
         - release: 1.7.0
         - commit: caa198751f4527cfce74edaea9270febe1eafe7e
 
-   0.573  INFO Fetched versions for obs-studio
-        - release: 32.0.4
-        - commit: 916a50c83d9e9515f2dd01ed8a5a5170199b854a
+   2.886  INFO Fetched versions for fdk-aac
+        - release: 2.0.3
+        - commit: d8e6b1a3aa606c450241632b64b703f21ea31ce3
 
-   0.583  INFO Fetched versions for libqalculate
-        - release: 5.8.2
-        - commit: 3c4e107a4090fa239bf257b19a73c6641491e43a
+   2.971  INFO Fetched versions for egl-x11
+        - release: 1.0.4
+        - commit: ee7617fdf119d81dd5d0211e4e14c6d283e780dc
 
-   0.586  INFO Fetched versions for libunistring
-        - release: 1.4.1
+   3.080  INFO Fetched versions for apr-util
+        - release: 1.6.3
+        - commit: c9a9a77cbed92a50cdb30d3f88038d8c8271cc14
 
-   0.590  INFO Fetched versions for libpipeline
-        - release: 1.5.8
-        - commit: 08844b33bd0c77c7567caf1641f3aa48045f3e3b
+   3.097  INFO Fetched versions for glibc
+        - release: 2.42
+        - unstable: 2.42.9000
+        - commit: 5d1cb431aac44a0d9c8a2dff7ae074a4dc056f29
 
-   0.590  INFO Fetched versions for libexif
-        - release: 0.6.25
-        - commit: cdfe2db6ace857a788a028d333f2a4009539a1cf
+   3.147  INFO Fetched versions for feh
+        - release: 3.11.2
+        - commit: 00daaacddcce9bc9dc603a0f601ff3bd091e8c04
 
-   0.598  INFO Fetched versions for pyserial
-        - release: 3.5
-        - commit: 911a0b8c110f3d3513bab67e64d95d1310517454
+   3.199  INFO Fetched versions for eglexternalplatform
+        - release: 1.2.1
+        - commit: cf9f10589775c1b4d90f1df6f417f8cf1bed7ec6
 
-   0.600  INFO Fetched versions for liblinear
-        - release: 250
-        - commit: 491c9f1188b97ba70847c70a68be363d186ddf9d
+   3.260  INFO Fetched versions for libjxl
+        - release: 0.11.1
+        - commit: 53042ec537712e0df08709524f4df097d42174bc
 
-   0.603  INFO Fetched versions for lynx
-        - release: 2.9.2
+   3.316  INFO Fetched versions for aquamarine
+        - release: 0.10.0
+        - commit: 534c88e2f20ee728123464dba28c441d55be14c3
 
-   0.605  INFO Fetched versions for awww
-        - release: 0.11.2
-        - commit: 138c4ebdbe0c3eead5656373ea8837a5bd49c40b
+   3.380  INFO Fetched versions for glm
+        - release: 1.0.3
+        - commit: e7970a8b26732f1b0df9690f7180546f8c30e48e
 
-   0.606  INFO Fetched versions for libxvmc
-        - release: 1.0.14
-        - commit: a819142dc8b8efd29aa90e5cfbcd8cd892e51033
+   3.396  INFO Fetched versions for gtk
+        - release: 4.20.3
+        - unstable: 4.21.4
+        - commit: 1040b206547d9ae71473e40d31c43fcf576f5468
+        - 2: 2.24.33
+        - 3: 3.24.51
 
-   0.616  INFO Fetched versions for lsof
-        - release: 4.99.5
-        - commit: 39762ae6a9829a7c601d902b907ed4bed369880d
-
-   0.620  INFO Fetched versions for libarchive
-        - release: 3.8.5
-        - commit: 8d1c9b95f1fbc68f3882ef859d6caf7b701fde7c
-
-   0.630  INFO Fetched versions for setuptools
-        - release: 80.9.0
-        - commit: d198e86f57231e83de87975c5c82bc40c196da79
-
-   0.631  INFO Fetched versions for emacs
-        - release: 30.2
-        - commit: 762902c2c62de1853472c2c1a1a724ea67be45c4
-
-   0.631  INFO Fetched versions for dconf
-        - release: 0.49.0
-        - unstable: 0.49.0
-        - commit: 9e9c5bc8177048a2ee18531d6f68c2f06e0fc630
-
-   0.635  INFO Fetched versions for rpmextract
-        - release: 1.0
-        - commit: 85d81dcda09833106c917eafb205455cfbc31a31
-
-   0.640  INFO Fetched versions for cachecontrol
-        - release: 0.14.4
-        - commit: b4f1ab5a78bec0ab97b9d45f77b792b22e0d22e4
-
-   0.651  INFO Fetched versions for iniparser
-        - release: 4.2.6
-        - commit: 4bef811283e0ec1658c60e09950bd5a1ddc92e4b
-
-   0.652  INFO Fetched versions for libxshmfence
-        - release: 1.3.3
-        - commit: 2c3d85cf655f4c9a605f0353cc742f186af52835
-
-   0.653  INFO Fetched versions for py/build
-        - release: 1.4.0
-        - commit: 54f238d1664124e06a68c6c22fd5b1418fa5feb2
-
-   0.653  INFO Fetched versions for samurai
-        - release: 1.2
-        - commit: 737f702fed670acb25e5e70b4b802690df7a4a8b
-
-   0.658  INFO Fetched versions for cython
-        - release: 3.2.4
-        - unstable: 3.2.4
-        - commit: b22e43e0c2a345bba1c831df8934f2bf83046f2b
-
-   0.659  INFO Fetched versions for mesa-demos
-        - release: 9.0.0
-        - commit: cba8da1f87b264d0906ba3f4320db0368916decd
-
-   0.659  INFO Fetched versions for alsa-lib
-        - release: 1.2.15.2
-        - commit: 63a981865a1c7d9501ae556e28ae3bb53d015b61
-
-   0.663  INFO Fetched versions for mako
-        - release: 1.3.10
-        - commit: 91232d80e4914fd82b42628bb2e2b061abb3dcfc
-
-   0.673  INFO Fetched versions for fontconfig
+   3.411  INFO Fetched versions for fontconfig
         - release: 2.17.1
         - unstable: 2.17.1
         - commit: 25c40e71443046db4a89160971948ceca1a0046a
 
-   0.693  INFO Fetched versions for dust
-        - release: 1.2.4
-        - commit: 709b87e1370217f0bb0f19523f05deb38ef4328d
+   3.476  INFO Fetched versions for aspell
+        - release: 0.60.8.1
 
-   0.695  INFO Fetched versions for avahi
-        - release: 0.8
-        - unstable: 0.9-rc2
-        - commit: 2866b5447cdd23b91374ac63676481965f51b1f1
-
-   0.699  INFO Fetched versions for openjpeg
-        - release: 2.5.4
-        - commit: 8ac526236416b9c28f73d4684cf9e8a66f1d134e
-
-   0.705  INFO Fetched versions for qr-code-generator
-        - release: 1.8.0
-        - commit: 2c9044de6b049ca25cb3cd1649ed7e27aa055138
-
-   0.713  INFO Fetched versions for brotli
-        - release: 1.2.0
-        - unstable: 1.2.0
-        - commit: 5fa73e23bee34f84148719576a7a434f0fc43dc8
-
-   0.715  INFO Fetched versions for hwdata
-        - release: 0.403
-        - commit: bb56be59220b34d79160b73bd24eb36952dc8c63
-
-   0.723  INFO Fetched versions for ddcutil
-        - release: 2.2.3
-        - commit: f3dcbee3d33491473d926697ee9ec479aab7d5ce
-
-   0.725  INFO Fetched versions for lz4
-        - release: 131
-        - commit: a018abc07a3018371625a265f195c4fafbf1f99d
-
-   0.734  INFO Fetched versions for libexpat
-        - release: 2.7.3
-        - commit: de06628485e2feb0a91c7f650d32b24ac92b6f6b
-
-   0.735  INFO Fetched versions for lua
-        - release: 5.5.0
-        - commit: a5522f06d2679b8f18534fd6a9968f7eb539dc31
-
-   0.738  INFO Fetched versions for bash
-        - release: 5.3
-        - unstable: 5.3
-
-   0.742  INFO Fetched versions for gzip
-        - release: 1.14
-
-   0.747  INFO Fetched versions for libxxf86dga
-        - release: 1.1.6
-        - commit: 6a9b590992e7d94a63d935bfe44402712f77dc0f
-
-   0.749  INFO Fetched versions for scenefx
-        - release: 0.4.1
-        - commit: b8a41b6e79f2d1c7e8d6fa33a49b77921c89bac6
-
-   0.752  INFO Fetched versions for libunwind
-        - release: 1.8.3
-        - commit: 71559717599cecc4d1ccb2061766ec5c12e10ac6
-
-   0.758  INFO Fetched versions for setxkbmap
-        - release: 1.3.4
-        - commit: 8fe146750e70e83908c76f057492d9d9bf059287
-
-   0.758  INFO Fetched versions for py/platformdirs
-        - release: 4.5.1
-        - commit: 2a90e4ef2559383694bbc1ee5a9c29c8c838c0be
-
-   0.760  INFO Fetched versions for foot
-        - release: 1.25.0
-        - commit: b78cc92322dd2ae431dbbb70bc681b4d603d844d
-
-   0.768  INFO Fetched versions for enchant
-        - release: 2.8.14
-        - commit: ce3f4d3278aa6b8c7857bec9f10fa0d5b2152758
-
-   0.774  INFO Fetched versions for rs/quote
-        - release: 1.0.43
-        - commit: bdd36fc744dbb63aa204a51044ecb249c2159dd8
-
-   0.775  INFO Fetched versions for inkscape
-        - release: 1.4.3
-        - commit: 3a528728ebe33e10bb44d152f47cfedfddbfe18a
-
-   0.781  INFO Fetched versions for scdoc
-        - release: 1.11.4
-        - commit: 1c36cde87212494368ea218e871085ed2bc855fe
-
-   0.791  INFO Fetched versions for sgml-common
-        - release: 0.6.3
-
-   0.792  INFO Fetched versions for librsvg
-        - release: 2.61.3
-        - unstable: 2.61.3
-        - commit: 5bf47e852751fdea90e29672dc5025391c8b6abc
-
-   0.793  INFO Fetched versions for openldap
-        - release: 2.6.10
-        - commit: 03005f10b7eb5f735f51997c6991c9786310f3ea
-
-   0.804  INFO Fetched versions for libxslt
-        - release: 1.1.45
-        - commit: 35323d6a15f6e63c9919ddbc0abe64c90a0dd88a
-
-   0.807  INFO Fetched versions for meson
-        - release: 1.10.0
-        - commit: 91850ed370cb04a40c5861d134318c31f21730b7
-
-   0.809  INFO Fetched versions for alsa-plugins
-        - release: 1.2.12
-        - commit: 52574cb5ccbb8b546df2759e4b341a20332269b6
-
-   0.813  INFO Fetched versions for luajit
-        - commit: 707c12bf00dafdfd3899b1a6c36435dbbf6c7022
-
-   0.816  INFO Fetched versions for iana-etc
-        - release: 20251215
-
-   0.820  INFO Fetched versions for hicolor-icon-theme
-        - release: 0.18
-        - commit: 4dc168322b8b0bc06c521e9e90d66a4fa09816d4
-
-   0.831  INFO Fetched versions for man-db
-        - release: 2.13.1
-        - commit: 88b03ad6e99103de59891fb8ea2c3c6e6a71e82b
-
-   0.832  INFO Fetched versions for e2fsprogs
-        - release: 1.47.3
-        - commit: 0b2752ce6276b383a5254cd766204f81f41b6631
-
-   0.833  INFO Fetched versions for py/structlog
-        - release: 25.5.0
-        - commit: b7fce31a2dd646862424a21094cc7aef55bb2ffc
-
-   0.837  INFO Fetched versions for python
-        - release: 3.14.2
-        - unstable: 3.15.0a3
-        - commit: 548526bbbebd4e5034704a1945b35fdf5ed84a76
-
-   0.848  INFO Fetched versions for rs/syn
-        - release: 2.0.114
-        - commit: 34590a1de687e2dd3f09cf4cd259049746f7f3b0
-
-   0.869  INFO Fetched versions for gtk
-        - release: 4.20.3
-        - unstable: 4.21.4
-        - commit: 7d4d261ad2abc8ad420c5b655b58ddd545077df9
-        - 2: 2.24.33
-        - 3: 3.24.51
-
-   0.870  INFO Fetched versions for caddy
-        - release: 2.10.2
-        - commit: 28103aafba3490eedb626823f9641b766c7c99fd
-        - unstable: 2.11.0-beta.2
-
-   0.872  INFO Fetched versions for ibus
-        - release: 1.5.33
-        - commit: 0ed568768130920b28f3ae107ab3c99c1b9a231a
-
-   0.875  INFO Fetched versions for i3
-        - release: 4.25
-        - commit: 57f628629f0b2a3f6fa16dbbe94ae2ed044090d6
-
-   0.878  INFO Fetched versions for bash-completion
-        - release: 2.17.0
-        - unstable: 2.17.0
-        - commit: 3989711abf46f386c7e085788aa55fea34c61b15
-
-   0.879  INFO Fetched versions for ed
-        - release: 1.22.4
-
-   0.879  INFO Fetched versions for entr
-        - release: 5.7
-        - commit: 81fb8966fd709b3d99996df644ee1c4c8492235d
-
-   0.891  INFO Fetched versions for libffi
-        - release: 3.5.2
-        - commit: 2263d6037f8ef6b8d5bef14117ad1a17c32a20b9
-
-   0.894  INFO Fetched versions for scour
-        - release: 0.38.2
-        - commit: 0609c596766ec98e4e2092b49bd03b802702ba1a
-
-   0.903  INFO Fetched versions for shaderc
-        - release: 2025.5
-        - commit: e0a5092b4b05dbcc448b0883f3575163634f8e86
-
-   0.904  INFO Fetched versions for liburcu
-        - release: 0.15.5
-        - commit: 33e045a66333ca4a50f8b56d80e9964d35ba9060
-
-   0.904  INFO Fetched versions for libxxf86vm
-        - release: 1.1.6
-        - commit: 63134ba6acf046099fc112e08942ff6549f2286a
-
-   0.905  INFO Fetched versions for openssh
-        - release: 10.2p1
-        - commit: a6f8f793d427a831be1b350741faa4f34066d55f
-
-   0.905  INFO Fetched versions for highlight
-        - release: 4.18
-        - commit: dfbbe5120bf1b13cbf02db1d598f6ba12461f492
-
-   0.906  INFO Fetched versions for qt
-        - release: 6.10.1
-        - 5: 5.15.18
-        - commit: 2dda202f6992f4e0a43795375e5ec15c76a9b601
-
-   0.911  INFO Fetched versions for libsamplerate
-        - release: 0.2.2
-        - commit: 2ccde9568cca73c7b32c97fefca2e418c16ae5e3
-
-   0.913  INFO Fetched versions for inxi
-        - release: 3.3.40.1
-        - commit: 20451ca41fe61723250bb0d8f2ba2ec708719b90
-
-   0.913  INFO Fetched versions for lxml
-        - release: 6.0.2
-        - commit: 5215235a40f9ddb514dbce413341a7496509ca67
-
-   0.919  INFO Fetched versions for lighttpd
-        - release: 1.4.82
-        - commit: e4cea1bf7f092e37e607e35c3872a167c5ced3e3
-        - 2-commit: 42018b01eb8d6156efc182fc6771e87b9a24af5e
-
-   0.921  INFO Fetched versions for maim
-        - release: 5.8.1
-        - commit: e160c3c15eac94aecb541607f5d5929ceefee5eb
-
-   0.927  INFO Fetched versions for libcap
-        - release: 2.77
-        - commit: 542d7d86ecd2129dd5fe7e5b31ba307304f5b319
-
-   0.930  INFO Fetched versions for libxt
-        - release: 1.3.1
-        - commit: 170a4edb3189810810ffbf2543bfb8ab96e1898c
-
-   0.932  INFO Fetched versions for man-pages
-        - release: 6.16
-        - commit: 753ac20a01007417aa993e70d290f51840e2f477
-
-   0.956  INFO Fetched versions for pycurl
-        - release: 7.45.7
-        - commit: 474f5e87cb9adb8fcc794b229e42b9267e17e65d
-
-   0.959  INFO Fetched versions for alsa-ucm-conf
-        - release: 1.2.15.2
-        - commit: aab54b958352bffc100ea0fd89075c8bc9b674a8
-
-   0.974  INFO Fetched versions for libxcomposite
-        - release: 0.4.6
-        - commit: f796f0a862849765ac5b6b5e861ea548b421b8f0
-
-   0.976  INFO Fetched versions for freeglut
-        - release: 3.8.0
-        - unstable: 3.8.0
-        - commit: 731038766f64776e62adb00daf19024230cd28f7
-
-   0.976  INFO Fetched versions for libxft
-        - release: 2.3.9
-        - commit: 69edd320e23b00d9aef240ce9b50f7bf482a12ef
-
-   0.978  INFO Fetched versions for imagemagick
-        - release: 7.1.2.12
-        - commit: a52c1b402be08ef8ae193f28ac5b2e120f2fa26f
-
-   0.981  INFO Fetched versions for sdbus-cpp
-        - release: 2.2.1
-        - commit: 44aa4f080fb9b9c65990d6e25213e918ff683ae5
-
-   0.986  INFO Fetched versions for pyyaml
-        - release: 6.0.3
-        - commit: d51d8a138f7230834fc6e95635ff09ebd329185f
-
-   0.986  INFO Fetched versions for libvpl
-        - release: 2.16.0
-        - commit: 778a66d6c6537f08eabb91955dbbf1bce3812894
-
-   0.992  INFO Fetched versions for libutempter
-        - release: 1.2.3
-        - commit: 4caa8ab94ff8b207228fa723a89214bf5e929321
-
-   0.997  INFO Fetched versions for minicom
-        - release: 2.10
-        - unstable: 2.10
-        - commit: 573e39ea5938e227c75c8fd073579fa473bb7961
-
-   1.000  INFO Fetched versions for egl-gbm
-        - release: 1.1.2.1
-        - commit: a73cbcec5e3911ea6b075df63f6f4e559392926c
-
-   1.010  INFO Fetched versions for htop
-        - release: 3.4.1
-        - commit: 92b065fafd85fb6466c622961f51c9831f1d619c
-
-   1.010  INFO Fetched versions for eza
-        - release: 0.23.4
-        - commit: 58b98cfa542fdd6ac5bba8fb13f077e9f6fd1f5b
-
-   1.011  INFO Fetched versions for libyaml
-        - release: 0.2.5
-        - commit: 840b65c40675e2d06bf40405ad3f12dec7f35923
-
-   1.030  INFO Fetched versions for iputils
-        - release: 20250605
-        - commit: 35ed506fe4bfc393284138915017d4b7da1a6f3e
-
-   1.042  INFO Fetched versions for bc
-        - release: 7.0.3
-        - unstable: 7.1.0
-        - commit: 2014937762888ff7e54d1409bb133477023772c8
-
-   1.043  INFO Fetched versions for qemu
-        - release: 10.2.0
-        - commit: b254e486242466dad881fc2bbfa215f1b67cd30f
-
-   1.044  INFO Fetched versions for libxdamage
-        - release: 1.1.6
-        - commit: 1319ae5cfbde5b75e23383baa5e00cc23513448c
-
-   1.044  INFO Fetched versions for libseccomp
-        - release: 2.6.0
-        - commit: 4b0bf5064cae3b4eac88020b31ce0ef43da0e3f9
-
-   1.044  INFO Fetched versions for limine
-        - release: 10.6.2
-        - commit: ecc7d12db3a8488b51c61aff2957ab2725a8f77d
-
-   1.045  INFO Fetched versions for gtkmm
-        - release: 4.21.2
-        - 3: 3.24.10
-        - commit: 4faec2a1ab0626a3a6c8aaec8c6cf87625419c0f
-
-   1.051  INFO Fetched versions for libfuse
-        - release: 3.18.1
-        - 2: 2.9.9
-        - commit: 6278995cca991978abd25ebb2c20ebd3fc9e8a13
-
-   1.052  INFO Fetched versions for libxtst
-        - release: 1.2.5
-        - commit: abf3ff74b97c4231d2324d66318bfa1d22e44913
-
-   1.058  INFO Fetched versions for openssl
-        - release: 3.6.0
-        - commit: bfdf7c889b80ca61cb137828a01a2569a0ac56fc
-
-   1.061  INFO Fetched versions for shadow
-        - release: 4.19.0
-        - commit: bd5fadaf293a4930b38111cc82c89e9c60d5d0a0
-
-   1.066  INFO Fetched versions for libuv
-        - release: 1.51.0
-        - commit: f420c2bd57ba79d21e1797324ed3ca18e8d92f89
-
-   1.081  INFO Fetched versions for mkfontscale
-        - release: 1.2.3
-        - commit: 9c9c8834dc4ce17d0e878a28d36ff5e736bddb9b
-
-   1.084  INFO Fetched versions for quickshell
-        - release: 0.2.1
-        - commit: bcc3d4265e8b3ed2b17b801923905b60a3927823
-
-   1.088  INFO Fetched versions for ostree
-        - release: 2025.7
-        - commit: 94baad63780a2f01f377bfc69803b4e210730531
-
-   1.092  INFO Fetched versions for libzip
-        - release: 1.11.4
-        - commit: 9995d78858fb38e3ce1dc25b379192f42940149f
-
-   1.094  INFO Fetched versions for libxi
-        - release: 1.8.2
-        - commit: 3c2d5aedd7708c75710b39268631762de904c304
-
-   1.099  INFO Fetched versions for egl-wayland
-        - release: 1.1.21
-        - commit: a557bed172dcd7ba379095f784d047202281c0de
-
-   1.100  INFO Fetched versions for libusb
-        - release: 1.0.29
-        - unstable: 1.0.29
-        - commit: f1af64b787f8241ec88780fedab95e457a9cae12
-
-   1.101  INFO Fetched versions for libgpg-error
-        - release: 1.58
-        - commit: 4a1381642740210875ac461e21ea5a53a5c67912
-
-   1.105  INFO Fetched versions for alsa-utils
-        - release: 1.2.15.2
-        - commit: ed63d017e0e94dbae9223caf0dae94fc94db18ca
-
-   1.105  INFO Fetched versions for sdl
-        - release: 3.4.0
-        - commit: ca537d651b82f28bc280685391665eb25c856e00
-
-   1.106  INFO Fetched versions for sdl2-compat
-        - release: 2.32.62
-        - commit: 99c147df4408cebbc30c255d4788b0c81a5112a0
-
-   1.107  INFO Fetched versions for bdwgc
-        - release: 8.2.10
-        - commit: 370781b86b66f4c20f2a9af51d4409697c9f2057
-
-   1.115  INFO Fetched versions for jaq
-        - release: 2.3.0
-        - commit: 010c0e7a84e1a2649970c741d4f149529a47ff27
-
-   1.121  INFO Fetched versions for libvpl-tools
-        - release: 1.5.0
-        - commit: ad9deecaf0ee76f689373b55fe620c843e3c8a4d
-
-   1.121  INFO Fetched versions for ratpoison
-        - release: 1.4.9
-
-   1.127  INFO Fetched versions for libxcrypt
-        - release: 4.5.2
-        - commit: 174c24d6e87aeae631bc0a7bb1ba983cf8def4de
-
-   1.141  INFO Fetched versions for fastfetch
-        - release: 2.56.1
-        - commit: 019c9f0f77e59f45e059d076f7ada2eaeb511e9b
-
-   1.163  INFO Fetched versions for cargo-c
-        - release: 0.10.19
-        - commit: 19d8828e0de220132c72aa99fc536e511b09d1cf
-
-   1.164  INFO Fetched versions for freetype
-        - release: 2.14.1
-        - unstable: 2.14.1
-        - commit: 341049a95bacfc5debf6c9daf537b7acec27f3dd
-
-   1.164  INFO Fetched versions for libslirp
-        - release: 4.9.1
-        - commit: 061d82ff161e69f2ce727ee0fa2accabeaaad2f7
-
-   1.164  INFO Fetched versions for isl
-        - release: 0.27
-        - commit: 45617220d7e33b1c48c290fa4529c95d5cef3d00
-
-   1.170  INFO Fetched versions for p11-kit
-        - release: 0.25.10
-        - commit: cd31c22784aea3327284cbf476a9046e2e3e7ab7
-
-   1.171  INFO Fetched versions for libxdmcp
-        - release: 1.1.5
-        - commit: 8f3408f3936bacd08f76d5ee22cbc86e6b627287
-
-   1.175  INFO Fetched versions for shared-mime-info
-        - release: 2.4
-        - commit: c293bffb5ff065ee8248e26f6dd45d660e5b1698
-
-   1.176  INFO Fetched versions for patch
-        - release: 2.8
-
-   1.179  INFO Fetched versions for libgbm
-        - release: 1.0.4
-        - commit: 04abbb632d371c5b78da0b7a15d801728899c131
-
-   1.197  INFO Fetched versions for libva
-        - release: 2.23.0
-        - commit: 9b1db46a3a11b6152a4fa2c3b3f1e93da2cb5edf
-
-   1.201  INFO Fetched versions for mpc
-        - release: 1.3.1
-        - commit: 8815590a9826c840b94bc49d4e8b974de860b8db
-
-   1.201  INFO Fetched versions for linux-pam
-        - release: 1.7.1
-        - commit: aebea0f3a930f05f6835307da0c4da4240675f74
-
-   1.203  INFO Fetched versions for libxv
-        - release: 1.0.13
-        - commit: d709b8efab4e28b3ad324ca30acdb81a527f69a4
-
-   1.204  INFO Fetched versions for packaging
-        - release: 25.0
-        - commit: f34845a1076f51f5123b99d4f5ea8e814bb65119
-
-   1.205  INFO Fetched versions for ani-cli
-        - release: 4.10
-        - commit: c8aa791982cd4c5d72234c590a2834cfa5a712e6
-
-   1.209  INFO Fetched versions for egl-x11
-        - release: 1.0.4
-        - commit: ee7617fdf119d81dd5d0211e4e14c6d283e780dc
-
-   1.235  INFO Fetched versions for libwebp
-        - release: 1.6.0
-        - commit: 45102247a82396fabac5241c64305b13ed711335
-
-   1.237  INFO Fetched versions for ncdu
-        - release: 2.9.2
-        - 1: 1.22
-        - commit: 1b3d0a670e730b338de6b716e2a60cf86351e44b
-
-   1.239  INFO Fetched versions for libxinerama
-        - release: 1.1.5
-        - commit: cc22c2f60c3862482562955116d5455263b443dc
-
-   1.240  INFO Fetched versions for libvpx
-        - release: 1.15.2
-        - commit: 1a400b808407a49d6ee626e8e6015c5cd9df6298
-
-   1.241  INFO Fetched versions for re2
-        - release: 2025.11.05
-        - commit: e7aec5985072c1dbe735add802653ef4b36c231a
-
-   1.242  INFO Fetched versions for libxcursor
-        - release: 1.2.3
-        - commit: f3305d7922e4b90fa754f64e4e2855fbb0bc609f
-
-   1.243  INFO Fetched versions for wf-config
-        - release: 0.10.0
-        - commit: 3597fcdccac71015cbfd20656c43caec30f10240
-
-   1.245  INFO Fetched versions for libxml2
-        - release: 2.15.1
-        - commit: 4c3f00ba393d69d8d903e37c05318d87a81f80fb
-
-   1.250  INFO Fetched versions for jasper
-        - release: 4.2.8
-        - commit: 7576bf0e4d5b25fac4bf0a8607aa451eb3ccb4a7
-
-   1.257  INFO Fetched versions for openttd
-        - release: 15.0
-        - unstable: 15.0
-        - commit: c49f1da09ee5f19a45383816d1032bdd95d6775d
-
-   1.277  INFO Fetched versions for patchelf
-        - release: 0.18.0
-        - commit: d0f70eea5397606c486857e0a105e53ec123904a
-
-   1.278  INFO Fetched versions for linux
-        - release: 6.18.4
-        - mainline: 6.19-rc4
-        - next: next-20260109
-        - commit: 9c7ef209cd0f7c1a92ed61eed3e835d6e4abc66c
-
-   1.280  INFO Fetched versions for fcft
-        - release: 3.3.3
-        - commit: fc9330645fb8bf122424e63b3a9ccfa1d0a92cfc
-
-   1.282  INFO Fetched versions for libsm
-        - release: 1.2.6
-        - commit: 5f6da959a34bcefc425b6e37462553acf44369a3
-
-   1.282  INFO Fetched versions for jinja
-        - release: 3.1.6
-        - commit: 5ef70112a1ff19c05324ff889dd30405b1002044
-
-   1.282  INFO Fetched versions for iso-codes
-        - release: 4.20.1
-        - commit: 7f9dfbffa139c7ba3ec0fb2fab2463e65eb8ae26
-
-   1.288  INFO Fetched versions for libgcrypt
-        - release: 1.11.2
-        - commit: 9e3af928ee1100fc979a75dd4ae6a4ace2c36bef
-
-   1.295  INFO Fetched versions for libxext
-        - release: 1.3.6
-        - commit: 5ce2a6127889834082147dbcdd47731b7986961b
-
-   1.296  INFO Fetched versions for libvterm
-        - release: 0.3.3
-
-   1.297  INFO Fetched versions for fribidi
-        - release: 1.0.16
-        - commit: b28f43bd3e8e31a5967830f721bab218c1aa114c
-
-   1.308  INFO Fetched versions for shellcheck
-        - release: 0.11.0
-        - commit: c96748a9eeeee7d70a8c7d8c0988801620894972
-
-   1.314  INFO Fetched versions for pango
-        - release: 1.57.0
-        - commit: 2fb8d7782ec0e166aeeb961402db8afae521d574
-
-   1.317  INFO Fetched versions for mpd
-        - release: 0.24.6
-        - commit: e5df578e279e0a2af9acc567bc07e953f2ed8315
-
-   1.317  INFO Fetched versions for little-cms
-        - release: 2.18
-        - commit: 35b57af4e1a4d6d7a40ba188f9f4efb7857ff511
-
-   1.322  INFO Fetched versions for jbig2dec
-        - release: 0.20
-        - commit: d915733ec69260c1fd2c458b06835cb57bb85ac7
-
-   1.330  INFO Fetched versions for git
-        - release: 2.52.0
-        - unstable: 2.52.0
-        - commit: d529f3a197364881746f558e5652f0236131eb86
-
-   1.338  INFO Fetched versions for eglexternalplatform
-        - release: 1.2.1
-        - commit: cf9f10589775c1b4d90f1df6f417f8cf1bed7ec6
-
-   1.342  INFO Fetched versions for libxkbcommon
-        - release: 1.13.1
-        - commit: ccb63bf7b51861fde1f4fe72d4052b5edf6f08a1
-
-   1.347  INFO Fetched versions for wget
-        - release: 1.25.0
-        - commit: 74e4c0d2096c1a5a29b1498278e8b90d7211e2be
-
-   1.356  INFO Fetched versions for opus
-        - release: 1.6
-        - commit: 42455d281477636123837781f1b8f31224ee356d
-
-   1.356  INFO Fetched versions for libx11
-        - release: 1.8.12
-        - commit: 369c6a806554429798b531cbf4267d8c8fcf6ed1
-
-   1.359  INFO Fetched versions for elfutils
+   3.516  INFO Fetched versions for elfutils
         - release: 0.194
         - commit: c460e20886ff916a3159ca15add0ecf348e00997
 
-   1.368  INFO Fetched versions for libxmlb
-        - release: 0.3.24
-        - commit: 0bc4264fe40a487fee0e32369f0f1914613e8473
-
-   1.375  INFO Fetched versions for mpdecimal
-        - release: 4.0.1
-
-   1.384  INFO Fetched versions for ncompress
-        - release: 5.0
-        - commit: c576364d691df490ec1841d028c7bece2b523c58
-
-   1.384  INFO Fetched versions for libxcvt
-        - release: 0.1.3
-        - commit: 40de74eb5d7c402f82fe1f61beea515d17bcdd2a
-
-   1.387  INFO Fetched versions for pciutils
-        - release: 3.14.0
-        - commit: 0f5b941aa5cf8b1b126ff3e4176b1c32b2158289
-
-   1.392  INFO Fetched versions for libbsd
-        - release: 0.12.2
-        - commit: 22fddb16f8430d64b82a1ea08602be5e61ac203b
-
-   1.397  INFO Fetched versions for fdk-aac
-        - release: 2.0.3
-        - commit: d8e6b1a3aa606c450241632b64b703f21ea31ce3
-
-   1.398  INFO Fetched versions for json-c
-        - release: 0.18
-        - commit: 26fcd8d569e227391b5d39ad559d09f18f79ef49
-
-   1.404  INFO Fetched versions for libxfixes
-        - release: 6.0.2
-        - commit: 70d5b0e37f8a759f3dbc218f22954347ceed094a
-
-   1.405  INFO Fetched versions for glslang
-        - release: 16.1.0
-        - sdk: 1.4.335.0
-        - commit: b937eae5e2ae1e29efe8f8775feaa434239806d2
-
-   1.412  INFO Fetched versions for feh
-        - release: 3.11.2
-        - commit: 00daaacddcce9bc9dc603a0f601ff3bd091e8c04
-
-   1.418  INFO Fetched versions for libsndfile
-        - release: 1.2.2
-        - commit: 68f6c16fe1407eff4cdde158566694c3ed666c2f
-
-   1.429  INFO Fetched versions for libxau
-        - release: 1.0.12
-        - commit: 962b015d498b1f186aea8e3b0b46fb9791831552
-
-   1.434  INFO Fetched versions for glad
-        - release: 2.0.8
-        - commit: 27bed1181560211b55e39a9b132fef8c5846aae5
-
-   1.443  INFO Fetched versions for six
-        - release: 1.17.0
-        - commit: e9da069f35bb9add9b17ecb405b474981227fcb8
-
-   1.445  INFO Fetched versions for go
-        - release: 1.25.5
-        - unstable: 1.26rc1
-        - commit: fed3b0a298464457c58d1150bdb3942f22bd6220
-
-   1.448  INFO Fetched versions for pastel
-        - release: 0.11.0
-        - commit: b60e89932629b2d162e1ff9f3976a5a0ef1e5db9
-
-   1.459  INFO Fetched versions for libxmu
-        - release: 1.2.1
-        - commit: bd64e44c0f76e7d01543060501bbd39561062996
-
-   1.461  INFO Fetched versions for libgit2
-        - release: 1.9.2
-        - unstable: 1.9.2
-        - commit: 53eca10648fa94f09b7ed8b4c7f4ff82fac9af5e
-
-   1.461  INFO Fetched versions for fzf
-        - release: 0.67.0
-        - commit: d1f037059ab57aa1c70abe124b2b72a710f4a28f
-
-   1.463  INFO Fetched versions for gawk
-        - release: 5.3.2
-
-   1.472  INFO Fetched versions for wget2
-        - release: 2.2.1
-        - commit: 98f13a017d355b762026941cf4ef70f6f4583e40
-
-   1.477  INFO Fetched versions for libxkbfile
-        - release: 1.1.3
-        - commit: cb177c4d0e6d24dd868d28d4c35f3af007e7023e
-
-   1.483  INFO Fetched versions for tealdeer
-        - release: 1.8.1
-        - commit: 5ee1f28021a563ab9d2ec06cc9d07c80254164a1
-
-   1.484  INFO Fetched versions for gettext
-        - release: 0.26
-
-   1.491  INFO Fetched versions for jq
-        - release: 1.8.1
-        - unstable: 1.8.1
-        - commit: ea9e41f7587e2a515c9b7d28f3ab6ed00d30e5ce
-
-   1.493  INFO Fetched versions for mpfr
-        - release: 4.2.2
-        - commit: bb962f6d9329d73a75ead1fb8e34ef21d3f78779
-
-   1.496  INFO Fetched versions for usbutils
-        - release: 019
-        - commit: 5ea89970255d1a7f1e53c639b9a1cbdf417875b0
-
-   1.499  INFO Fetched versions for ell
-        - release: 0.81
-        - commit: 2e254f51bd82c28f8a2132d58a960fb6b0887f79
-
-   1.519  INFO Fetched versions for traceroute
-        - release: 2.1.6
-
-   1.536  INFO Fetched versions for gperf
-        - release: 3.3
-
-   1.538  INFO Fetched versions for gnupg
-        - release: 2.4.9
-        - unstable: 2.5.16
-        - commit: 0bcd9be9a068f7ef3b1fd8bc1cc9dc574dd2b07f
-
-   1.539  INFO Fetched versions for xdpyinfo
-        - release: 1.4.0
-        - commit: 7fe49a22498b9438a15d5d9fdef55d5d832b1672
-
-   1.544  INFO Fetched versions for json-glib
-        - release: 1.10.8
-        - commit: 55b3d0323994732c7c04cff435004a222dadd762
-
-   1.544  INFO Fetched versions for pcre2
-        - release: 10.47
-        - commit: 30c9faa440a5f42192c7fd6bc10b6807a8196786
-
-   1.544  INFO Fetched versions for libsoup
-        - release: 3.6.5
-        - commit: 10fb28cdeeb69f18dc9bf53208f38742638def6a
-
-   1.545  INFO Fetched versions for libgudev
-        - release: 238
-        - commit: bd531e8622e2c98a1da3d28a0a6df59c844f25c0
-
-   1.550  INFO Fetched versions for ncurses
-        - release: 6.6
-        - unstable: 6.6.20260103
-
-   1.553  INFO Fetched versions for libxfont
-        - release: 2.0.7
-        - commit: 2c2e44c94ef17ecd5003a173237b57b315e28d93
-
-   1.553  INFO Fetched versions for mpg123
-        - release: 1.33.4
-
-   1.562  INFO Fetched versions for libsrtp
-        - release: 2.7.0
-        - commit: 091b489d466ad9f0da8d75706dd03307dc0abde3
-
-   1.586  INFO Fetched versions for slop
-        - release: 7.7
-        - commit: 03800becac94936d2608011e393386d4fac4de01
-
-   1.591  INFO Fetched versions for libxaw
-        - release: 1.0.16
-        - commit: 12e81cd8ade629256488782a2e7ae0322d84da53
-
-   1.601  INFO Fetched versions for xrdb
-        - release: 1.2.2
-        - commit: 20fc79a257ecaba0df3af8485dbf64fd73003a73
-
-   1.602  INFO Fetched versions for glaze
-        - release: 7.0.0
-        - commit: 407c0cce7da85b2fff323ff8e676b81d50a2d4cb
-
-   1.603  INFO Fetched versions for wgetpaste
-        - release: 2.34
-        - commit: fffbdf174a3dab6a39ca9f95a8bef0a641f80dce
-
-   1.611  INFO Fetched versions for gettext-tiny
-        - release: 0.3.3
-        - commit: acca7c3d509b9d9d4b33935e822a5bc39b35be01
-
-   1.612  INFO Fetched versions for mtdev
-        - release: 1.1.7
-        - commit: 9035c2225494b80b02e985fc7ee77880e0bd6993
-
-   1.615  INFO Fetched versions for ghostscript
-        - release: 10.06.0
-
-   1.622  INFO Fetched versions for libxpm
-        - release: 3.5.17
-        - commit: 10070a4e998c1a223dec437847c38dc27dbe85d4
-
-   1.624  INFO Fetched versions for utf8proc
-        - release: 2.11.3
-        - commit: e5e799221b45bbb90f5fdc5c69b6b8dfbf017e78
-
-   1.632  INFO Fetched versions for spirv-llvm-translator
-        - release: 21.1.3
-        - commit: f20a37d81ce3b0cb04b246f45bed5576ed7423b3
-
-   1.651  INFO Fetched versions for xev
-        - release: 1.2.6
-        - commit: 61c956d8265e9607c48791a325c6eebd86c31366
-
-   1.654  INFO Fetched versions for snowball
-        - release: 3.0.1
-        - commit: 2d2e312df56f2ede014a4ffb3e91e6dea43c24be
-
-   1.657  INFO Fetched versions for libspng
-        - release: 0.7.4
-        - commit: adc94393dbeddf9e027d1b2dfff7c1bab975224e
-
-   1.660  INFO Fetched versions for gdb
-        - release: 17.1
-
-   1.663  INFO Fetched versions for tuun
-        - release: 5.9.3
-        - commit: 37a0ab6093f39f5f23d03ccab6234f96f00a4eb6
-
-   1.673  INFO Fetched versions for sudo-rs
-        - release: 0.2.11
-        - commit: ec3d9089d361a236d86d2d80e7fba5b7a533d04a
-
-   1.684  INFO Fetched versions for neovim
-        - release: 0.11.5
-        - commit: 94144d46787fc396dd9e830f2cde5a09f2b4307d
-
-   1.691  INFO Fetched versions for gdbm
-        - release: 1.26
-
-   1.702  INFO Fetched versions for glew
-        - release: 2.3.0
-        - commit: 24ec9e49a8d92cec92068ac9b07baec924f2fd7d
-
-   1.706  INFO Fetched versions for tidy
-        - release: 5.8.0
-        - next: 5.9.14-next
-        - commit: d08ddc2860aa95ba8e301343a30837f157977cba
-
-   1.706  INFO Fetched versions for mpv
-        - release: 0.41.0
-        - commit: beddaec5abf956acb1d0ad0c5512481a91ac9077
-
-   1.716  INFO Fetched versions for libssh2
-        - release: 1.11.1
-        - commit: eeaf29bae86bdcbaddacff2b44a55c7d6148e9ad
-
-   1.738  INFO Fetched versions for gcc
-        - release: 15.2.0
-        - unstable: 16
-        - commit: 8e4107a1b3d430f5d3938c8068c6cd512f661e95
-
-   1.740  INFO Fetched versions for wheel
-        - release: 0.46.1
-        - commit: c1d442bec6c634fcfb89e5d58698dd226685bd14
-
-   1.747  INFO Fetched versions for muon
-        - release: 0.5.0
-        - commit: cc9abb7b81d6d3bb1e636394ce84a7f3c3592cc8
-
-   1.751  INFO Fetched versions for giflib
-        - release: 5.2.2
-        - commit: 8bed392c280ad2c237e8bf1beca6f8f68f893e87
-
-   1.752  INFO Fetched versions for gpgme
-        - release: 2.0.1
-        - unstable: 2.0.1
-        - commit: 9a1f409499c4e086e95c8dbca712929ee3c418ef
-
-   1.755  INFO Fetched versions for xset
-        - release: 1.2.5
-        - commit: 3fadaad29df656b69a64c463dd68dc35d09274b3
-
-   1.765  INFO Fetched versions for slurp
-        - release: 1.5.0
-        - commit: 466a4e3b726e2fb01e7000806c85c8c849d9de17
-
-   1.782  INFO Fetched versions for gnutls
-        - release: 3.8.11
-        - unstable: 3.8.11
-        - commit: 0b7e7690a5744a501b887dd3a53e74c384b82a3c
-
-   1.782  INFO Fetched versions for perl
-        - release: 5.42.0
-        - unstable: 5.43.6
-        - commit: 52a45f6eeaff8331c58781643c79b672538de98d
-
-   1.786  INFO Fetched versions for libxcb
-        - release: 1.17.0
-        - commit: 93ee2ac73c32dcb567259fb83c564a424cd9fef7
-
-   1.792  INFO Fetched versions for girara
-        - release: 0.4.5
-        - commit: 2031ecd5d73d2ff8c76485e04e9a37666ea6ba29
-
-   1.792  INFO Fetched versions for chrony
-        - release: 4.8
-        - unstable: 4.8
-        - commit: 007a1ae4fef36cec10742e2bb05e37acd02f2b96
-
-   1.795  INFO Fetched versions for xeyes
-        - release: 1.3.1
-        - commit: 7dc4f720f57471d2eccefd87cdca54494cf75eb5
-
-   1.801  INFO Fetched versions for uthash
-        - release: 2.3.0
-        - commit: af6e637f19c102167fb914b9ebcc171389270b48
-
-   1.806  INFO Fetched versions for speex
-        - release: 1.2.1
-        - commit: 05895229896dc942d453446eba6f9f5ddcf95422
-
-   1.827  INFO Fetched versions for xkbcomp
-        - release: 1.5.0
-        - commit: 2c7789785981ad1fce3858c726615b49293f7de0
-
-   1.829  INFO Fetched versions for libtasn1
-        - release: 4.21.0
-        - commit: eabf0fe9d7561e7863daa8e8212a1b5dc20dce10
-
-   1.832  INFO Fetched versions for netcat
-        - release: 1.234.1
-        - commit: 37b4f2cf889e4e18eadbe2c7eb57dc0eda3fc580
-
-   1.842  INFO Fetched versions for which
-        - release: 2.23
-
-   1.853  INFO Fetched versions for tinyxxd
-        - release: 1.3.7
-        - commit: eeca058f092e28164f819247ff27146f7d17b9b5
-
-   1.871  INFO Fetched versions for xsetroot
-        - release: 1.1.3
-        - commit: 8f935c417ec798451131baf5190b0721d90a8218
-
-   1.872  INFO Fetched versions for nano
-        - release: 8.7
-        - commit: 299aab6acf2d6a5df9fe223da364eff720f3561b
-
-   1.874  INFO Fetched versions for xf86-input-libinput
-        - release: 1.5.0
-        - commit: ac862672e4d04e78f2b647af9d3d14544454e4b9
-
-   1.875  INFO Fetched versions for socat
-        - release: 1.8.1.0
-        - unstable: 2.0.0-b9
-        - commit: 8834d6cc7e0d7b04cd31f9f7d0cb3e06913b0323
-
-   1.877  INFO Fetched versions for swappy
-        - release: 1.8.0
-        - commit: ff7d641b8c0d461b8a90448a5893e4aa3a0533b1
-
-   1.879  INFO Fetched versions for tinaries
-        - release: 0
-        - commit: a22399907efdb815de9e4da6638855b1bb550e84
-
-   1.883  INFO Fetched versions for gpu-screen-recorder
-        - release: 5.11.5
-        - commit: 6cbf660afa13cac8cdffd98cb5782c7bef468e69
-
-   1.902  INFO Fetched versions for xbitmaps
-        - release: 1.1.3
-        - commit: 35307f27a4554f47534fe235be12128157888a7b
-
-   1.905  INFO Fetched versions for spirv-tools
-        - release: 2025.5
-        - sdk: 1.4.335.0
-        - commit: 539a11dff0ef8d8fbc4fe4c85a4cc4765b543859
-
-   1.907  INFO Fetched versions for mupdf
-        - release: 1.27.0
-        - commit: a9e4797c522d984debd6f4deaf78b430e8629c9e
-
-   1.909  INFO Fetched versions for gdk-pixbuf
-        - release: 2.44.4
-        - unstable: 2.44.4
-        - commit: 64e7576f87b378252e402520c939236bc9c35a2a
-
-   1.909  INFO Fetched versions for xf86-input-evdev
-        - release: 2.11.0
-        - commit: 0b5b97bc6bad9d0dc1ae9d5de966882a86f1e55a
-
-   1.911  INFO Fetched versions for typos
-        - unstable: 1.42.0
-        - release: 1.42.0
-        - commit: 26e7af467cd26ac3b5cd051e16202232d3d90978
-
-   1.915  INFO Fetched versions for picom
-        - release: 12.5
-        - commit: 800421acd4bc65b5de2fd29bf49279aa44026256
-
-   1.916  INFO Fetched versions for jdk
-        - unstable: 27.4
-        - release: 26.u30
-        - 21: 21.0.10.u6
-        - 17: 17.0.18.u7
-        - 11: 11.0.31.u0
-        - 8: 8.492.u00
-
-   1.919  INFO Fetched versions for util-linux
-        - release: 2.41.3
-        - commit: 3b373f1c94e8edfb6e696a5c34b1c9795d146141
-
-   1.937  INFO Fetched versions for ydotool
-        - release: 1.0.4
-        - commit: 708e96ff27e381a8c549418a9d34cdde12305317
-
-   1.939  INFO Fetched versions for xtrace
-        - commit: ced509f9760c532e0297fed6cfa07389e2be082a
-
-   1.939  INFO Fetched versions for cli11
-        - release: 2.6.1
-        - commit: aa5360b9ea5c3145c34d4156c2cf3ae20d3f31f1
-
-   1.964  INFO Fetched versions for tz
-        - release: 2025c
-
-   1.968  INFO Fetched versions for sphinx
-        - release: 9.1.0
-        - commit: cc7c6f435ad37bb12264f8118c8461b230e6830c
-
-   1.968  INFO Fetched versions for xkeyboard-config
-        - release: 2.46
-        - commit: 8aa73d2c9a5a7391538c932e265f89c416b53138
-
-   1.969  INFO Fetched versions for fish
-        - release: 4.3.3
-        - commit: de2ac37c92de7ba04cd06c044fe6c224d384b599
-
-   1.984  INFO Fetched versions for potrace
-        - release: 1.16
-
-   1.985  INFO Fetched versions for cmake
-        - release: 4.2.1
-        - unstable: 4.2.1
-        - commit: 7b59d604a3dca6c5cd9c8bc09f01e946e7e34273
-
-   1.990  INFO Fetched versions for whois
-        - release: 5.6.5
-        - commit: 64c3426493e145e1fad33a37247e924b0539e4dd
-
-   1.990  INFO Fetched versions for st
-        - release: 0.9.3
-        - commit: 0723b7e39e73b2bcfce047b047f6e795d6184028
-
-   1.996  INFO Fetched versions for tllist
-        - release: 1.1.0
-        - commit: 05b463da2ee4a81903126756689282f99f88cc30
-
-   1.996  INFO Fetched versions for libtiff
-        - release: 4.7.1
-        - commit: 61b5551e0c26685000435885c1ba6cf23b92d416
-
-   2.006  INFO Fetched versions for sqlite
-        - release: 3.51.2
-        - commit: a87d7c00f48f397aaf6d71694ec15bc2dc540754
-
-   2.007  INFO Fetched versions for xcb-proto
-        - release: 1.17.0
-        - commit: 283ead0904eb8c6350cef67dd638bb4a6b014c3a
-
-   2.008  INFO Fetched versions for nettle
-        - release: 3.10.2
-        - commit: 47a5a39403647dc22aba07f692795b3424ff543d
-
-   2.008  INFO Fetched versions for glib
-        - release: 2.86.3
-        - unstable: 2.87.1
-        - commit: fdac7118ceab456c0d7e3674b99ee52672d42bd6
-
-   2.013  INFO Fetched versions for graphviz
-        - release: 14.1.1
-        - commit: 35490b4ed710bc49ad76a6f65b4d7f78c18f1c76
-
-   2.014  INFO Fetched versions for nasm
-        - release: 3.01
-        - commit: 22a9118f1e9dd9688a9ce3b81c20f984b17fa489
-
-   2.025  INFO Fetched versions for sxhkd
-        - release: 0.6.3
-        - commit: 2cc7aca40f38cd47fbeea1f37fe310ef34386435
-
-   2.029  INFO Fetched versions for pixman
-        - release: 0.46.4
-        - commit: f824cac6478971c0f71e4dfe8a60ebf70224076a
-
-   2.029  INFO Fetched versions for typst
-        - release: 0.14.2
-        - commit: 5c5e1cc1b8f66c1fd53e595c0f2da1cc2902c372
-
-   2.029  INFO Fetched versions for pigz
-        - release: 2.8
-        - commit: fe4894f57739e3039a2ffc2a2a360d35e19bacbe
-
-   2.054  INFO Fetched versions for libtirpc
-        - release: 1.3.7
-
-   2.057  INFO Fetched versions for vorbis
-        - release: 1.3.7
-        - commit: 2d79800b6751dddd4b8b4ad50832faa5ae2a00d9
-
-   2.060  INFO Fetched versions for coreutils
-        - release: 9.9
-        - commit: 210c000b8c121592636db3d87aa7dd912092986c
-
-   2.061  INFO Fetched versions for util-macros
-        - release: 1.20.2
-        - commit: a9d71e3fd8e6758b70be31c586921bbbcd2a8449
-
-   2.063  INFO Fetched versions for xfsprogs
-        - release: 6.18.0
-        - commit: 8b892adad226bb9fef4009c4cba4dbc25b70b011
-
-   2.067  INFO Fetched versions for uchardet
-        - release: 0.0.8
-        - commit: 06029ec3340cdf6bf9a6a537dafb3f39eda0560e
-
-   2.070  INFO Fetched versions for cairo
-        - release: 1.18.4
-        - unstable: 1.18.4
-        - commit: 200a02286bfe9a39839b9fc8d715b852ccf25d71
-
-   2.071  INFO Fetched versions for flatpak
-        - release: 1.17.2
-        - commit: 6a5fa4b8a013741e62485e99445c9b09923c2fa1
-
-   2.076  INFO Fetched versions for catgirl
-        - release: 2.2a
-        - unstable: 2.2a
-        - commit: 38dc6a301914efd34f9a57cf75e4d0dae8a529fc
-
-   2.082  INFO Fetched versions for ply
-        - release: 3.11
-        - commit: 9d7c40099e23ff78f9d86ef69a26c1e8a83e706a
-
-   2.088  INFO Fetched versions for xtrans
-        - release: 1.6.0
-        - commit: cf05ba4a10c90da2c63805a5375e983b174e28b0
-
-   2.105  INFO Fetched versions for yt-dlp
-        - release: 2025.12.08
-        - commit: 27afb31edc492cb079f9bce9773498d08e568ff3
-
-   2.109  INFO Fetched versions for xxhash
-        - release: 0.8.3
-        - commit: 66979328cf3f15cecdc61ea58c9f81e6071f8983
-
-   2.111  INFO Fetched versions for xkill
-        - release: 1.0.6
-        - commit: b803eb22bca91094a476dc630b610e34e3b517f9
-
-   2.112  INFO Fetched versions for xwayland
-        - release: 24.1.9
-        - commit: 44dea3a8bda392e673c3db47000e23af5549ffc4
-
-   2.113  INFO Fetched versions for libid3tag
-        - release: 0.16.3
-        - commit: 08140124323f8922e0a62d510296e65f46776da3
-
-   2.131  INFO Fetched versions for tmux
-        - release: 3.6a
-        - commit: ad083677c5b6d7bb933ce7e0d41364feef1e474b
-
-   2.147  INFO Fetched versions for startup-notification
-        - release: 0.12
-        - commit: 64eb585315cfb1fb4fe68c8f705956e9fed46545
-
-   2.148  INFO Fetched versions for pinentry
-        - release: 1.3.2
-        - commit: 954b3da04ac95ffb23ce9eac34ff99633cffdb47
-
-   2.149  INFO Fetched versions for prismlauncher
-        - release: 10.0.2
-        - commit: 5a6f94fe795db5fc316d3fab61332034f0612040
-
-   2.148  INFO Fetched versions for xcb-util
-        - release: 0.4.1
-        - commit: bdba930aaac6ee6f271133674b40f1a9d895c6d4
-
-   2.158  INFO Fetched versions for cava
-        - release: 0.10.6
-        - commit: a6c86c6729c5cd5be29db3140a2e85cb884d5284
-
-   2.159  INFO Fetched versions for steam
-        - release: 1.0.0.85
-
-   2.166  INFO Fetched versions for squashfs-tools
-        - release: 4.7.4
-        - commit: 767d44ceff8fc8e1e7a47a0bcafdcc40eaeb6503
-
-   2.169  INFO Fetched versions for sxwm
-        - release: 1.7
-        - commit: f5d9381a86c2a0aada94e0da9a4fff79fdd057dc
-
-   2.181  INFO Fetched versions for nftables
-        - release: 1.1.6
-        - commit: 1ac69c4de8ff7b472c3a5f2cf1d9442642e9047c
-
-   2.195  INFO Fetched versions for pkgconf
-        - release: 2.5.1
-        - commit: 67c63bbba4e5400582cb3b51d8d9e7ee3183ee4f
-
-   2.201  INFO Fetched versions for ufw
-        - release: 0.36.2
-        - commit: bdb71dc636c918421d50cac647353b2be08202a0
-
-   2.203  INFO Fetched versions for xvidcore
-        - release: 1.3.7
-
-   2.204  INFO Fetched versions for ffmpeg
+   3.519  INFO Fetched versions for libksba
+        - release: 1.6.7
+        - commit: 2dd35bef663f5ba89260222299aabffd017c4bbd
+
+   3.647  INFO Fetched versions for ffmpeg
         - release: 8.0.1
         - unstable: 8.1-dev
-        - commit: af136db1c3c5d72c4a71cedaf7b06d2f8ae3819e
+        - commit: 805931dfc8a40fa49a4d7b242892373e9108af7b
         - 7: 7.1.3
         - 6: 6.1.4
         - 5: 5.1.8
@@ -1827,365 +257,1946 @@
         - 3: 3.4.14
         - 2: 2.8.22
 
-   2.211  INFO Fetched versions for zlib-ng
-        - release: 2.3.2
-        - commit: 503e8a39782931b1b8673a6c8f081de60fd9c747
+   3.759  INFO Fetched versions for at-spi2-core
+        - release: 2.59.0
+        - commit: d02cd58d7eeaff21a40d346acfecbae99e659036
 
-   2.212  INFO Fetched versions for wine
-        - release: 10.20
-        - unstable: 11.0-rc5
-        - commit: b3319fa671a1f9f7b7aa09e9d9016b250cb848cb
-
-   2.215  INFO Fetched versions for xh
-        - release: 0.25.3
-        - commit: 60a8338e35e84eb5352af9dd6b2626f7d54eae5f
-
-   2.227  INFO Fetched versions for vala
-        - release: 0.56.18
-        - commit: d680994c54dd34b8bd3bd808f0023be19ea647da
-
-   2.237  INFO Fetched versions for xmodmap
-        - release: 1.0.11
-        - commit: 0761a37a6111f22e2552f9f2245bddbb6d3db2bf
-
-   2.240  INFO Fetched versions for zathura-pdf-mupdf
-        - release: 0.4.6
-        - commit: b6ea6540846e68e76e5527f5d67c48a016d8958f
-
-   2.244  INFO Fetched versions for file
-        - release: 5.46
-
-   2.254  INFO Fetched versions for polkit
-        - release: 127
-        - commit: 2573601684a5b64dc447fb99d8d1f9c976cce747
-
-   2.261  INFO Fetched versions for xcb-util-errors
-        - release: 1.0.1
-        - commit: d5435b07a895a55c5093a6415c09496de258391c
-
-   2.263  INFO Fetched versions for xz
-        - release: 5.8.2
-        - unstable: 5.8.2
-        - commit: 9f4c5a0d4817c9c7011cdfd00cfbe0ddda66a455
-
-   2.267  INFO Fetched versions for xcb-util-cursor
-        - release: 0.1.6
-        - commit: 7b0fa99aa13084a9bf7be4180066f6a74b0adef1
-
-   2.272  INFO Fetched versions for sysklogd
-        - release: 2.7.2
-        - commit: c1c3f253a8963c6e9e41fafcf9b888f3f5a34906
-
-   2.274  INFO Fetched versions for tomlplusplus
-        - release: 3.4.0
-        - commit: 7807a314ad1c0c9c227d9dbd68f23f187163372e
-
-   2.286  INFO Fetched versions for systemd
-        - release: 259
-        - commit: db5f1952f36aefd302bd3a348a252e3e75c4e77e
-
-   2.289  INFO Fetched versions for glib-networking
-        - release: 2.80.1
-        - unstable: 2.80.1
-        - commit: d9f2e67e755516027ab00066dcadf82b4f2ac88e
-
-   2.300  INFO Fetched versions for procps-ng
-        - release: 4.0.5
-        - commit: a8cceb43a00c13b60a7ad6822747ff39adfab7ea
-
-   2.306  INFO Fetched versions for zathura
-        - release: 0.5.14
-        - commit: 30ec21d5462e9e9afad37a749ec0e100c4dce6d6
-
-   2.308  INFO Fetched versions for tcpdump
-        - release: 4.99.6
-        - commit: ec3814c3c9a066f3379123c687598eca8fa9b941
-
-   2.315  INFO Fetched versions for sudo
-        - release: 1.9.17p2
-        - commit: 2495425c7f0c4327570852c54c8256c48c8f1418
-
-   2.317  INFO Fetched versions for strace
-        - release: 6.18
-        - commit: 630ed1c86db2f4b8a7690661d4b61d030f8eb70c
-
-   2.324  INFO Fetched versions for zsh
-        - release: 5.9
-        - commit: 3e72a52e27d8ce8d8be0ee65ae5f77f756c06fda
-
-   2.326  INFO Fetched versions for vulkan-headers
-        - release: 1.4.338
+   3.792  INFO Fetched versions for glslang
+        - release: 16.1.0
         - sdk: 1.4.335.0
-        - commit: 0777a3ad88bad5f4b11cfd509458bbc0ddadc773
+        - commit: 7881226269b1596feb604515743f528f02041375
 
-   2.327  INFO Fetched versions for unrar
-        - release: 7.2.3
+   3.808  INFO Fetched versions for ell
+        - release: 0.81
+        - commit: 2e254f51bd82c28f8a2132d58a960fb6b0887f79
 
-   2.337  INFO Fetched versions for winetricks
-        - release: 20250102
-        - commit: 81a692e2ee6b311367f18a17a9a61a0ef1c0ad18
-
-   2.340  INFO Fetched versions for nghttp2
-        - release: 1.68.0
-        - commit: 5653439558e2d871c3240ed815d20cbcc7c7fbeb
-
-   2.348  INFO Fetched versions for poppler
-        - release: 26.01.0
-        - commit: 3a9ca8669e218e42b5539df2a29065cdee140ee5
-
-   2.353  INFO Fetched versions for vat
-        - release: 2.9.2
-        - commit: 2f883050572017b31c7a9c87050d9c7fa1723be3
-
-   2.354  INFO Fetched versions for xcb-util-keysyms
-        - release: 0.4.1
-        - commit: 72e9fc14ba16f9e1830d2f35919862abc53abcf3
-
-   2.355  INFO Fetched versions for xdg-desktop-portal-hyprland
-        - release: 1.3.11
-        - commit: 4b8801228ff958d028f588f0c2b911dbf32297f9
-
-   2.359  INFO Fetched versions for xinit
-        - release: 1.4.4
-        - commit: e039b40052b66839d3df51cf3f129a399f2ada0f
-
-   2.376  INFO Fetched versions for unibilium
-        - release: 2.1.2
-        - commit: 31fef2218ea8a99686de7a4f1b22813591d1685f
-
-   2.378  INFO Fetched versions for xorgproto
-        - release: 2025.1
-        - commit: c18d2bc22813793bba7f0e4e603c0104d7724802
-
-   2.380  INFO Fetched versions for xcb-util-image
-        - release: 0.4.1
-        - commit: 5ce46a7f14b88f6c69cdb5cba4cc106fbfd69402
-
-   2.385  INFO Fetched versions for xorg-server
-        - release: 21.1.21
-        - commit: 44dea3a8bda392e673c3db47000e23af5549ffc4
-
-   2.402  INFO Fetched versions for xinput
-        - release: 1.6.4
-        - commit: f0ae723318e48546a19f7be5d086dfb01fc25a4c
-
-   2.402  INFO Fetched versions for glu
-        - release: 9.0.3
-        - commit: a2b96c7bba8db8fec3e02fb4227a7f7b02cabad1
-
-   2.403  INFO Fetched versions for pipewire
-        - release: 1.4.9
-        - unstable: 1.4.9
-        - commit: 0869be11f86c8acadf0443b3ca340975e6c39ce4
-
-   2.407  INFO Fetched versions for cbindgen
-        - release: 0.29.2
-        - unstable: 0.29.2
-        - commit: ac824ecebc64c1b45720e324b4676eedcc2b177f
-
-   2.414  INFO Fetched versions for fftw
+   3.902  INFO Fetched versions for fftw
         - release: 3.3.10
         - unstable: 3.3.10
         - commit: 7947c101a5b724fe8b9784218388b46d7e247132
 
-   2.427  INFO Fetched versions for wireplumber
-        - release: 0.5.13
-        - commit: b60b2f4ece58eb5b08d30d6832ee987c71a52350
+   3.980  INFO Fetched versions for autoconf
+        - release: 2.72
+        - commit: 9513bc15f75b4ed14848dd52390eb11063ef038e
 
-   2.427  INFO Fetched versions for wpa_supplicant
-        - release: 2.11
-        - commit: e17107912c8ef24dad8dd2407b71a2541a5b34e8
+   4.016  INFO Fetched versions for libxres
+        - release: 1.2.3
+        - commit: 30c789e5065f7af7d6a03c09e3ceb073ed810bdd
 
-   2.430  INFO Fetched versions for zstd
-        - release: 1.5.7
-        - commit: ae9f20ca2716f2605822ca375995b7d876389b64
+   4.095  INFO Fetched versions for file
+        - release: 5.46
 
-   2.436  INFO Fetched versions for x264
-        - commit: 0480cb05fa188d37ae87e8f4fd8f1aea3711f7ee
+   4.098  INFO Fetched versions for gnupg
+        - release: 2.4.9
+        - unstable: 2.5.16
+        - commit: c7770b0a7068b3f75234db092c0352ca4fe9a770
 
-   2.453  INFO Fetched versions for xcb-util-renderutil
-        - release: 0.3.10
-        - commit: fb1c2524b9ac4e70930aa4dd94dde827e2a7c13f
+   4.233  INFO Fetched versions for findutils
+        - release: 4.10.0
 
-   2.456  INFO Fetched versions for tcsh
-        - release: 6.24.16
-        - commit: b109883ca5a512bd5712e7833111b066063317dc
+   4.233  INFO Fetched versions for autoconf-archive
+        - release: 2024.10.16
 
-   2.457  INFO Fetched versions for sysvinit
-        - release: 3.15
-        - commit: 2da36cf51d4816438d5f944ec5e5d2f56f49e292
+   4.254  INFO Fetched versions for fish
+        - release: 4.3.3
+        - commit: 1affa7a16ee77d828c05b7edfd499fb381121190
 
-   2.461  INFO Fetched versions for flex
-        - release: 2.6.4
-        - commit: bf254c75b1e0d2641ebbd7fc85fb183f36a62ea7
+   4.376  INFO Fetched versions for foot
+        - release: 1.25.0
+        - commit: b78cc92322dd2ae431dbbb70bc681b4d603d844d
 
-   2.464  INFO Fetched versions for noto-cjk
-        - commit: f8d157532fbfaeda587e826d4cd5b21a49186f7c
+   4.454  INFO Fetched versions for gnutls
+        - release: 3.8.11
+        - unstable: 3.8.11
+        - commit: 0b7e7690a5744a501b887dd3a53e74c384b82a3c
 
-   2.473  INFO Fetched versions for xdg-desktop-portal
-        - release: 1.20.3
-        - commit: 61fb5e66e5b44c883f7c6f0648a78784bda25f4a
+   4.465  INFO Fetched versions for kbd
+        - release: 2.9.0
+        - commit: 2f9a4e56c2ef245fbe840677aad9d5932e17f50d
 
-   2.477  INFO Fetched versions for tornado
-        - release: 6.5.4
-        - unstable: 6.5.4
-        - commit: e14929c305019fd494c74934445f0b72af4f98ab
+   4.518  INFO Fetched versions for avahi
+        - release: 0.8
+        - unstable: 0.9-rc2
+        - commit: 63859cf4b50e0e123ab6cfa25bfd019c3efe3a9c
 
-   2.479  INFO Fetched versions for glm
-        - release: 1.0.3
-        - commit: b1fed407864225653dae04674f04014c92287a26
+   4.611  INFO Fetched versions for freeglut
+        - release: 3.8.0
+        - unstable: 3.8.0
+        - commit: 731038766f64776e62adb00daf19024230cd28f7
 
-   2.485  INFO Fetched versions for xclip
-        - release: 0.13
-        - commit: 2c3b811002b35d3be7f39cc1145dd06bdb32e31c
+   4.640  INFO Fetched versions for flatpak
+        - release: 1.17.2
+        - commit: a6c76d21a20d3443cc718e31b248ac7ebc10a7a7
 
-   2.489  INFO Fetched versions for xcb-util-wm
-        - release: 0.4.2
-        - commit: 53d99b9b942c8248e1f63299069c6a2bedb92b41
+   4.741  INFO Fetched versions for kmod
+        - release: 34.2
+        - commit: a403590f6e9f25216480abdb7e038257d706f17f
 
-   2.507  INFO Fetched versions for ninja
-        - release: 1.13.2
-        - commit: 2d77de5e41b6d0beafd6955336297f3a6933dc96
+   4.751  INFO Fetched versions for libliftoff
+        - release: 0.5.0
+        - commit: 9114b1e4dc8646b8f6512518567477926922905e
 
-   2.518  INFO Fetched versions for xdg-desktop-portal-wlr
-        - release: 0.8.1
-        - commit: a28c5c7aafe3da8da26dd757035282f27a781255
+   4.893  INFO Fetched versions for go
+        - release: 1.25.5
+        - unstable: 1.26rc1
+        - commit: e2429619605951b137e25f6a51fbc39d9f0f1e9b
 
-   2.519  INFO Fetched versions for xcb-util-xrm
-        - release: 1.3
-        - commit: a17de570ab18bfd8b7b9bf23af9e0bb2249d02c9
-
-   2.526  INFO Fetched versions for xapian
-        - release: 1.4.30
-        - commit: e91ba89f6c84dac57397816e299c54f7e631d0f9
-
-   2.533  INFO Fetched versions for xdg-dbus-proxy
-        - release: 0.1.6
-        - commit: 0e13c10b5c227c4a98941327920ef07a2e9af64c
-
-   2.540  INFO Fetched versions for xdg-desktop-portal-gtk
-        - release: 1.15.3
-        - commit: 9be95fe78c6ea8ca59238f7466576e8198fc489d
-
-   2.541  INFO Fetched versions for versort
-        - release: 0.2.3
-        - commit: 93f1263f3c95e10df1484732c64c727503d5430e
-
-   2.541  INFO Fetched versions for nspr
-        - release: 4.38.2
-
-   2.544  INFO Fetched versions for xrandr
-        - release: 1.5.3
-        - commit: 5ea32007758bac1db51841c782a921096155cde4
-
-   2.544  INFO Fetched versions for flit
+   4.896  INFO Fetched versions for flit
         - release: 3.12.0
         - commit: 25e602763ef129de9b8006a913f81ee4ce6ec67a
 
-   2.551  INFO Fetched versions for x265
-        - release: 4.1
-        - commit: 9e551a994f970a24f0e49bcebe3d43ef08448b01
+   4.947  INFO Fetched versions for liblinear
+        - release: 250
+        - commit: 491c9f1188b97ba70847c70a68be363d186ddf9d
 
-   2.552  INFO Fetched versions for xprop
-        - release: 1.2.8
-        - commit: 55a51e08787035786abc27b170beb0faacb6cd47
+   4.998  INFO Fetched versions for ksh
+        - release: 1.0.10
+        - commit: 0f6866b6bebc26d003acb6f467d0694a8aea5177
 
-   2.556  INFO Fetched versions for glibc
-        - release: 2.42
-        - unstable: 2.42.9000
-        - commit: e539a269990dac3ff4d2432c0eb6966a5ee4f274
+   5.095  INFO Fetched versions for libxscrnsaver
+        - release: 1.2.5
+        - commit: 60c957ba8a727d01b376da0142aef7e18aa86fe1
 
-   2.561  INFO Fetched versions for wlr-randr
-        - release: 0.5.0
-        - commit: b214653d6f049055c142cf6ad827539598bf65a4
+   5.129  INFO Fetched versions for gpgme
+        - release: 2.0.1
+        - unstable: 2.0.1
+        - commit: 9a1f409499c4e086e95c8dbca712929ee3c418ef
 
-   2.565  INFO Fetched versions for wl-clipboard
+   5.271  INFO Fetched versions for awww
+        - release: 0.11.2
+        - commit: 138c4ebdbe0c3eead5656373ea8837a5bd49c40b
+
+   5.448  INFO Fetched versions for lame
+        - release: 3.100
+
+   5.478  INFO Fetched versions for bash
+        - release: 5.3
+        - unstable: 5.3
+
+   5.721  INFO Fetched versions for seatd
+        - release: 0.9.2
+        - commit: a3c56c324c3a84474cc1615d94ccd6a6255d0c10
+
+   5.751  INFO Fetched versions for less
+        - release: 685
+        - unstable: 691
+        - commit: ac365da87548deff920cb9ecc286de161c8e8a54
+
+   5.806  INFO Fetched versions for gtkmm
+        - release: 4.21.2
+        - 3: 3.24.10
+        - commit: 4faec2a1ab0626a3a6c8aaec8c6cf87625419c0f
+
+   5.825  INFO Fetched versions for bash-completion
+        - release: 2.17.0
+        - unstable: 2.17.0
+        - commit: 73f95ce224124033eca03a13a6f90864c88a2007
+
+   5.827  INFO Fetched versions for gpu-screen-recorder
+        - release: 5.11.5
+        - commit: b2f0d135120fa19513ff4d9de1a5b7aafbfe596e
+
+   5.853  INFO Fetched versions for freetype
+        - release: 2.14.1
+        - unstable: 2.14.1
+        - commit: a9babbcbc0e93757f37e6ab998195b227fe19ad9
+
+   5.902  INFO Fetched versions for sed
+        - release: 4.9
+
+   5.977  INFO Fetched versions for libmd
+        - release: 1.1.0
+        - commit: d5b8e853989a73f8fff9dc4e00dccd0b691b84f9
+
+   6.092  INFO Fetched versions for fribidi
+        - release: 1.0.16
+        - commit: b28f43bd3e8e31a5967830f721bab218c1aa114c
+
+   6.158  INFO Fetched versions for libxshmfence
+        - release: 1.3.3
+        - commit: 2c3d85cf655f4c9a605f0353cc742f186af52835
+
+   6.380  INFO Fetched versions for fzf
+        - release: 0.67.0
+        - commit: d1f037059ab57aa1c70abe124b2b72a710f4a28f
+
+   6.408  INFO Fetched versions for gumbo-parser
+        - release: 0.13.2
+        - commit: 6dddad6503480afc1a1379187aa114415ac7e640
+
+   6.450  INFO Fetched versions for graphviz
+        - release: 14.1.1
+        - commit: 35490b4ed710bc49ad76a6f65b4d7f78c18f1c76
+
+   6.559  INFO Fetched versions for bc
+        - release: 7.0.3
+        - unstable: 7.1.0
+        - commit: 2014937762888ff7e54d1409bb133477023772c8
+
+   6.657  INFO Fetched versions for libxslt
+        - release: 1.1.45
+        - commit: 35323d6a15f6e63c9919ddbc0abe64c90a0dd88a
+
+   6.767  INFO Fetched versions for gzip
+        - release: 1.14
+
+   6.772  INFO Fetched versions for gawk
+        - release: 5.3.2
+
+   6.863  INFO Fetched versions for senpai
+        - release: 0.4.1
+        - commit: d89304820f80822c378b025afcf20b18a4fff8a3
+
+   7.111  INFO Fetched versions for bdwgc
+        - release: 8.2.10
+        - commit: 370781b86b66f4c20f2a9af51d4409697c9f2057
+
+   7.203  INFO Fetched versions for setconf
+        - release: 0.7.7
+        - commit: e77f567307cdd89792b405570201f42a9b763650
+
+   7.615  INFO Fetched versions for setuptools
+        - release: 80.9.0
+        - commit: d198e86f57231e83de87975c5c82bc40c196da79
+
+   7.701  INFO Fetched versions for gcc
+        - release: 15.2.0
+        - unstable: 16
+        - commit: dfd063aeccb52a51c7d98052920328facec401a9
+
+   7.723  INFO Fetched versions for libxt
+        - release: 1.3.1
+        - commit: 170a4edb3189810810ffbf2543bfb8ab96e1898c
+
+   7.759  INFO Fetched versions for befunge-93
+        - release: 2.25
+        - commit: 8fe4065c0415b6f6fa6f699798fa9b64737aadc1
+
+   7.851  INFO Fetched versions for hicolor-icon-theme
+        - release: 0.18
+        - commit: 4dc168322b8b0bc06c521e9e90d66a4fa09816d4
+
+   7.856  INFO Fetched versions for libdisplay-info
+        - release: 0.3.0
+        - commit: 73ec53d800275cce4b8a4af6af03ea2aac9912fd
+
+   7.995  INFO Fetched versions for gdb
+        - release: 17.1
+
+   8.117  INFO Fetched versions for gdbm
+        - release: 1.26
+
+   8.270  INFO Fetched versions for bind-utils
+        - release: 9.21.16
+        - unstable: 9.21.16
+
+   8.290  INFO Fetched versions for binutils
+        - release: 2.45.1
+
+   8.358  INFO Fetched versions for highlight
+        - release: 4.18
+        - commit: dfbbe5120bf1b13cbf02db1d598f6ba12461f492
+
+   8.458  INFO Fetched versions for gdk-pixbuf
+        - release: 2.44.4
+        - unstable: 2.44.4
+        - commit: 64e7576f87b378252e402520c939236bc9c35a2a
+
+   8.642  INFO Fetched versions for htop
+        - release: 3.4.1
+        - commit: 92b065fafd85fb6466c622961f51c9831f1d619c
+
+   8.674  INFO Fetched versions for gettext-tiny
+        - release: 0.3.3
+        - commit: acca7c3d509b9d9d4b33935e822a5bc39b35be01
+
+   8.813  INFO Fetched versions for libaom
+        - release: 3.13.1
+        - unstable: 3.13.1
+        - commit: 11f9368d8e39b821306c642465ad7dfe357d45d5
+
+   8.862  INFO Fetched versions for ghostscript
+        - release: 10.06.0
+
+   8.902  INFO Fetched versions for setxkbmap
+        - release: 1.3.4
+        - commit: 8fe146750e70e83908c76f057492d9d9bf059287
+
+   8.914  INFO Fetched versions for hwdata
+        - release: 0.403
+        - commit: bb56be59220b34d79160b73bd24eb36952dc8c63
+
+   9.082  INFO Fetched versions for bluefish
+        - release: 2.2.19
+
+   9.099  INFO Fetched versions for libarchive
+        - release: 3.8.5
+        - commit: 8d1c9b95f1fbc68f3882ef859d6caf7b701fde7c
+
+   9.227  INFO Fetched versions for i3
+        - release: 4.25
+        - commit: 57f628629f0b2a3f6fa16dbbe94ae2ed044090d6
+
+   9.230  INFO Fetched versions for libxtst
+        - release: 1.2.5
+        - commit: abf3ff74b97c4231d2324d66318bfa1d22e44913
+
+   9.263  INFO Fetched versions for giflib
+        - release: 5.2.2
+        - commit: 8bed392c280ad2c237e8bf1beca6f8f68f893e87
+
+   9.353  INFO Fetched versions for boost
+        - release: 1.90.0
+        - commit: 689461dd1369d28d7deab05e19fc253a6bc1591e
+
+   9.368  INFO Fetched versions for libass
+        - release: 0.17.4
+        - commit: fadc390583f24eb5cf98f16925fd3adee50bca88
+
+   9.387  INFO Fetched versions for libdrm
+        - release: 2.4.131
+        - commit: 369990d9660a387f618d0eedc341eb285016243b
+
+   9.456  INFO Fetched versions for sgml-common
+        - release: 0.6.3
+
+   9.484  INFO Fetched versions for iana-etc
+        - release: 20251215
+
+   9.498  INFO Fetched versions for girara
+        - release: 0.4.5
+        - commit: 2031ecd5d73d2ff8c76485e04e9a37666ea6ba29
+
+   9.603  INFO Fetched versions for libassuan
+        - release: 3.0.2
+        - commit: 515415b4e2ea1a49a410e2103fdbe45c59ce5c7f
+
+   9.628  INFO Fetched versions for libepoxy
+        - release: 1.5.10
+        - commit: 1b6d7db184bb1a0d9af0e200e06a0331028eaaae
+
+   9.674  INFO Fetched versions for bottom
+        - release: 0.12.3
+        - commit: a53af4ed5144378ca337ad3563814322e72eac86
+
+   9.716  INFO Fetched versions for libtool
+        - release: 2.6.0
+        - commit: 97998eb82af095abc1dfff68281cc045b4f1cc9a
+
+   9.748  INFO Fetched versions for ibus
+        - release: 1.5.33
+        - commit: 0ed568768130920b28f3ae107ab3c99c1b9a231a
+
+   9.766  INFO Fetched versions for shaderc
+        - release: 2025.5
+        - commit: d15277d6bc180f6a0b8b601f0cab2bbcaac9b4d5
+
+   9.898  INFO Fetched versions for libunistring
+        - release: 1.4.1
+
+   9.964  INFO Fetched versions for brotli
+        - release: 1.2.0
+        - unstable: 1.2.0
+        - commit: 5fa73e23bee34f84148719576a7a434f0fc43dc8
+
+  10.044  INFO Fetched versions for imagemagick
+        - release: 7.1.2.12
+        - commit: 951f6b0940224afc469f6a72503d6e011c688d02
+
+  10.083  INFO Fetched versions for shadow
+        - release: 4.19.0
+        - commit: d5638a5b2b7b9038fe3436d3ffb9b973ad479176
+
+  10.138  INFO Fetched versions for libunwind
+        - release: 1.8.3
+        - commit: 71559717599cecc4d1ccb2061766ec5c12e10ac6
+
+  10.204  INFO Fetched versions for btop
+        - release: 1.4.6
+        - commit: 3bffc086d342cacbdee59371b409f405a4c910cf
+
+  10.252  INFO Fetched versions for inih
+        - release: 62
+        - unstable: 62
+        - commit: 8e06f6b77b5d4471bdc6d85ada81b67d37354a5c
+
+  10.401  INFO Fetched versions for libbsd
+        - release: 0.12.2
+        - commit: 22fddb16f8430d64b82a1ea08602be5e61ac203b
+
+  10.405  INFO Fetched versions for libxv
+        - release: 1.0.13
+        - commit: d709b8efab4e28b3ad324ca30acdb81a527f69a4
+
+  10.440  INFO Fetched versions for libevdev
+        - release: 1.13.6
+        - commit: be44b6e6a83c31f259e16fa7e0dace57ff7c6af7
+
+  10.477  INFO Fetched versions for btrfs-progs
+        - release: 6.17.1
+        - commit: 79c154a3ab313f877886e06479fe6058ecdd2d53
+
+  10.530  INFO Fetched versions for liburcu
+        - release: 0.15.5
+        - commit: 33e045a66333ca4a50f8b56d80e9964d35ba9060
+
+  10.716  INFO Fetched versions for iniparser
+        - release: 4.2.6
+        - commit: 4bef811283e0ec1658c60e09950bd5a1ddc92e4b
+
+  10.759  INFO Fetched versions for libcap
+        - release: 2.77
+        - commit: 542d7d86ecd2129dd5fe7e5b31ba307304f5b319
+
+  10.772  INFO Fetched versions for libevent
+        - release: 2.1.12
+        - commit: a994a52d5373d6284b27576efa617aff2baa7bd3
+
+  10.785  INFO Fetched versions for bubblewrap
+        - release: 0.11.0
+        - commit: d6180f25b164c708b8b0a0d86d6a9642f30cd9a9
+
+  10.849  INFO Fetched versions for libusb
+        - release: 1.0.29
+        - unstable: 1.0.29
+        - commit: f1af64b787f8241ec88780fedab95e457a9cae12
+
+  11.000  INFO Fetched versions for libconfig
+        - release: 1.8.2
+        - commit: a42cb47c1526a4f2ed025fcbb2289863375bc898
+
+  11.014  INFO Fetched versions for libexif
+        - release: 0.6.25
+        - commit: cdfe2db6ace857a788a028d333f2a4009539a1cf
+
+  11.068  INFO Fetched versions for libutempter
+        - release: 1.2.3
+        - commit: 4caa8ab94ff8b207228fa723a89214bf5e929321
+
+  11.088  INFO Fetched versions for c-ares
+        - release: 1.34.6
+        - unstable: 1.34.6
+        - commit: 73bc590b8ee80b4eee8ae637f5089584b217f3b0
+
+  11.148  INFO Fetched versions for shared-mime-info
+        - release: 2.4
+        - commit: c293bffb5ff065ee8248e26f6dd45d660e5b1698
+
+  11.209  INFO Fetched versions for libcupsfilters
+        - release: 2.1.1
+        - commit: a02c49054ff828772b9edea083a3fe58e90e9b15
+
+  11.285  INFO Fetched versions for inkscape
+        - release: 1.4.3
+        - commit: ddc4def65fffbc517304c76ae70842bd8bea6c49
+
+  11.341  INFO Fetched versions for libexpat
+        - release: 2.7.3
+        - commit: 2f2c3b85d96edcf3fedbe950ee9451dbf3b2b498
+
+  11.375  INFO Fetched versions for cachecontrol
+        - release: 0.14.4
+        - commit: b4f1ab5a78bec0ab97b9d45f77b792b22e0d22e4
+
+  11.398  INFO Fetched versions for shellcheck
+        - release: 0.11.0
+        - commit: c96748a9eeeee7d70a8c7d8c0988801620894972
+
+  11.491  INFO Fetched versions for libdatachannel
+        - release: 0.24.0
+        - commit: 99dadbde19552cc995a87bffe1ff71d5a6c459fa
+
+  11.515  INFO Fetched versions for libuv
+        - release: 1.51.0
+        - commit: d67f9d2fbaa716a9cae93140b575a199dd4abd8b
+
+  11.627  INFO Fetched versions for six
+        - release: 1.17.0
+        - commit: e9da069f35bb9add9b17ecb405b474981227fcb8
+
+  11.647  INFO Fetched versions for libxvmc
+        - release: 1.0.14
+        - commit: a819142dc8b8efd29aa90e5cfbcd8cd892e51033
+
+  11.688  INFO Fetched versions for libfuse
+        - release: 3.18.1
+        - 2: 2.9.9
+        - commit: fa03307c656326733182ab7e30a3cd9e05da43f4
+
+  11.783  INFO Fetched versions for caddy
+        - release: 2.10.2
+        - commit: e40bd019ff4599b34769d249ee37934217ed9fa4
+        - unstable: 2.11.0-beta.2
+
+  11.808  INFO Fetched versions for libva
+        - release: 2.23.0
+        - commit: 9b1db46a3a11b6152a4fa2c3b3f1e93da2cb5edf
+
+  11.846  INFO Fetched versions for slop
+        - release: 7.7
+        - commit: 03800becac94936d2608011e393386d4fac4de01
+
+  11.874  INFO Fetched versions for inxi
+        - release: 3.3.40.1
+        - commit: 20451ca41fe61723250bb0d8f2ba2ec708719b90
+
+  11.928  INFO Fetched versions for libgbm
+        - release: 1.0.4
+        - commit: 04abbb632d371c5b78da0b7a15d801728899c131
+
+  12.023  INFO Fetched versions for libvpl
+        - release: 2.16.0
+        - commit: 778a66d6c6537f08eabb91955dbbf1bce3812894
+
+  12.081  INFO Fetched versions for slurp
+        - release: 1.5.0
+        - commit: 466a4e3b726e2fb01e7000806c85c8c849d9de17
+
+  12.121  INFO Fetched versions for iputils
+        - release: 20250605
+        - commit: 35ed506fe4bfc393284138915017d4b7da1a6f3e
+
+  12.152  INFO Fetched versions for libgcrypt
+        - release: 1.11.2
+        - commit: 6e77b09cff56dd357cd2be332e3a2af200190382
+
+  12.248  INFO Fetched versions for libvpl-tools
+        - release: 1.5.0
+        - commit: ad9deecaf0ee76f689373b55fe620c843e3c8a4d
+
+  12.291  INFO Fetched versions for snowball
+        - release: 3.0.1
+        - commit: 2d2e312df56f2ede014a4ffb3e91e6dea43c24be
+
+  12.473  INFO Fetched versions for libvpx
+        - release: 1.15.2
+        - commit: 6aa37dfddba550bcf3dd02ada23854d5990b5ed4
+
+  12.583  INFO Fetched versions for libgit2
+        - release: 1.9.2
+        - unstable: 1.9.2
+        - commit: d90800046420c694f93285600f3d325c38ed2691
+
+  12.661  INFO Fetched versions for libdecor
+        - release: 0.2.5
+        - commit: 73fc377e13834010178919b182e738ea53f15c10
+
+  12.746  INFO Fetched versions for isl
+        - release: 0.27
+        - commit: 45617220d7e33b1c48c290fa4529c95d5cef3d00
+
+  12.749  INFO Fetched versions for libxxf86dga
+        - release: 1.1.6
+        - commit: 6a9b590992e7d94a63d935bfe44402712f77dc0f
+
+  12.799  INFO Fetched versions for socat
+        - release: 1.8.1.0
+        - unstable: 2.0.0-b9
+        - commit: 8834d6cc7e0d7b04cd31f9f7d0cb3e06913b0323
+
+  12.958  INFO Fetched versions for libvterm
+        - release: 0.3.3
+
+  13.012  INFO Fetched versions for speex
+        - release: 1.2.1
+        - commit: 05895229896dc942d453446eba6f9f5ddcf95422
+
+  13.062  INFO Fetched versions for cairo
+        - release: 1.18.4
+        - unstable: 1.18.4
+        - commit: 200a02286bfe9a39839b9fc8d715b852ccf25d71
+
+  13.193  INFO Fetched versions for libglvnd
+        - release: 1.7.0
+        - commit: 606f6627cf481ee6dcb32387edc010c502cdf38b
+
+  13.264  INFO Fetched versions for iso-codes
+        - release: 4.20.1
+        - commit: 5ab0be97ed6d1aa5459dcd9dbbdba0b27e16f70d
+
+  13.307  INFO Fetched versions for cargo-c
+        - release: 0.10.19
+        - commit: 19d8828e0de220132c72aa99fc536e511b09d1cf
+
+  13.412  INFO Fetched versions for libxxf86vm
+        - release: 1.1.6
+        - commit: 63134ba6acf046099fc112e08942ff6549f2286a
+
+  13.445  INFO Fetched versions for libgpg-error
+        - release: 1.58
+        - commit: 4a1381642740210875ac461e21ea5a53a5c67912
+
+  13.533  INFO Fetched versions for jaq
+        - release: 2.3.0
+        - commit: 010c0e7a84e1a2649970c741d4f149529a47ff27
+
+  13.560  INFO Fetched versions for sphinx
+        - release: 9.1.0
+        - commit: cc7c6f435ad37bb12264f8118c8461b230e6830c
+
+  13.655  INFO Fetched versions for libyaml
+        - release: 0.2.5
+        - commit: 840b65c40675e2d06bf40405ad3f12dec7f35923
+
+  13.672  INFO Fetched versions for libwebp
+        - release: 1.6.0
+        - commit: 45102247a82396fabac5241c64305b13ed711335
+
+  13.684  INFO Fetched versions for libgudev
+        - release: 238
+        - commit: bd531e8622e2c98a1da3d28a0a6df59c844f25c0
+
+  13.763  INFO Fetched versions for jasper
+        - release: 4.2.8
+        - commit: 190ac64c577ad90d3db035b0d7f5662b0117c4ad
+
+  13.862  INFO Fetched versions for libxcomposite
+        - release: 0.4.6
+        - commit: f796f0a862849765ac5b6b5e861ea548b421b8f0
+
+  13.877  INFO Fetched versions for catgirl
+        - release: 2.2a
+        - unstable: 2.2a
+        - commit: 38dc6a301914efd34f9a57cf75e4d0dae8a529fc
+
+  13.899  INFO Fetched versions for libzip
+        - release: 1.11.4
+        - commit: 9995d78858fb38e3ce1dc25b379192f42940149f
+
+  13.947  INFO Fetched versions for spirv-llvm-translator
+        - release: 21.1.3
+        - commit: f821423888319dd2f0c436fc9ab86c798ac48ba1
+
+  14.077  INFO Fetched versions for jbig2dec
+        - release: 0.20
+        - commit: d915733ec69260c1fd2c458b06835cb57bb85ac7
+
+  14.105  INFO Fetched versions for libxcrypt
+        - release: 4.5.2
+        - commit: 174c24d6e87aeae631bc0a7bb1ba983cf8def4de
+
+  14.119  INFO Fetched versions for cava
+        - release: 0.10.7
+        - commit: 29bcdc5a28e4e78bbb2d623b3670d3c79aa49349
+
+  14.359  INFO Fetched versions for lighttpd
+        - release: 1.4.82
+        - commit: 22c59dd74d6c0ae3b5b3732f8e7f52996463d13b
+        - 2-commit: 42018b01eb8d6156efc182fc6771e87b9a24af5e
+
+  14.408  INFO Fetched versions for libid3tag
+        - release: 0.16.3
+        - commit: 08140124323f8922e0a62d510296e65f46776da3
+
+  14.428  INFO Fetched versions for cbindgen
+        - release: 0.29.2
+        - unstable: 0.29.2
+        - commit: ac824ecebc64c1b45720e324b4676eedcc2b177f
+
+  14.456  INFO Fetched versions for spirv-tools
+        - release: 2025.5
+        - sdk: 1.4.335.0
+        - commit: 65b2ace21293057714b7fa1e87bd764d3dcef305
+
+  14.731  INFO Fetched versions for libx11
+        - release: 1.8.12
+        - commit: 369c6a806554429798b531cbf4267d8c8fcf6ed1
+
+  14.829  INFO Fetched versions for jinja
+        - release: 3.1.6
+        - commit: 5ef70112a1ff19c05324ff889dd30405b1002044
+
+  14.886  INFO Fetched versions for sqlite
+        - release: 3.51.2
+        - commit: 35b9709d4675eb1ff9a8d51525b62f33e68e576f
+
+  14.983  INFO Fetched versions for chrony
+        - release: 4.8
+        - unstable: 4.8
+        - commit: 007a1ae4fef36cec10742e2bb05e37acd02f2b96
+
+  15.091  INFO Fetched versions for squashfs-tools
+        - release: 4.7.4
+        - commit: 1824bef68dabf665f07e48d6ac90dc917639dada
+
+  15.164  INFO Fetched versions for jq
+        - release: 1.8.1
+        - unstable: 1.8.1
+        - commit: ea9e41f7587e2a515c9b7d28f3ab6ed00d30e5ce
+
+  15.220  INFO Fetched versions for cli11
+        - release: 2.6.1
+        - commit: aa5360b9ea5c3145c34d4156c2cf3ae20d3f31f1
+
+  15.410  INFO Fetched versions for json-c
+        - release: 0.18
+        - commit: 26fcd8d569e227391b5d39ad559d09f18f79ef49
+
+  15.447  INFO Fetched versions for limine
+        - release: 10.6.2
+        - commit: ecc7d12db3a8488b51c61aff2957ab2725a8f77d
+
+  15.479  INFO Fetched versions for libxcursor
+        - release: 1.2.3
+        - commit: f3305d7922e4b90fa754f64e4e2855fbb0bc609f
+
+  15.572  INFO Fetched versions for cmake
+        - release: 4.2.1
+        - unstable: 4.2.1
+        - commit: 5c4f559fee4eeed7601c8497ee60aeafc4648c85
+
+  15.685  INFO Fetched versions for json-glib
+        - release: 1.10.8
+        - commit: 55b3d0323994732c7c04cff435004a222dadd762
+
+  15.701  INFO Fetched versions for libxau
+        - release: 1.0.12
+        - commit: 962b015d498b1f186aea8e3b0b46fb9791831552
+
+  15.838  INFO Fetched versions for coreutils
+        - release: 9.9
+        - commit: cf36efedc01cda41863fdad257e1b5ca36c5a81d
+
+  15.926  INFO Fetched versions for st
+        - release: 0.9.3
+        - commit: 0723b7e39e73b2bcfce047b047f6e795d6184028
+
+  15.961  INFO Fetched versions for cpio
+        - release: 2.15
+
+  16.183  INFO Fetched versions for cssselect
+        - release: 1.3.0
+        - commit: 439ad91e8911e4b366945d1c9eea8db93dd5d368
+
+  16.192  INFO Fetched versions for linux
+        - release: 6.18.5
+        - mainline: 6.19-rc5
+        - next: next-20260113
+        - commit: b54345928fa1dbde534e32ecaa138678fd5d2135
+
+  16.266  INFO Fetched versions for libxcvt
+        - release: 0.1.3
+        - commit: 40de74eb5d7c402f82fe1f61beea515d17bcdd2a
+
+  16.469  INFO Fetched versions for linux-pam
+        - release: 1.7.1
+        - commit: 71ff5f3fbc3a8a374d70fa67b001d4712538a3d5
+
+  16.528  INFO Fetched versions for libxft
+        - release: 2.3.9
+        - commit: 69edd320e23b00d9aef240ce9b50f7bf482a12ef
+
+  16.560  INFO Fetched versions for jdk
+        - unstable: 27.4
+        - release: 26.u30
+        - 21: 21.0.10.u6
+        - 17: 17.0.18.u7
+        - 11: 11.0.31.u0
+        - 8: 8.492.u00
+
+  16.682  INFO Fetched versions for little-cms
+        - release: 2.18
+        - commit: 35b57af4e1a4d6d7a40ba188f9f4efb7857ff511
+
+  16.683  INFO Fetched versions for libxaw
+        - release: 1.0.16
+        - commit: 12e81cd8ade629256488782a2e7ae0322d84da53
+
+  16.781  INFO Fetched versions for libplacebo
+        - release: 7.351.0
+        - commit: 1dcaea8b601aa969ffd5bfa70088957ce3eaa273
+
+  16.813  INFO Fetched versions for cuda
+        - release: 13.1.1
+
+  17.060  INFO Fetched versions for startup-notification
+        - release: 0.12
+        - commit: 64eb585315cfb1fb4fe68c8f705956e9fed46545
+
+  17.061  INFO Fetched versions for libxdamage
+        - release: 1.1.6
+        - commit: 1319ae5cfbde5b75e23383baa5e00cc23513448c
+
+  17.134  INFO Fetched versions for libpng
+        - release: 1.6.53
+        - commit: 0f07f70aa55e4771d00b0f8a238dca992fbb60e4
+
+  17.198  INFO Fetched versions for cups
+        - release: 2.4.16
+        - commit: 2f6411e489b58c57036e294c15bae1230843980e
+
+  17.515  INFO Fetched versions for libppd
+        - release: 2.1.1
+        - commit: 262d25e4125337201b452b072c7aa4b0d70a98d0
+
+  17.616  INFO Fetched versions for cups-browsed
+        - release: 2.1.1
+        - commit: 055bc62a27487d3efed451f9142403d7d3af4486
+
+  17.761  INFO Fetched versions for steam
+        - release: 1.0.0.85
+
+  17.806  INFO Fetched versions for libxi
+        - release: 1.8.2
+        - commit: 3c2d5aedd7708c75710b39268631762de904c304
+
+  17.809  INFO Fetched versions for libpsl
+        - release: 0.21.5
+        - commit: b87753fbe660316716569b64502b094085738949
+
+  17.873  INFO Fetched versions for cups-filters
+        - release: 2.0.1
+        - commit: 956283c74a34ae924266a2a63f8e5f529a1abd06
+
+  17.934  INFO Fetched versions for libxcb
+        - release: 1.17.0
+        - commit: 93ee2ac73c32dcb567259fb83c564a424cd9fef7
+
+  17.989  INFO Fetched versions for strace
+        - release: 6.18
+        - commit: 3bbd8b4def70baa4febdb41020b2acf0117e4839
+
+  18.038  INFO Fetched versions for libqalculate
+        - release: 5.8.2
+        - commit: 6f75564d5f250de1a56e87421543b72d439ad921
+
+  18.185  INFO Fetched versions for libxdmcp
+        - release: 1.1.5
+        - commit: 8f3408f3936bacd08f76d5ee22cbc86e6b627287
+
+  18.245  INFO Fetched versions for sudo
+        - release: 1.9.17p2
+        - commit: 68ffc10168b7a82eaf440448df60f4e2cdb98c2c
+
+  18.543  INFO Fetched versions for libxinerama
+        - release: 1.1.5
+        - commit: cc22c2f60c3862482562955116d5455263b443dc
+
+  18.576  INFO Fetched versions for sudo-rs
+        - release: 0.2.11
+        - commit: ec3d9089d361a236d86d2d80e7fba5b7a533d04a
+
+  18.662  INFO Fetched versions for librsvg
+        - release: 2.61.3
+        - unstable: 2.61.3
+        - commit: 3f9b71e5515d8cae02f8a52b98db7be15d0a9599
+
+  18.708  INFO Fetched versions for curl
+        - release: 8.18.0
+        - unstable: 8.18.0
+        - commit: 2949faa93c94a624256f46b42f2dfbbee7d56fdb
+
+  18.858  INFO Fetched versions for libxkbcommon
+        - release: 1.13.1
+        - commit: ccb63bf7b51861fde1f4fe72d4052b5edf6f08a1
+
+  18.860  INFO Fetched versions for swappy
+        - release: 1.8.0
+        - commit: ff7d641b8c0d461b8a90448a5893e4aa3a0533b1
+
+  18.920  INFO Fetched versions for libsamplerate
+        - release: 0.2.2
+        - commit: 2ccde9568cca73c7b32c97fefca2e418c16ae5e3
+
+  19.004  INFO Fetched versions for cyrus-sasl
+        - release: 2.1.28
+        - commit: ac0c278817a082c625c496ec812318c019e0b96f
+
+  19.029  INFO Fetched versions for numpy
+        - release: 2.4.1
+        - commit: a90ef57574c501a780fe834123b20fcea1329f90
+
+  19.121  INFO Fetched versions for sxhkd
+        - release: 0.6.3
+        - commit: 2cc7aca40f38cd47fbeea1f37fe310ef34386435
+
+  19.184  INFO Fetched versions for libseccomp
+        - release: 2.6.0
+        - commit: 4b0bf5064cae3b4eac88020b31ce0ef43da0e3f9
+
+  19.271  INFO Fetched versions for libxext
+        - release: 1.3.6
+        - commit: 5ce2a6127889834082147dbcdd47731b7986961b
+
+  19.362  INFO Fetched versions for sxwm
+        - release: 1.7
+        - commit: f5d9381a86c2a0aada94e0da9a4fff79fdd057dc
+
+  19.383  INFO Fetched versions for llvm
+        - release: 21.1.8
+        - unstable: 21.1.8
+        - commit: 95da1354d03bf66594d0bd1763b9c9c5fbcf8843
+
+  19.449  INFO Fetched versions for cython
+        - release: 3.2.4
+        - unstable: 3.2.4
+        - commit: b47bd753c7c3e9dfb3136607119bf63672183790
+
+  19.574  INFO Fetched versions for nushell
+        - release: 0.109.1
+        - commit: 0b3dde1d78b9e4ffe6f74bf68e0fa7f38f74b5db
+
+  19.578  INFO Fetched versions for sysklogd
+        - release: 2.7.2
+        - commit: c1c3f253a8963c6e9e41fafcf9b888f3f5a34906
+
+  19.605  INFO Fetched versions for lm-sensors
+        - release: 3.6.2
+        - commit: c297368a0e4b0442fca06bae58a0bd3386629af0
+
+  19.712  INFO Fetched versions for dash
+        - release: 0.5.13
+        - commit: 5139d6a27763fc0be386e15634db21e45598b299
+
+  19.827  INFO Fetched versions for lsb-tools
+        - release: 0.12
+        - commit: 813340a04f3ff807cf6dbec698586745f41e8762
+
+  19.859  INFO Fetched versions for libxkbfile
+        - release: 1.1.3
+        - commit: cb177c4d0e6d24dd868d28d4c35f3af007e7023e
+
+  19.911  INFO Fetched versions for nv-codec-headers
+        - release: 13.0.19.0
+        - commit: 876af32a202d0de83bd1d36fe74ee0f7fcf86b0d
+
+  20.068  INFO Fetched versions for lsof
+        - release: 4.99.5
+        - commit: 39762ae6a9829a7c601d902b907ed4bed369880d
+
+  20.110  INFO Fetched versions for libxfixes
+        - release: 6.0.2
+        - commit: 70d5b0e37f8a759f3dbc218f22954347ceed094a
+
+  20.146  INFO Fetched versions for nvchecker
+        - release: 2.20
+        - commit: 4c6efe1f2de2a5beb32bb993c4f45c69ba4c9afd
+
+  20.239  INFO Fetched versions for libxml2
+        - release: 2.15.1
+        - commit: b45e38edab72e4f09b24a5c9672df818f8df020c
+
+  20.290  INFO Fetched versions for lua
+        - release: 5.5.0
+        - commit: 2a7cf4f319fc276f4554a8f6364e6b1ba4eb2ded
+
+  20.347  INFO Fetched versions for nvidia
+        - release: 580.119.02
+
+  20.509  INFO Fetched versions for libslirp
+        - release: 4.9.1
+        - commit: 061d82ff161e69f2ce727ee0fa2accabeaaad2f7
+
+  20.549  INFO Fetched versions for libxmlb
+        - release: 0.3.24
+        - commit: 0bc4264fe40a487fee0e32369f0f1914613e8473
+
+  20.606  INFO Fetched versions for luajit
+        - commit: 707c12bf00dafdfd3899b1a6c36435dbbf6c7022
+
+  20.902  INFO Fetched versions for lxml
+        - release: 6.0.2
+        - commit: 5215235a40f9ddb514dbce413341a7496509ca67
+
+  20.955  INFO Fetched versions for dbus
+        - release: 1.16.2
+        - unstable: 1.16.2
+        - commit: 4f5796a37dd303b6030127d20cba52c72523df79
+
+  20.961  INFO Fetched versions for libxfont
+        - release: 2.0.7
+        - commit: 2c2e44c94ef17ecd5003a173237b57b315e28d93
+
+  21.085  INFO Fetched versions for obs-studio
+        - release: 32.0.4
+        - commit: 902f6d17e5a65742d16baf3cd30032979866dae7
+
+  21.284  INFO Fetched versions for ogg
+        - release: 1.3.6
+        - commit: 0288fadac3ac62d453409dfc83e9c4ab617d2472
+
+  21.327  INFO Fetched versions for lynx
+        - release: 2.9.2
+
+  21.519  INFO Fetched versions for libxmu
+        - release: 1.2.1
+        - commit: bd64e44c0f76e7d01543060501bbd39561062996
+
+  21.550  INFO Fetched versions for openjpeg
+        - release: 2.5.4
+        - commit: 8ac526236416b9c28f73d4684cf9e8a66f1d134e
+
+  21.634  INFO Fetched versions for lz4
+        - release: 131
+        - commit: a018abc07a3018371625a265f195c4fafbf1f99d
+
+  21.717  INFO Fetched versions for wf-config
+        - release: 0.10.0
+        - commit: 3597fcdccac71015cbfd20656c43caec30f10240
+
+  21.740  INFO Fetched versions for libxpm
+        - release: 3.5.17
+        - commit: 10070a4e998c1a223dec437847c38dc27dbe85d4
+
+  21.780  INFO Fetched versions for libsm
+        - release: 1.2.6
+        - commit: 5f6da959a34bcefc425b6e37462553acf44369a3
+
+  21.818  INFO Fetched versions for dbus-glib
+        - release: 0.114
+        - commit: 8c1e96ffcbf4f5d8fb576224ca3abda052131013
+
+  21.830  INFO Fetched versions for m4
+        - release: 1.4.20
+
+  21.942  INFO Fetched versions for openldap
+        - release: 2.6.10
+        - commit: 159cea0bba2ea0ed30c9e7c122e0855153903c01
+
+  21.984  INFO Fetched versions for markupsafe
+        - release: 3.0.3
+        - commit: b2e4d9c7687be25695fffbe93a37622302b24fb1
+
+  22.058  INFO Fetched versions for libsndfile
+        - release: 1.2.2
+        - commit: 68f6c16fe1407eff4cdde158566694c3ed666c2f
+
+  22.084  INFO Fetched versions for maim
+        - release: 5.8.1
+        - commit: e160c3c15eac94aecb541607f5d5929ceefee5eb
+
+  22.176  INFO Fetched versions for wget
+        - release: 1.25.0
+        - commit: 74e4c0d2096c1a5a29b1498278e8b90d7211e2be
+
+  22.210  INFO Fetched versions for make
+        - release: 4.4.1
+
+  22.243  INFO Fetched versions for openssh
+        - release: 10.2p1
+        - commit: a6f8f793d427a831be1b350741faa4f34066d55f
+
+  22.300  INFO Fetched versions for systemd
+        - release: 259
+        - commit: d1bd940deb2a4495b42a05ed766bb621c7c47d3d
+
+  22.334  INFO Fetched versions for dconf
+        - release: 0.49.0
+        - unstable: 0.49.0
+        - commit: 9e9c5bc8177048a2ee18531d6f68c2f06e0fc630
+
+  22.423  INFO Fetched versions for libsoup
+        - release: 3.6.5
+        - commit: 10fb28cdeeb69f18dc9bf53208f38742638def6a
+
+  22.449  INFO Fetched versions for mako
+        - release: 1.3.10
+        - commit: 91232d80e4914fd82b42628bb2e2b061abb3dcfc
+
+  22.520  INFO Fetched versions for mbedtls
+        - release: 4.0.0
+        - commit: 69e117fee09a29671e0ba5d261831d56b5657d8d
+
+  22.536  INFO Fetched versions for sysvinit
+        - release: 3.15
+        - commit: 2da36cf51d4816438d5f944ec5e5d2f56f49e292
+
+  22.555  INFO Fetched versions for ddcutil
+        - release: 2.2.3
+        - commit: f91df739eba0cd7a90288c512813082cbe061a09
+
+  22.640  INFO Fetched versions for libspng
+        - release: 0.7.4
+        - commit: adc94393dbeddf9e027d1b2dfff7c1bab975224e
+
+  22.706  INFO Fetched versions for wget2
+        - release: 2.2.1
+        - commit: 98f13a017d355b762026941cf4ef70f6f4583e40
+
+  22.826  INFO Fetched versions for tcpdump
+        - release: 4.99.6
+        - commit: ec3814c3c9a066f3379123c687598eca8fa9b941
+
+  22.909  INFO Fetched versions for man-db
+        - release: 2.13.1
+        - commit: 88b03ad6e99103de59891fb8ea2c3c6e6a71e82b
+
+  22.957  INFO Fetched versions for wgetpaste
+        - release: 2.34
+        - commit: fffbdf174a3dab6a39ca9f95a8bef0a641f80dce
+
+  22.968  INFO Fetched versions for libsrtp
+        - release: 2.7.0
+        - commit: 091b489d466ad9f0da8d75706dd03307dc0abde3
+
+  23.030  INFO Fetched versions for mercurial
+        - release: 7.1.2
+
+  23.067  INFO Fetched versions for tcsh
+        - release: 6.24.16
+        - commit: b109883ca5a512bd5712e7833111b066063317dc
+
+  23.133  INFO Fetched versions for openssl
+        - release: 3.6.0
+        - commit: faf48d097b31abeec694b7a31ed49987880595f1
+
+  23.219  INFO Fetched versions for wheel
+        - release: 0.46.1
+        - commit: c1d442bec6c634fcfb89e5d58698dd226685bd14
+
+  23.221  INFO Fetched versions for man-pages
+        - release: 6.16
+        - commit: d02f0f25abc40456ea540fe86a151b39e662cd18
+
+  23.292  INFO Fetched versions for tealdeer
+        - release: 1.8.1
+        - commit: 5ee1f28021a563ab9d2ec06cc9d07c80254164a1
+
+  23.318  INFO Fetched versions for libssh2
+        - release: 1.11.1
+        - commit: 882bd264888d4c57edb0ce9b36a69cb391f68d90
+
+  23.347  INFO Fetched versions for which
+        - release: 2.23
+
+  23.522  INFO Fetched versions for texinfo
+        - release: 7.2
+
+  23.646  INFO Fetched versions for openttd
+        - release: 15.0
+        - unstable: 15.0
+        - commit: 0500198bea6ef6d1abc543ec02927736c6361ac8
+
+  23.655  INFO Fetched versions for whois
+        - release: 5.6.5
+        - commit: 64c3426493e145e1fad33a37247e924b0539e4dd
+
+  23.709  INFO Fetched versions for desktop-file-utils
+        - release: 0.28
+        - unstable: 0.28
+        - commit: 3c113f3ced7f7823ce6f06059f6803f3a65b79e2
+
+  23.752  INFO Fetched versions for libtasn1
+        - release: 4.21.0
+        - commit: eabf0fe9d7561e7863daa8e8212a1b5dc20dce10
+
+  23.813  INFO Fetched versions for tidy
+        - release: 5.8.0
+        - next: 5.9.14-next
+        - commit: d08ddc2860aa95ba8e301343a30837f157977cba
+
+  23.981  INFO Fetched versions for opus
+        - release: 1.6
+        - commit: 22244de5a79bd1d6d623c32e72bf1954b56235be
+
+  24.012  INFO Fetched versions for dhcpcd
+        - release: 10.3.0
+        - commit: 2c1db0494c401c3d8698ae3b57f352b798ac0eaa
+
+  24.028  INFO Fetched versions for protobuf
+        - release: 33.4
+        - commit: 8d886cf5be3c4f81bc62019d37b6c4cb73a8edbb
+
+  24.061  INFO Fetched versions for tinaries
+        - release: 0
+        - commit: a22399907efdb815de9e4da6638855b1bb550e84
+
+  24.078  INFO Fetched versions for wine
+        - release: 11.0
+        - unstable: 11.0
+        - commit: db11d0fe6a169c457e23d007e20404643d067aa8
+
+  24.195  INFO Fetched versions for patch
+        - release: 2.8
+
+  24.229  INFO Fetched versions for libtiff
+        - release: 4.7.1
+        - commit: 61b5551e0c26685000435885c1ba6cf23b92d416
+
+  24.300  INFO Fetched versions for tinyxxd
+        - release: 1.3.7
+        - commit: eeca058f092e28164f819247ff27146f7d17b9b5
+
+  24.378  INFO Fetched versions for ostree
+        - release: 2025.7
+        - commit: 94baad63780a2f01f377bfc69803b4e210730531
+
+  24.400  INFO Fetched versions for winetricks
+        - release: 20250102
+        - commit: 81a692e2ee6b311367f18a17a9a61a0ef1c0ad18
+
+  24.427  INFO Fetched versions for pciutils
+        - release: 3.14.0
+        - commit: 0f5b941aa5cf8b1b126ff3e4176b1c32b2158289
+
+  24.532  INFO Fetched versions for psmisc
+        - release: 23.7
+        - commit: f3b51bdc90b6b5cb610528cce3d8262a932d50f0
+
+  24.674  INFO Fetched versions for pcre2
+        - release: 10.47
+        - commit: 30c9faa440a5f42192c7fd6bc10b6807a8196786
+
+  24.689  INFO Fetched versions for p11-kit
+        - release: 0.25.10
+        - commit: cd31c22784aea3327284cbf476a9046e2e3e7ab7
+
+  24.761  INFO Fetched versions for pugixml
+        - release: 1.15
+        - commit: 710052066cc0a7210d7f554196ae43bd1cd9da3e
+
+  24.798  INFO Fetched versions for libtirpc
+        - release: 1.3.7
+
+  24.930  INFO Fetched versions for tllist
+        - release: 1.1.0
+        - commit: 05b463da2ee4a81903126756689282f99f88cc30
+
+  24.959  INFO Fetched versions for packaging
+        - release: 25.0
+        - commit: f0b6f1a87b4e75d741b713952f6671b06fabd7e0
+
+  24.987  INFO Fetched versions for pulseaudio
+        - release: 17.0
+        - commit: b096704c0d42c5e784deb781a07b23cfb5286a82
+
+  25.181  INFO Fetched versions for perl
+        - release: 5.42.0
+        - unstable: 5.43.6
+        - commit: b116971bb0305e1bcffc81b96c56acdfb071a757
+
+  25.283  INFO Fetched versions for tmux
+        - release: 3.6a
+        - commit: b89d46bb002d48905a952e57cbf6eb2f1c03daa8
+
+  25.297  INFO Fetched versions for py/build
+        - release: 1.4.0
+        - commit: c9e5691ebc48fbd1f79fbbaee645ae0bcdb76f0a
+
+  25.460  INFO Fetched versions for pango
+        - release: 1.57.0
+        - commit: 2fb8d7782ec0e166aeeb961402db8afae521d574
+
+  25.519  INFO Fetched versions for picom
+        - release: 12.5
+        - commit: 800421acd4bc65b5de2fd29bf49279aa44026256
+
+  25.558  INFO Fetched versions for wireplumber
+        - release: 0.5.13
+        - commit: f088a6f63d0eddbd6db4eefbe55f6b9921ef913d
+
+  25.584  INFO Fetched versions for tomlplusplus
+        - release: 3.4.0
+        - commit: 7807a314ad1c0c9c227d9dbd68f23f187163372e
+
+  25.615  INFO Fetched versions for py/platformdirs
+        - release: 4.5.1
+        - commit: 33fd67c4e21e5b58d9741c15807add1a3cce2eab
+
+  25.709  INFO Fetched versions for pastel
+        - release: 0.11.0
+        - commit: b60e89932629b2d162e1ff9f3976a5a0ef1e5db9
+
+  25.744  INFO Fetched versions for pigz
+        - release: 2.8
+        - commit: fe4894f57739e3039a2ffc2a2a360d35e19bacbe
+
+  25.795  INFO Fetched versions for wl-clipboard
         - release: 2.2.1
         - commit: e8082035dafe0241739d7f7d16f7ecfd2ce06172
 
-   2.565  INFO Fetched versions for notofonts
-        - release: 2026.01.01
-        - commit: 274d461a2c2d50d33c0bdc210ee0f99963ea1b7a
+  25.865  INFO Fetched versions for py/structlog
+        - release: 25.5.0
+        - commit: b7fce31a2dd646862424a21094cc7aef55bb2ffc
 
-   2.566  INFO Fetched versions for niri
-        - release: 25.11
-        - commit: e9d888cd52f8a783b07e0d6c0ec9a341a81031ca
+  25.910  INFO Fetched versions for ncdu
+        - release: 2.9.2
+        - 1: 1.22
+        - commit: 1b3d0a670e730b338de6b716e2a60cf86351e44b
 
-   2.569  INFO Fetched versions for npth
-        - release: 1.8
-        - commit: 59987e37a587ea7c4d6485ac9069c2bd199ff9a4
+  25.967  INFO Fetched versions for usbutils
+        - release: 019
+        - commit: 5ea89970255d1a7f1e53c639b9a1cbdf417875b0
 
-   2.572  INFO Fetched versions for nlohmann-json
-        - release: 3.12.0
-        - commit: 8f7570014107c5040103c5c4f9a55250be9add0c
+  26.026  INFO Fetched versions for pinentry
+        - release: 1.3.2
+        - commit: 954b3da04ac95ffb23ce9eac34ff99633cffdb47
 
-   2.573  INFO Fetched versions for xdg-user-dirs
-        - release: 0.19
-        - commit: 52e0e422d918062bae5feb39b7af038e9b1e5c0e
+  26.040  INFO Fetched versions for tornado
+        - release: 6.5.4
+        - unstable: 6.5.4
+        - commit: 2baba22f5475a3efbbde2c4b6dd4c2518a321e55
 
-   2.580  INFO Fetched versions for wlroots
+  26.102  INFO Fetched versions for mesa
+        - release: 25.3.3
+        - commit: 9f740b26a61d6e77d27051cc29695885f61235f4
+
+  26.168  INFO Fetched versions for pycurl
+        - release: 7.45.7
+        - commit: 474f5e87cb9adb8fcc794b229e42b9267e17e65d
+
+  26.171  INFO Fetched versions for ncompress
+        - release: 5.0
+        - commit: c576364d691df490ec1841d028c7bece2b523c58
+
+  26.206  INFO Fetched versions for utf8proc
+        - release: 2.11.3
+        - commit: e5e799221b45bbb90f5fdc5c69b6b8dfbf017e78
+
+  26.398  INFO Fetched versions for wlr-randr
+        - release: 0.5.0
+        - commit: b214653d6f049055c142cf6ad827539598bf65a4
+
+  26.405  INFO Fetched versions for pyparsing
+        - release: 3.3.1
+        - commit: 15d52d1a0759b034e1591aba9b63bf46d89ff5ce
+
+  26.418  INFO Fetched versions for traceroute
+        - release: 2.1.6
+
+  26.453  INFO Fetched versions for uthash
+        - release: 2.3.0
+        - commit: af6e637f19c102167fb914b9ebcc171389270b48
+
+  26.645  INFO Fetched versions for tree
+        - release: 2.2.1
+        - commit: d501b58ff9cbfd64272c8cbcad0bda36a3fada06
+
+  26.665  INFO Fetched versions for pyserial
+        - release: 3.5
+        - commit: 911a0b8c110f3d3513bab67e64d95d1310517454
+
+  26.726  INFO Fetched versions for mesa-demos
+        - release: 9.0.0
+        - commit: cba8da1f87b264d0906ba3f4320db0368916decd
+
+  26.831  INFO Fetched versions for ncurses
+        - release: 6.6
+        - unstable: 6.6.20260103
+
+  26.858  INFO Fetched versions for util-linux
+        - release: 2.41.3
+        - commit: 6766bbf17ad618a6a7d35d4cffe5134da2ffe077
+
+  26.872  INFO Fetched versions for tuun
+        - release: 5.9.3
+        - commit: 37a0ab6093f39f5f23d03ccab6234f96f00a4eb6
+
+  26.966  INFO Fetched versions for pipewire
+        - release: 1.4.9
+        - unstable: 1.4.9
+        - commit: 13131706aa52242b3951a9c661ce2e50349bdab0
+
+  27.221  INFO Fetched versions for wlroots
         - release: 0.19.2
-        - commit: 1f0fb95e3b352a89ed08330d827d3689e055a6fb
+        - commit: ba76d37b0bed26ad32aec1b6bce4675ad2926246
 
-   2.585  INFO Fetched versions for wayland
-        - release: 1.24.0
-        - commit: 92229a00d16fc43c752a17f608ff930395eecc57
+  27.284  INFO Fetched versions for typos
+        - unstable: 1.42.0
+        - release: 1.42.0
+        - commit: 26e7af467cd26ac3b5cd051e16202232d3d90978
 
-   2.589  INFO Fetched versions for vulkan-loader
-        - release: 1.4.337
+  27.381  INFO Fetched versions for meson
+        - release: 1.10.0
+        - commit: 2c0ab6f1c4f6231df23e618c3679698bd52405e6
+
+  27.716  INFO Fetched versions for pixman
+        - release: 0.46.4
+        - commit: f824cac6478971c0f71e4dfe8a60ebf70224076a
+
+  27.772  INFO Fetched versions for util-macros
+        - release: 1.20.2
+        - commit: a9d71e3fd8e6758b70be31c586921bbbcd2a8449
+
+  27.794  INFO Fetched versions for typst
+        - release: 0.14.2
+        - commit: f1ad25458b3c430d602d894367284ae22e76f45e
+
+  27.955  INFO Fetched versions for minicom
+        - release: 2.10
+        - unstable: 2.10
+        - commit: 573e39ea5938e227c75c8fd073579fa473bb7961
+
+  27.992  INFO Fetched versions for pkgconf
+        - release: 2.5.1
+        - commit: 67c63bbba4e5400582cb3b51d8d9e7ee3183ee4f
+
+  28.027  INFO Fetched versions for tz
+        - release: 2025c
+
+  28.186  INFO Fetched versions for vala
+        - release: 0.56.18
+        - commit: d680994c54dd34b8bd3bd808f0023be19ea647da
+
+  28.237  INFO Fetched versions for ply
+        - release: 3.11
+        - commit: 9d7c40099e23ff78f9d86ef69a26c1e8a83e706a
+
+  28.250  INFO Fetched versions for neovim
+        - release: 0.11.5
+        - commit: dddc359213be522026d60ffd89867a0f52f19256
+
+  28.413  INFO Fetched versions for vat
+        - release: 2.9.2
+        - commit: 4098471377b50032b9690c96b79e850db3584c28
+
+  28.479  INFO Fetched versions for polkit
+        - release: 127
+        - commit: 2573601684a5b64dc447fb99d8d1f9c976cce747
+
+  28.585  INFO Fetched versions for uchardet
+        - release: 0.0.8
+        - commit: 06029ec3340cdf6bf9a6a537dafb3f39eda0560e
+
+  28.641  INFO Fetched versions for versort
+        - release: 0.2.3
+        - commit: 93f1263f3c95e10df1484732c64c727503d5430e
+
+  28.759  INFO Fetched versions for netcat
+        - release: 1.234.1
+        - commit: 37b4f2cf889e4e18eadbe2c7eb57dc0eda3fc580
+
+  28.945  INFO Fetched versions for python
+        - release: 3.14.2
+        - unstable: 3.15.0a4
+        - commit: 1857a40807daeae3a1bf5efb682de9c9ae6df845
+
+  29.044  INFO Fetched versions for mkfontscale
+        - release: 1.2.3
+        - commit: 9c9c8834dc4ce17d0e878a28d36ff5e736bddb9b
+
+  29.234  INFO Fetched versions for pyyaml
+        - release: 6.0.3
+        - commit: d51d8a138f7230834fc6e95635ff09ebd329185f
+
+  29.272  INFO Fetched versions for wofi
+        - release: 1.5.3
+        - commit: b85063f5d38b0082dbf4df8e9c4e9c39ab049ab0
+
+  29.516  INFO Fetched versions for qemu
+        - release: 10.2.0
+        - commit: cf3e71d8fc8ba681266759bb6cb2e45a45983e3e
+
+  29.602  INFO Fetched versions for nettle
+        - release: 3.10.2
+        - commit: 47a5a39403647dc22aba07f692795b3424ff543d
+
+  29.715  INFO Fetched versions for qr-code-generator
+        - release: 1.8.0
+        - commit: 2c9044de6b049ca25cb3cd1649ed7e27aa055138
+
+  29.734  INFO Fetched versions for vim
+        - release: 9.1.2085
+        - commit: ead1dda74a485ef0470e7252d07c1a36b8cde517
+
+  29.831  INFO Fetched versions for poppler
+        - release: 26.01.0
+        - commit: 811015626ed1776cdbbd9b41084f7d8de1372c52
+
+  29.869  INFO Fetched versions for mpc
+        - release: 1.3.1
+        - commit: 8815590a9826c840b94bc49d4e8b974de860b8db
+
+  29.915  INFO Fetched versions for wpa_supplicant
+        - release: 2.11
+        - commit: e17107912c8ef24dad8dd2407b71a2541a5b34e8
+
+  29.945  INFO Fetched versions for vorbis
+        - release: 1.3.7
+        - commit: 2d79800b6751dddd4b8b4ad50832faa5ae2a00d9
+
+  29.997  INFO Fetched versions for qt
+        - release: 6.10.1
+        - 5: 5.15.18
+        - commit: eeb612870fa0c638785c516a1ebc8d7ef9038943
+
+  30.046  INFO Fetched versions for popt
+        - release: 1.19
+        - commit: 63f096798125e96a0125faa477350f61901f3570
+
+  30.141  INFO Fetched versions for ufw
+        - release: 0.36.2
+        - commit: bdb71dc636c918421d50cac647353b2be08202a0
+
+  30.170  INFO Fetched versions for mpd
+        - release: 0.24.6
+        - commit: e5df578e279e0a2af9acc567bc07e953f2ed8315
+
+  30.251  INFO Fetched versions for vulkan-headers
+        - release: 1.4.338
         - sdk: 1.4.335.0
-        - commit: 39a660c6a807ba0be67fdc4a4d6a0bdca24821a6
+        - commit: 0777a3ad88bad5f4b11cfd509458bbc0ddadc773
 
-   2.591  INFO Fetched versions for wayfire
+  30.284  INFO Fetched versions for quickshell
+        - release: 0.2.1
+        - commit: dca652366ad0d005ac8ec7991417d88afcbcbd60
+
+  30.299  INFO Fetched versions for potrace
+        - release: 1.16
+
+  30.362  INFO Fetched versions for unibilium
+        - release: 2.1.2
+        - commit: 31fef2218ea8a99686de7a4f1b22813591d1685f
+
+  30.370  INFO Fetched versions for mpdecimal
+        - release: 4.0.1
+
+  30.597  INFO Fetched versions for vulkan-loader
+        - release: 1.4.338
+        - sdk: 1.4.335.0
+        - commit: 30af4710d16ff85dc50f27a7d8b5018129c04e3c
+
+  30.730  INFO Fetched versions for x264
+        - commit: 0480cb05fa188d37ae87e8f4fd8f1aea3711f7ee
+
+  30.751  INFO Fetched versions for ratpoison
+        - release: 1.4.9
+
+  30.903  INFO Fetched versions for wayfire
         - release: 0.10.1
         - commit: 3c9a7712f88e520f025eca331dbe57c94904362a
 
-   2.595  INFO Fetched versions for xdg-utils
-        - release: 1.2.1
-        - commit: 73ca30c05b31f9309d94da3f239f4ce4a8efe210
+  30.937  INFO Fetched versions for unrar
+        - release: 7.2.3
 
-   2.595  INFO Fetched versions for xauth
-        - release: 1.1.5
-        - commit: 6fe9365f11181a043f151f2e67f36015c278791d
+  31.098  INFO Fetched versions for mpfr
+        - release: 4.2.2
+        - commit: bb962f6d9329d73a75ead1fb8e34ef21d3f78779
 
-   2.595  INFO Fetched versions for noise-suppression-for-voice
-        - release: 1.10
-        - commit: 9c4e5c28d8950e2cef837d8a0abd36c2fd9b5c2d
+  31.099  INFO Fetched versions for x265
+        - release: 4.1
+        - commit: 9e551a994f970a24f0e49bcebe3d43ef08448b01
 
-   2.597  INFO Fetched versions for websocketpp
-        - release: 0.8.2
-        - commit: 4dfe1be74e684acca19ac1cf96cce0df9eac2a2d
+  31.139  INFO Fetched versions for printproto
+        - release: 1.0.5
+        - commit: 44a393878795bc76376fd912365fea1620414fa8
 
-   2.599  INFO Fetched versions for wayfire-plugins-extra
+  31.171  INFO Fetched versions for wayfire-plugins-extra
         - release: 0.10.0
         - commit: 439a9b4dc66f1174f97e0db18b15726751fbf6d1
 
-   2.599  INFO Fetched versions for xdotool
-        - release: 4.20251130.1
-        - commit: b8e19878356fb3763c069abd42ee0911b83eb445
+  31.238  INFO Fetched versions for re2
+        - release: 2025.11.05
+        - commit: e7aec5985072c1dbe735add802653ef4b36c231a
 
-   2.604  INFO Fetched versions for wbg
+  31.270  INFO Fetched versions for prismlauncher
+        - release: 10.0.2
+        - commit: c2fc0a30b789c63667eb1514b113a2bca6704330
+
+  31.418  INFO Fetched versions for xapian
+        - release: 1.4.30
+        - commit: 82776bb3f56b8873bc84c85a2306bd93c98d216b
+
+  31.432  INFO Fetched versions for readline
+        - release: 8.3
+        - unstable: 8.3
+
+  31.646  INFO Fetched versions for rhash
+        - release: 1.4.6
+        - commit: b76c6a3312422c09817c2cef40442b2f2d9d4689
+
+  31.694  INFO Fetched versions for procps-ng
+        - release: 4.0.5
+        - commit: a8cceb43a00c13b60a7ad6822747ff39adfab7ea
+
+  31.735  INFO Fetched versions for mpg123
+        - release: 1.33.4
+
+  31.892  INFO Fetched versions for mtdev
+        - release: 1.1.7
+        - commit: 9035c2225494b80b02e985fc7ee77880e0bd6993
+
+  31.917  INFO Fetched versions for libnotify
+        - release: 0.8.8
+        - commit: 8b35b6b74e4af71a20b024330b71ce0daf6c022f
+
+  32.098  INFO Fetched versions for muon
+        - release: 0.5.0
+        - commit: a71636bcb7f5552d7805081f2b059a89854b7efa
+
+  32.130  INFO Fetched versions for libnsl
+        - release: 2.0.1
+        - commit: d6438ee1c45ef8161342b0e8e2c76a6184dbb0c5
+
+  32.194  INFO Fetched versions for mpv
+        - release: 0.41.0
+        - commit: 2007f5543ccc2f4ba895e602791d309022aaf174
+
+  32.221  INFO Fetched versions for wayland
+        - release: 1.24.0
+        - commit: 5a45a89a83c78a2a1f817d71c6cf94830a89d31e
+
+  32.281  INFO Fetched versions for rip
+        - release: 1.1.0
+        - commit: ac8c794e94ae49e6a975153e0240dca2018357e0
+
+  32.290  INFO Fetched versions for xauth
+        - release: 1.1.5
+        - commit: 6fe9365f11181a043f151f2e67f36015c278791d
+
+  32.358  INFO Fetched versions for mupdf
+        - release: 1.27.0
+        - commit: d4743b6092d513321c23c6f7fe5cff87cde043c1
+
+  32.398  INFO Fetched versions for libpcap
+        - release: 1.10.6
+        - commit: d81c01c95a124405982812e16c2e34c5cfb3ab6a
+
+  32.584  INFO Fetched versions for ripgrep
+        - release: 15.1.0
+        - commit: 0a88cccd5188074de96f54a4b6b44a63971ac157
+
+  32.716  INFO Fetched versions for nano
+        - release: 8.7
+        - commit: 299aab6acf2d6a5df9fe223da364eff720f3561b
+
+  32.841  INFO Fetched versions for rmpc
+        - release: 0.10.0
+        - commit: 834acd5c6e0d2942488a8b0021dff17f439419e7
+
+  32.949  INFO Fetched versions for xbitmaps
+        - release: 1.1.3
+        - commit: 35307f27a4554f47534fe235be12128157888a7b
+
+  32.991  INFO Fetched versions for libpciaccess
+        - release: 0.18.1
+        - commit: 191dfe0707e2a93c08e4b3e99454b6146c5bfca2
+
+  33.016  INFO Fetched versions for nasm
+        - release: 3.01
+        - commit: 22a9118f1e9dd9688a9ce3b81c20f984b17fa489
+
+  33.085  INFO Fetched versions for rofi
+        - release: 2.0.0
+        - commit: 11bf5db2abbcc9cefe0ecf365083afba2b5a383e
+
+  33.174  INFO Fetched versions for xdpyinfo
+        - release: 1.4.0
+        - commit: 7fe49a22498b9438a15d5d9fdef55d5d832b1672
+
+  33.201  INFO Fetched versions for wayland-protocols
+        - release: 1.47
+        - commit: a610e021fb0a710d09e1a8fce45e000aeea3dbb3
+
+  33.406  INFO Fetched versions for libmspack
+        - release: 1.11
+        - commit: 305907723a4e7ab2018e58040059ffb5e77db837
+
+  33.444  INFO Fetched versions for libpipeline
+        - release: 1.5.8
+        - commit: 08844b33bd0c77c7567caf1641f3aa48045f3e3b
+
+  33.629  INFO Fetched versions for wbg
         - release: 1.3.0
         - commit: bc00df2244a0d8f88d4051f505ef9aebb51447ca
 
-   2.604  INFO Fetched versions for nodejs
-        - release: 25.2.1
-        - commit: 608ff5c25ca52338e3cfd81685a08a3f0e912a8d
+  33.666  INFO Fetched versions for xcb-util-xrm
+        - release: 1.3
+        - commit: a17de570ab18bfd8b7b9bf23af9e0bb2249d02c9
 
-   2.606  INFO Fetched versions for wayland-protocols
-        - release: 1.47
-        - commit: 969ef1a36d48e3e69af116adb6ede11d13729411
+  33.883  INFO Fetched versions for rpmextract
+        - release: 1.0
+        - commit: 85d81dcda09833106c917eafb205455cfbc31a31
 
-   2.609  INFO Fetched versions for wev
+  33.883  INFO Fetched versions for websocketpp
+        - release: 0.8.2
+        - commit: 4dfe1be74e684acca19ac1cf96cce0df9eac2a2d
+
+  33.887  INFO Fetched versions for xclip
+        - release: 0.13
+        - commit: 2c3b811002b35d3be7f39cc1145dd06bdb32e31c
+
+  34.023  INFO Fetched versions for xcb-proto
+        - release: 1.17.0
+        - commit: 283ead0904eb8c6350cef67dd638bb4a6b014c3a
+
+  34.114  INFO Fetched versions for rs/quote
+        - release: 1.0.43
+        - commit: bdd36fc744dbb63aa204a51044ecb249c2159dd8
+
+  34.119  INFO Fetched versions for xdg-dbus-proxy
+        - release: 0.1.6
+        - commit: 0e13c10b5c227c4a98941327920ef07a2e9af64c
+
+  34.178  INFO Fetched versions for xev
+        - release: 1.2.6
+        - commit: 61c956d8265e9607c48791a325c6eebd86c31366
+
+  34.415  INFO Fetched versions for rs/syn
+        - release: 2.0.114
+        - commit: 2c7392d2f5cf9b399043b11619728a269ac40ace
+
+  34.437  INFO Fetched versions for xdg-desktop-portal
+        - release: 1.20.3
+        - commit: 61fb5e66e5b44c883f7c6f0648a78784bda25f4a
+
+  34.618  INFO Fetched versions for xcb-util
+        - release: 0.4.1
+        - commit: bdba930aaac6ee6f271133674b40f1a9d895c6d4
+
+  34.634  INFO Fetched versions for wev
         - release: 1.1.0
         - commit: b09b664dd2d1b11dd68e03f8c0363ac0ef76f1e0
 
-   2.617  INFO Fetched versions for nss
+  34.698  INFO Fetched versions for xdg-desktop-portal-gtk
+        - release: 1.15.3
+        - commit: 9be95fe78c6ea8ca59238f7466576e8198fc489d
+
+  34.707  INFO Fetched versions for rsync
+        - release: 3.4.1
+        - commit: 2a97d81e99f61519acd4a683a9605216df1f91d4
+
+  34.916  INFO Fetched versions for rubberband
+        - release: 4.0.0
+        - commit: e4296ac80b1170018a110bc326fd0d45a0eb27d6
+
+  34.920  INFO Fetched versions for xdg-desktop-portal-hyprland
+        - release: 1.3.11
+        - commit: 4b8801228ff958d028f588f0c2b911dbf32297f9
+
+  35.173  INFO Fetched versions for xdg-desktop-portal-wlr
+        - release: 0.8.1
+        - commit: a28c5c7aafe3da8da26dd757035282f27a781255
+
+  35.242  INFO Fetched versions for xf86-input-evdev
+        - release: 2.11.0
+        - commit: 0b5b97bc6bad9d0dc1ae9d5de966882a86f1e55a
+
+  35.431  INFO Fetched versions for xcb-util-cursor
+        - release: 0.1.6
+        - commit: 7b0fa99aa13084a9bf7be4180066f6a74b0adef1
+
+  35.510  INFO Fetched versions for xcb-util-errors
+        - release: 1.0.1
+        - commit: d5435b07a895a55c5093a6415c09496de258391c
+
+  35.815  INFO Fetched versions for xf86-input-libinput
+        - release: 1.5.0
+        - commit: ac862672e4d04e78f2b647af9d3d14544454e4b9
+
+  35.978 ERROR Failed to fetch versions for libmnl: Timed out
+  36.009  INFO Fetched versions for xcb-util-keysyms
+        - release: 0.4.1
+        - commit: 72e9fc14ba16f9e1830d2f35919862abc53abcf3
+
+  36.044  INFO Fetched versions for xdg-user-dirs
+        - release: 0.19
+        - commit: 52e0e422d918062bae5feb39b7af038e9b1e5c0e
+
+  36.196  INFO Fetched versions for xfsprogs
+        - release: 6.18.0
+        - commit: 8b892adad226bb9fef4009c4cba4dbc25b70b011
+
+  36.428  INFO Fetched versions for xh
+        - release: 0.25.3
+        - commit: 60a8338e35e84eb5352af9dd6b2626f7d54eae5f
+
+  36.451  INFO Fetched versions for xcb-util-image
+        - release: 0.4.1
+        - commit: 5ce46a7f14b88f6c69cdb5cba4cc106fbfd69402
+
+  36.619  INFO Fetched versions for xcb-util-renderutil
+        - release: 0.3.10
+        - commit: fb1c2524b9ac4e70930aa4dd94dde827e2a7c13f
+
+  36.658  INFO Fetched versions for xdotool
+        - release: 4.20251130.1
+        - commit: b8e19878356fb3763c069abd42ee0911b83eb445
+
+  36.743  INFO Fetched versions for xrdb
+        - release: 1.2.2
+        - commit: 20fc79a257ecaba0df3af8485dbf64fd73003a73
+
+  36.868  INFO Fetched versions for scenefx
+        - release: 0.4.1
+        - commit: db205bac394e3baef73ff7c1b1399fe5a81af30e
+
+  37.096  INFO Fetched versions for scour
+        - release: 0.38.2
+        - commit: 0609c596766ec98e4e2092b49bd03b802702ba1a
+
+  37.113  INFO Fetched versions for xdg-utils
+        - release: 1.2.1
+        - commit: 73ca30c05b31f9309d94da3f239f4ce4a8efe210
+
+  37.158  INFO Fetched versions for xcb-util-wm
+        - release: 0.4.2
+        - commit: 53d99b9b942c8248e1f63299069c6a2bedb92b41
+
+  37.321  INFO Fetched versions for ydotool
+        - release: 1.0.4
+        - commit: 708e96ff27e381a8c549418a9d34cdde12305317
+
+  37.356  INFO Fetched versions for sdbus-cpp
+        - release: 2.2.1
+        - commit: 44aa4f080fb9b9c65990d6e25213e918ff683ae5
+
+  37.553  INFO Fetched versions for sdl
+        - release: 3.4.0
+        - commit: 206989a22d157e795a94391e2a5af6a8acc3a4e0
+
+  37.579  INFO Fetched versions for samurai
+        - release: 1.2
+        - commit: 737f702fed670acb25e5e70b4b802690df7a4a8b
+
+  37.693  INFO Fetched versions for xinit
+        - release: 1.4.4
+        - commit: e039b40052b66839d3df51cf3f129a399f2ada0f
+
+  37.750  INFO Fetched versions for rust
+        - release: 1.92.0
+        - nightly: 2026-01-14
+        - commit: fcac501a73cdde54de46a0683567f1a890730555
+
+  37.790  INFO Fetched versions for sdl2-compat
+        - release: 2.32.62
+        - commit: 99c147df4408cebbc30c255d4788b0c81a5112a0
+
+  37.842  INFO Fetched versions for yt-dlp
+        - release: 2025.12.08
+        - commit: 27afb31edc492cb079f9bce9773498d08e568ff3
+
+  37.893  INFO Fetched versions for xset
+        - release: 1.2.5
+        - commit: 3fadaad29df656b69a64c463dd68dc35d09274b3
+
+  38.066  INFO Fetched versions for ninja
+        - release: 1.13.2
+        - commit: 3cd2f23945ff8720b00c6c2a86411795beab6f87
+
+  38.109  INFO Fetched versions for nghttp2
+        - release: 1.68.0
+        - commit: d45577eeea3906eaac629044ebafdc0a4f8d194d
+
+  38.138  INFO Fetched versions for zathura
+        - release: 0.5.14
+        - commit: 30ec21d5462e9e9afad37a749ec0e100c4dce6d6
+
+  38.318  INFO Fetched versions for scdoc
+        - release: 1.11.4
+        - commit: 1c36cde87212494368ea218e871085ed2bc855fe
+
+  38.335  INFO Fetched versions for niri
+        - release: 25.11
+        - commit: 3672e79369d72297abda8878245ea4ec327062c6
+
+  38.358  INFO Fetched versions for zathura-pdf-mupdf
+        - release: 0.4.6
+        - commit: b6ea6540846e68e76e5527f5d67c48a016d8958f
+
+  38.386  INFO Fetched versions for libnl
+        - release: 3.12.0
+        - commit: 655a638d4e1f74be9256a3108ae2abb84827a9ce
+
+  38.664  INFO Fetched versions for nlohmann-json
+        - release: 3.12.0
+        - commit: 5ed07097faa6c50199c4a3b66e5ed37d4fbfccc2
+
+  38.679  INFO Fetched versions for zlib
+        - release: 1.3.1.2
+        - commit: edd88953de3a8560b0925ad0637490925f086317
+
+  38.735  INFO Fetched versions for xinput
+        - release: 1.6.4
+        - commit: f0ae723318e48546a19f7be5d086dfb01fc25a4c
+
+  38.766  INFO Fetched versions for zlib-ng
+        - release: 2.3.2
+        - commit: e249c922de4f15d8732b0a59d73762f9a35eb3a8
+
+  39.029  INFO Fetched versions for zsh
+        - release: 5.9
+        - commit: 3e72a52e27d8ce8d8be0ee65ae5f77f756c06fda
+
+  39.242  INFO Fetched versions for xkbcomp
+        - release: 1.5.0
+        - commit: 2c7789785981ad1fce3858c726615b49293f7de0
+
+  39.279  INFO Fetched versions for xsetroot
+        - release: 1.1.3
+        - commit: 8f935c417ec798451131baf5190b0721d90a8218
+
+  39.418  INFO Fetched versions for zstd
+        - release: 1.5.7
+        - commit: ae9f20ca2716f2605822ca375995b7d876389b64
+
+  39.503  INFO Fetched versions for xtrace
+        - commit: ced509f9760c532e0297fed6cfa07389e2be082a
+
+  39.583  INFO Fetched versions for xorgproto
+        - release: 2025.1
+        - commit: c18d2bc22813793bba7f0e4e603c0104d7724802
+
+  39.660  INFO Fetched versions for xmodmap
+        - release: 1.0.11
+        - commit: 0761a37a6111f22e2552f9f2245bddbb6d3db2bf
+
+  39.714  INFO Fetched versions for noto-cjk
+        - commit: f8d157532fbfaeda587e826d4cd5b21a49186f7c
+
+  39.949  INFO Fetched versions for notofonts
+        - release: 2026.01.01
+        - commit: ca86df8e067bed45732986b6efb9ad5bf460b989
+
+  40.173  INFO Fetched versions for npth
+        - release: 1.8
+        - commit: 59987e37a587ea7c4d6485ac9069c2bd199ff9a4
+
+  40.184  INFO Fetched versions for nodejs
+        - release: 25.3.0
+        - commit: abfad122f808073fa325bcd61796b62bd0693c5a
+
+  40.342  INFO Fetched versions for xprop
+        - release: 1.2.8
+        - commit: 55a51e08787035786abc27b170beb0faacb6cd47
+
+  40.358  INFO Fetched versions for xkeyboard-config
+        - release: 2.46
+        - commit: 8aa73d2c9a5a7391538c932e265f89c416b53138
+
+  40.376  INFO Fetched versions for nspr
+        - release: 4.38.2
+
+  40.393  INFO Fetched versions for xtrans
+        - release: 1.6.0
+        - commit: cf05ba4a10c90da2c63805a5375e983b174e28b0
+
+  40.424  INFO Fetched versions for noise-suppression-for-voice
+        - release: 1.10
+        - commit: 9c4e5c28d8950e2cef837d8a0abd36c2fd9b5c2d
+
+  40.522  INFO Fetched versions for xorg-server
+        - release: 21.1.21
+        - commit: 44dea3a8bda392e673c3db47000e23af5549ffc4
+
+  40.781  INFO Fetched versions for xxhash
+        - release: 0.8.3
+        - commit: 66979328cf3f15cecdc61ea58c9f81e6071f8983
+
+  40.800  INFO Fetched versions for nss
         - release: 3.120
-        - commit: 7ec592af172ff01f6ec64853325fbd22a1433e74
+        - commit: cfc5a54015cb6c9b8f9d3facb2857eba3eb06265
 
-   2.621  INFO Fetched versions for vim
-        - release: 9.1.2079
-        - commit: 300ea1133fba310ae8acd7fadc3ab3cc24e8402f
+  40.997  INFO Fetched versions for xz
+        - release: 5.8.2
+        - unstable: 5.8.2
+        - commit: 9f4c5a0d4817c9c7011cdfd00cfbe0ddda66a455
 
-   2.700  INFO Finished in 2s 623ms 727us 955ns
+  41.301  INFO Fetched versions for xwayland
+        - release: 24.1.9
+        - commit: 44dea3a8bda392e673c3db47000e23af5549ffc4
+
+  41.346  INFO Fetched versions for xkill
+        - release: 1.0.6
+        - commit: b803eb22bca91094a476dc630b610e34e3b517f9
+
+  41.481  INFO Fetched versions for xvidcore
+        - release: 1.3.7
+
+  41.717  INFO Fetched versions for xrandr
+        - release: 1.5.3
+        - commit: 5ea32007758bac1db51841c782a921096155cde4
+
+  59.622 ERROR Failed to fetch versions for nftables: Timed out
+  63.411 ERROR Failed to fetch versions for libnftnl: Timed out
+  63.653  INFO Finished in 1m 3s 380ms 680us 46ns
