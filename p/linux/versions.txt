@@ -1,4 +1,4 @@
 release	6.18.5
 mainline	6.19-rc5
-next	next-20260113
-commit	b54345928fa1dbde534e32ecaa138678fd5d2135
+next	next-20260114
+commit	c537e12daeecaecdcd322c56a5f70659d2de7bde
