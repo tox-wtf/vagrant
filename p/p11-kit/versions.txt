@@ -1,2 +1,2 @@
-release	0.25.10
-commit	cd31c22784aea3327284cbf476a9046e2e3e7ab7
+release	0.26.0
+commit	680ebb0f925bc912c32372b04413706ac9ddee26
