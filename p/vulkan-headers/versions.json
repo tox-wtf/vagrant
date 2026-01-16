@@ -1,7 +1,7 @@
 [
   {
     "channel": "release",
-    "version": "1.4.338"
+    "version": "1.4.339"
   },
   {
     "channel": "sdk",
@@ -9,6 +9,6 @@
   },
   {
     "channel": "commit",
-    "version": "0777a3ad88bad5f4b11cfd509458bbc0ddadc773"
+    "version": "0007545ec811852c8ea6154f201624583c88563f"
   }
 ]
