@@ -1,2 +1,2 @@
 release	2.7.0
-commit	cf61db12c3748303ff02382d28d9f8f2c6b58319
+commit	579bee166bb22217b763b199cefa267b62cac2e8
