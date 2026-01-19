@@ -1,2 +1,2 @@
-release	0.26.0
-commit	680ebb0f925bc912c32372b04413706ac9ddee26
+release	0.26.1
+commit	49ccc27a1e433d6128d40a43c7ecc4624b0dbfde
