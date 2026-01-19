@@ -1,3 +1,3 @@
 release	2025.5
 sdk	1.4.335.0
-commit	660eff0326c9ca446a4bc891e7a34c1c49a56fd5
+commit	8ac4c4f80c5e338c7341152f7f0fa1bd2dc907d3
