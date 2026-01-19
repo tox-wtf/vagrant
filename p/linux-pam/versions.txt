@@ -1,2 +1,2 @@
 release	1.7.1
-commit	71ff5f3fbc3a8a374d70fa67b001d4712538a3d5
+commit	305fc4a0e5079b2c6b4062904abe4491e91e3cca
