@@ -1,2 +1,2 @@
-release	2.57.1
-commit	f08a1fb0b4d8819d4149e0b5b2bfd2dd25f6a2f3
+release	2.58.0
+commit	e26a05e3aca424f2dcf737d2147323da506b600b
