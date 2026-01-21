@@ -1,2 +1,2 @@
 release	2025.5
-commit	d15277d6bc180f6a0b8b601f0cab2bbcaac9b4d5
+commit	e6e2d2c19147edbfa87c6babc4ee318d3f205ef9
