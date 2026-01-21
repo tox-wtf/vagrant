@@ -1,2 +1,2 @@
 release	4.2.2
-commit	bb962f6d9329d73a75ead1fb8e34ef21d3f78779
+commit	49b987447caa684e5b7f5c20efc622378f1948d3
