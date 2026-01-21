@@ -1,2 +1,2 @@
-release	25.0
-commit	9627a8821f09e4c55cd6e9daadb617b67c4741c2
+release	26.0
+commit	2b8b9817eef05931f3fba920947cbff2df115d15
