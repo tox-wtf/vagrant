@@ -1,2 +1,2 @@
-release	5.12.0
-commit	1e7fe1fec1f99b729963c5fa4cf58d1bac0e0961
+release	5.12.1
+commit	6b37b82f9798c5db21dbe83ea7bef1e91aa8acff
