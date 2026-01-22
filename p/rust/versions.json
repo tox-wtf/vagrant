@@ -1,7 +1,7 @@
 [
   {
     "channel": "release",
-    "version": "1.92.0"
+    "version": "1.93.0"
   },
   {
     "channel": "nightly",
@@ -9,6 +9,6 @@
   },
   {
     "channel": "commit",
-    "version": "d29e4783dff30f9526eeba3929ebfe86c00c9dad"
+    "version": "0f145634fc31775477c538c532307213109599ac"
   }
 ]
