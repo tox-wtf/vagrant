@@ -1,2 +1,2 @@
 release	1.0.10
-commit	7f3ca80fca9bde002c55eb2c7dc316adac5ab230
+commit	922fc3be9612f546ad0bcb87a9ad8c53031c98df
