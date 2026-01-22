@@ -1,2 +1,2 @@
-release	1.7.1
-commit	4129d56fda0a45bd50fe5a1732412302631a791f
+release	1.7.2
+commit	fe03a10115c082a8486ccbab7462139d7e4bb067
