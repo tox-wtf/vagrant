@@ -1,2 +1,2 @@
-release	2025.5
-commit	e5b1ffefd3c1f3d4d5e7704e59ca4dc6610d6ad0
+release	2026.1
+commit	722b6db0c6b224be4b3b16e54391022eab40c6d5
