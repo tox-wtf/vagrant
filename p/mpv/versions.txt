@@ -1,2 +1,2 @@
 release	0.41.0
-commit	731450f883f24bfa0e3441c205477f1c8d85f1ee
+commit	9c6a3c06ecb2b446fe793cad678a1eb9ad908f82
