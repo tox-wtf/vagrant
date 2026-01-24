@@ -1,3 +1,3 @@
-release	11.0
-unstable	11.0
-commit	bf8fec87a81cf0120df2643495093d14cfa2f094
+release	11.1
+unstable	11.1
+commit	afba987dda1430dc0d9f36fc6f27cd3584bce79e
