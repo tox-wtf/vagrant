@@ -1,2 +1,2 @@
 release	0.11.5
-commit	589232c0e0656afe5db2c96b63380cbefa4ac8a9
+commit	e0b724de09c287cd47f2669cdc47e4c3835ae083
