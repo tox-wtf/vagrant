@@ -1,2 +1,2 @@
 release	0.19.2
-commit	5a40da7e15b145cd10104cb35982649e4050281c
+commit	5e32b6663babc1fb30a3cf796dc9efdf1fe7738e
