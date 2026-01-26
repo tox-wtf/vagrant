@@ -1,2 +1,2 @@
-release	0.10.19
-commit	e571bcc18a84dbabfe28499385e2a6146f50b612
+release	0.10.20
+commit	7e5a0379ccc3eed7346f01a7c589e141f3b719d6
