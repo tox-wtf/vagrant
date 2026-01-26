@@ -1,2 +1,2 @@
-release	1.1.5
-commit	cc22c2f60c3862482562955116d5455263b443dc
+release	1.1.6
+commit	cc4ac9cf36fdf3815381b791e47a90b8aebc7e78
