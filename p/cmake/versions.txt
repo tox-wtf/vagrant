@@ -1,3 +1,3 @@
-release	4.2.2
-unstable	4.2.2
-commit	d2345b5e67b406b4b3f615c91b61ee42d96ed04b
+release	4.2.3
+unstable	4.2.3
+commit	43925617e2f8225d8611adcfce41df4bc8bce6c7
