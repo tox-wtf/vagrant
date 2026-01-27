@@ -1,2 +1,2 @@
-release	7.0.1
-commit	8879dd5e634ff6ed0116e09d01074fb0e9bafa4a
+release	7.0.2
+commit	459946d325c497c274fa59d666bd7cb6e2dd7ad0
