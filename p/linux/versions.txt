@@ -1,4 +1,4 @@
 release	6.18.7
 mainline	6.19-rc7
-next	next-20260123
-commit	63804fed149a6750ffd28610c5c1c98cce6bd377
+next	next-20260126
+commit	fcb70a56f4d81450114034b2c61f48ce7444a0e2

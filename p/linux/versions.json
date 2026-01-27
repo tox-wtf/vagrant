@@ -9,10 +9,10 @@
   },
   {
     "channel": "next",
-    "version": "next-20260123"
+    "version": "next-20260126"
   },
   {
     "channel": "commit",
-    "version": "63804fed149a6750ffd28610c5c1c98cce6bd377"
+    "version": "fcb70a56f4d81450114034b2c61f48ce7444a0e2"
   }
 ]
