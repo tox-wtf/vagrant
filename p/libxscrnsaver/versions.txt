@@ -1,2 +1,2 @@
 release	1.2.5
-commit	60c957ba8a727d01b376da0142aef7e18aa86fe1
+commit	3f753e7a4050db083474444ae91cc17a849eaa4d
