@@ -1,2 +1,2 @@
-release	1.0.14
-commit	a819142dc8b8efd29aa90e5cfbcd8cd892e51033
+release	1.0.15
+commit	423509ce79f25860070b5b222ae3a74d340c6deb
