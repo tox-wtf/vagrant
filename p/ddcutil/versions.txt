@@ -1,2 +1,2 @@
-release	2.2.4
+release	2.2.5
 commit	90d75c75a9cb80178177191bdb832656efa8cd8f
