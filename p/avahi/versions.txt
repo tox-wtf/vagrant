@@ -1,3 +1,3 @@
 release	0.8
-unstable	0.9-rc2
-commit	91bf04085a2399abbc23693ef386a27142b862fe
+unstable	0.9-rc3
+commit	4294bbff57cbddbbe3cfd2bbde34823277eb8723
