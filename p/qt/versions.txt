@@ -1,3 +1,3 @@
-release	6.10.1
+release	6.10.2
 5	5.15.18
-commit	033325609879db20b11776aa875e5f4daca864ec
+commit	080d61c020678b75ed9d5acb062ec82ba8fc402f
