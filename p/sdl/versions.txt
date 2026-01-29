@@ -1,2 +1,2 @@
 release	3.4.0
-commit	ee38b7c3dfc4f534195cf9a6f6e5227368e1b4e3
+commit	58c30a4451b715b7260c8a9b6dac846a3ef28cfb
