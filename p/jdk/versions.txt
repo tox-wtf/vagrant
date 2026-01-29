@@ -1,5 +1,5 @@
-unstable	27.6
-release	26.u32
+unstable	27.7
+release	26.u33
 21	21.0.10.u7
 17	17.0.18.u8
 11	11.0.31.u0
