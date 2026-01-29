@@ -1,2 +1,2 @@
-release	4.0.5
-commit	a8cceb43a00c13b60a7ad6822747ff39adfab7ea
+release	4.0.6
+commit	15056a27e6455672609884c6183545fd6ec1537c
