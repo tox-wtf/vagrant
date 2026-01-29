@@ -1,2 +1,2 @@
 release	25.5.0
-commit	68d7b6f87098416dc30fbb711fdff64fc2102809
+commit	ec15c3b7b14a09b64c8bf0a3f117fbf16302a9b3
