@@ -1,2 +1,2 @@
-release	2025.12.08
-commit	309b03f2ad09fcfcf4ce81e757f8d3796bb56add
+release	2026.01.29
+commit	e4c120f315b42a3956c3d85f2bc9245c4f0e8350
