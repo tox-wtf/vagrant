@@ -1,3 +1,3 @@
 release	3.2.4
 unstable	3.2.4
-commit	80fe57fe44dcc326d815522f1bd54c12e9f4c925
+commit	b587c4056abff5fd1237b9781d2925fe78485f70
