@@ -1,2 +1,2 @@
 release	0.11.6
-commit	19a3b6778979e0b328f9a791a9f92296fd406690
+commit	a60d5f863e060ff35a38e0d5a829dfe5b8aaecac
