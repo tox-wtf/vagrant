@@ -1,3 +1,3 @@
 release	1.25.6
 unstable	1.26rc2
-commit	bae9486d07706bcc216961f504e75d1fb5c5aec8
+commit	5aa006dee0fae19cea85843cb0c83636a3181e0e
