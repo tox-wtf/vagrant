@@ -1,3 +1,3 @@
 release	691
-unstable	691
-commit	fe4fb0ca17fc393b2386dffac56e50b741582c3a
+unstable	692
+commit	dc60d93e8179099f77a275583206d4707fcbca3f
